@@ -1,8 +1,10 @@
 # Hello, I'm Yengkong Vang Sayaovong 👋
 
 🔧 **Mechanical Designer turned Data Engineer**  
-🌱 Currently working as a Data Engineer Intern at **Refonte Infini** (12/2024 – Present)  
+🌱 Currently working as a Data Engineer Intern at **Refonte Infini** (11/2024 – Present)  
+🌱 Currently working as a Mechanical Designer at **Prolec-GE Waukesha** (10/2020 – Present)  
 🎓 Completing a B.S. in Information Technology at **Arizona State University** (Graduating 5/2025)  
+🎓 Completed an A.S. in Mechanical Design Technology at **Milwaukee Area Technical College** (Graduated 4/2021)  
 
 ## 💼 Career Highlights
 
