@@ -9,24 +9,24 @@
 ## 💼 Career Highlights
 
 - **Data Engineer Intern | Refonte Infini – Remote**
-  •	Implemented data ingestion with tools such as Sqoop, Flume, and Kafka.
-  •	Optimized Hive queries using partitioning, bucketing, and indexing.
-  •	Processed large datasets and real-time data using Apache Spark.
-  •	Managed AWS services like RDS and EBS for secure and scalable solutions.
-  •	Applied AWS deployment options tailored to business needs.
-  •	Processed data on Amazon EMR using Hadoop tools.
-  •	Built real-time data solutions with Amazon Kinesis and visualized data using QuickSight.
-  •	Deployed Azure virtual machines, web apps, and databases.
-  •	Integrated Azure Active Directory for secure identity management.
-  •	Designed data solutions with Azure Synapse, Data Lake, and SQL Database.
-  •	Developed batch and streaming data processes for performance optimization.
+  - Implemented data ingestion with tools such as Sqoop, Flume, and Kafka.
+  - Optimized Hive queries using partitioning, bucketing, and indexing.
+  - Processed large datasets and real-time data using Apache Spark.
+  - Managed AWS services like RDS and EBS for secure and scalable solutions.
+  - Applied AWS deployment options tailored to business needs.
+  - Processed data on Amazon EMR using Hadoop tools.
+  - Built real-time data solutions with Amazon Kinesis and visualized data using QuickSight.
+  - Deployed Azure virtual machines, web apps, and databases.
+  - Integrated Azure Active Directory for secure identity management.
+  - Designed data solutions with Azure Synapse, Data Lake, and SQL Database.
+  - Developed batch and streaming data processes for performance optimization.
 
 
 - **Mechanical Designer | Prolec-GE Waukesha**
-  •	Designed transformers and nameplates, ensuring compliance with industry standards using CREO 8.0.
-  •	Led process optimization initiatives, reducing errors and improving design efficiency.
-  •	Mentored detailers, providing guidance to improve overall team performance.
-  •	Worked cross-functionally to ensure timely and high-quality project delivery.
+  - Designed transformers and nameplates, ensuring compliance with industry standards using CREO 8.0.
+  - Led process optimization initiatives, reducing errors and improving design efficiency.
+  - Mentored detailers, providing guidance to improve overall team performance.
+  - Worked cross-functionally to ensure timely and high-quality project delivery.
 
 
 ## 🛠 Technical Skills
