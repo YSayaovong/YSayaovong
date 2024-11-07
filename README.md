@@ -45,9 +45,9 @@ Data Engineer with hands-on experience from a previous internship, specializing 
 
 ## Technical Proficiencies
 **Languages**:  
-Python (Advanced): Skilled in object-oriented programming (OOP), data structures, algorithms, backend development (Flask, Django), and process automation.  
-JavaScript (ES6+): Used in backend services, asynchronous operations, and event-driven architecture.  
-C++, C#, Java (Basic): Basic knowledge of syntax, programming logic, and foundational concepts.  
+- Python (Advanced): Skilled in object-oriented programming (OOP), data structures, algorithms, backend development (Flask, Django), and process automation.  
+- JavaScript (ES6+): Used in backend services, asynchronous operations, and event-driven architecture.  
+- C++, C#, Java (Basic): Basic knowledge of syntax, programming logic, and foundational concepts.  
 
 **Machine Learning & Data Science**:  
 - Scikit-learn, Pandas: Skilled in building, training, and fine-tuning machine learning models with scikit-learn, and proficient in Pandas for efficient data manipulation and preparation, enabling effective feature engineering and model performance.  
