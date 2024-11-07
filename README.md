@@ -79,3 +79,5 @@ Description: Conducted a comprehensive analysis of the Titanic dataset to uncove
 - Machine Learning Model: Developed a RandomForestClassifier in scikit-learn, evaluating performance with metrics including confusion matrix and classification report.
 
 Key Skills: Python, Data Analysis, Machine Learning, Data Visualization, EDA, scikit-learn, pandas, Seaborn, Matplotlib.
+
+Find it here: https://github.com/YSayaovong/Titanic-Dataset-Analysis
