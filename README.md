@@ -22,27 +22,6 @@ Data Engineer with hands-on experience from a previous internship, specializing 
 
 ---
 
-## Certifications
-
-These certifications validate my expertise in cloud platforms, data analysis, data engineering, and cybersecurity fundamentals relevant to data engineering:
-
-<!-- Credly Badges Start -->
-
-[![IBM Data Analyst](https://www.credly.com/org/passhe-kutztown/badge/ibm-data-analyst)](https://www.credly.com/org/passhe-kutztown/badge/ibm-data-analyst)  
-[![AWS Certified Cloud Practitioner](https://www.credly.com/org/koenig-solutions/badge/aws-certified-cloud-practitioner-aws-cloud-practitioner.1)](https://www.credly.com/org/koenig-solutions/badge/aws-certified-cloud-practitioner-aws-cloud-practitioner.1)  
-[![AWS Certified Security - Specialty](https://www.credly.com/org/amazon-web-services/badge/aws-certified-security-specialty)](https://www.credly.com/org/amazon-web-services/badge/aws-certified-security-specialty)  
-[![Google Cloud Cybersecurity](https://www.credly.com/org/google-cloud/badge/google-cloud-cybersecurity-certificate)](https://www.credly.com/org/google-cloud/badge/google-cloud-cybersecurity-certificate)  
-[![Google Cloud Digital Leader](https://www.credly.com/org/google-cloud/badge/cloud-digital-leader-certification)](https://www.credly.com/org/google-cloud/badge/cloud-digital-leader-certification)  
-[![Google Cloud Engineer](https://www.credly.com/org/google-cloud/badge/google-cloud-engineering-certificate)](https://www.credly.com/org/google-cloud/badge/google-cloud-engineering-certificate)  
-[![Microsoft Certified Azure Fundamentals](https://www.credly.com/org/microsoft-certification/badge/microsoft-certified-azure-fundamentals)](https://www.credly.com/org/microsoft-certification/badge/microsoft-certified-azure-fundamentals)  
-[![CompTIA Security+](https://www.credly.com/org/comptia/badge/comptia-security-ce-certification)](https://www.credly.com/org/comptia/badge/comptia-security-ce-certification)  
-[![CompTIA CySA+](https://www.credly.com/org/comptia/badge/comptia-cysa-ce-certification)](https://www.credly.com/org/comptia/badge/comptia-cysa-ce-certification)  
-[![Certified Information Systems Security Professional (CISSP)](https://www.credly.com/org/isc2/badge/certified-information-systems-security-professional-cissp)](https://www.credly.com/org/isc2/badge/certified-information-systems-security-professional-cissp)
-
-<!-- Credly Badges End -->
-
----
-
 ## Education
 
 **B.S., Information Technology; Minor in Music** | Arizona State University, Expected Completion: 5/2025  
