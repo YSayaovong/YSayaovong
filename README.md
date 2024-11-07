@@ -22,19 +22,24 @@ Data Engineer with hands-on experience from a previous internship, specializing 
 
 ---
 
-## Volunteer Experience
+## Certifications
 
-**Board of Trustees Member | Hmong First Baptist Church | Milwaukee, WI**  
-*12/2023 – Present*
-- Participated in decision-making processes and maintained records for board meetings.
+These certifications validate my expertise in cloud platforms, data analysis, data engineering, and cybersecurity fundamentals relevant to data engineering:
 
-**Pianist | Hmong First Baptist Church | Milwaukee, WI**  
-*1/2023 – Present*
-- Organized musical arrangements and collaborated with worship teams for weekly services.
+<!-- Credly Badges Start -->
 
-**Assistant Treasurer | Hmong First Baptist Church | Milwaukee, WI**  
-*11/2018 – 12/2021*
-- Managed financial records, budgeting, and payroll to ensure compliance with financial regulations.
+[![IBM Data Analyst](https://www.credly.com/org/passhe-kutztown/badge/ibm-data-analyst)](https://www.credly.com/org/passhe-kutztown/badge/ibm-data-analyst)  
+[![AWS Certified Cloud Practitioner](https://www.credly.com/org/koenig-solutions/badge/aws-certified-cloud-practitioner-aws-cloud-practitioner.1)](https://www.credly.com/org/koenig-solutions/badge/aws-certified-cloud-practitioner-aws-cloud-practitioner.1)  
+[![AWS Certified Security - Specialty](https://www.credly.com/org/amazon-web-services/badge/aws-certified-security-specialty)](https://www.credly.com/org/amazon-web-services/badge/aws-certified-security-specialty)  
+[![Google Cloud Cybersecurity](https://www.credly.com/org/google-cloud/badge/google-cloud-cybersecurity-certificate)](https://www.credly.com/org/google-cloud/badge/google-cloud-cybersecurity-certificate)  
+[![Google Cloud Digital Leader](https://www.credly.com/org/google-cloud/badge/cloud-digital-leader-certification)](https://www.credly.com/org/google-cloud/badge/cloud-digital-leader-certification)  
+[![Google Cloud Engineer](https://www.credly.com/org/google-cloud/badge/google-cloud-engineering-certificate)](https://www.credly.com/org/google-cloud/badge/google-cloud-engineering-certificate)  
+[![Microsoft Certified Azure Fundamentals](https://www.credly.com/org/microsoft-certification/badge/microsoft-certified-azure-fundamentals)](https://www.credly.com/org/microsoft-certification/badge/microsoft-certified-azure-fundamentals)  
+[![CompTIA Security+](https://www.credly.com/org/comptia/badge/comptia-security-ce-certification)](https://www.credly.com/org/comptia/badge/comptia-security-ce-certification)  
+[![CompTIA CySA+](https://www.credly.com/org/comptia/badge/comptia-cysa-ce-certification)](https://www.credly.com/org/comptia/badge/comptia-cysa-ce-certification)  
+[![Certified Information Systems Security Professional (CISSP)](https://www.credly.com/org/isc2/badge/certified-information-systems-security-professional-cissp)](https://www.credly.com/org/isc2/badge/certified-information-systems-security-professional-cissp)
+
+<!-- Credly Badges End -->
 
 ---
 
@@ -46,7 +51,7 @@ Data Engineer with hands-on experience from a previous internship, specializing 
 
 ---
 
-## Technical Proficiencies and Certifications
+## Technical Proficiencies
 
 ### Languages
 - **Python (Advanced)**: Skilled in OOP, data structures, algorithms, backend development (Flask, Django), and process automation.
@@ -69,19 +74,6 @@ Data Engineer with hands-on experience from a previous internship, specializing 
 
 ### Database
 - **PostgreSQL, SQL, NoSQL (MongoDB, Couchbase)**: Skilled in writing complex queries and managing relational and NoSQL databases.
-
----
-
-## Certifications
-
-Below are my professional certifications. Click on each badge for more details:
-
-<!-- Credly Badges Start -->
-
-<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="e3468fba-2679-4128-868a-9225f0c08756" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-<!-- Add additional badges here -->
-
-<!-- Credly Badges End -->
 
 ---
 
