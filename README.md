@@ -78,10 +78,7 @@ Below are my professional certifications. Click on each badge for more details:
 
 <!-- Credly Badges Start -->
 
-[![AWS Certified Solutions Architect Badge](https://www.credly.com/earner/earned/badge/e3468fba-2679-4128-868a-9225f0c08756)(https://www.credly.com/earner/earned/badge/e3468fba-2679-4128-868a-9225f0c08756))
-[![Google Cloud Certified Professional Data Engineer Badge](Badge_Link)](Badge_URL)
-[![Microsoft Certified Azure Data Engineer Associate Badge](Badge_Link)](Badge_URL)
-
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="e3468fba-2679-4128-868a-9225f0c08756" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 <!-- Add additional badges here -->
 
 <!-- Credly Badges End -->
