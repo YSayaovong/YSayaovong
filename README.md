@@ -1,24 +1,32 @@
 # Machine Learning / Data Engineer
 
-Data Engineer with hands-on experience from a previous internship, specializing in Python, SQL, and data visualization. Skilled in analyzing complex datasets, automating data workflows, and generating actionable insights to support business decision-making. Proficient in data warehousing, ETL processes, and creating interactive dashboards that drive strategic growth. Actively seeking a machine learning or data engineer position to utilize my analytical skills and contribute to meaningful data-driven solutions.
+Data Engineer with hands-on experience from a current internship, specializing in Python, SQL, and data visualization. Skilled in analyzing complex datasets, automating data workflows, and generating actionable insights to support business decision-making. Proficient in data warehousing, ETL processes, and creating interactive dashboards that drive strategic growth. Actively seeking a machine learning or data engineer position to utilize my analytical skills and contribute to meaningful data-driven solutions.
 
 ---
 
 ## Career Highlights
 
-**Data Engineer Intern | Refonte Infini – Remote**  
-*11/2024 – Present*
-- Implemented data ingestion with tools such as Sqoop, Flume, and Kafka.
-- Optimized Hive queries using partitioning, bucketing, and indexing.
-- Processed large datasets and real-time data using Apache Spark.
-- Managed AWS services like RDS and EBS for secure and scalable solutions.
-- Applied AWS deployment options tailored to business needs.
-- Processed data on Amazon EMR using Hadoop tools.
-- Built real-time data solutions with Amazon Kinesis and visualized data using QuickSight.
-- Deployed Azure virtual machines, web apps, and databases.
-- Integrated Azure Active Directory for secure identity management.
-- Designed data solutions with Azure Synapse, Data Lake, and SQL Database.
-- Developed batch and streaming data processes for performance optimization.
+Data Engineer Intern | Refonte Infini – Remote	11/2024 – Present
+•	Cleaned and preprocessed data by addressing missing values, removing duplicates, and encoding categorical data, ensuring data accuracy and completeness for modeling and analysis.
+•	Performed exploratory data analysis (EDA) using seaborn and matplotlib to visualize distributions, correlations, and insights related to survival rates by passenger characteristics.
+•	Engineered new features to enhance model performance, carefully selecting relevant variables that significantly impacted prediction accuracy.
+•	Developed a predictive model using a Random Forest Classifier in scikit-learn, leveraging ensemble learning for improved robustness and classification accuracy.
+•	Evaluated model performance and reliability through metrics such as the confusion matrix and classification report, ensuring the model’s effectiveness and precision.
+•	Identified key features influencing survival, providing insights into critical factors like age, fare, and passenger class that impacted survival rates.
+•	Optimized model parameters with hyperparameter tuning to achieve improved accuracy and balanced performance across evaluation metrics.
+•	Documented the analysis process and results in Jupyter Notebook, establishing a clear and reproducible workflow for future enhancements.
+
+Mechanical Designer | Prolec-GE Waukesha – Waukesha, WI	10/2020 – Present
+•	Designed transformers and nameplates, ensuring compliance with industry standards using CREO 8.0.
+•	Led process optimization initiatives, reducing errors and improving design efficiency by 10%.
+•	Mentored 6 detailers, providing guidance to improve overall team performance.
+•	Worked cross-functionally to ensure timely and high-quality project delivery.
+•	Facilitated production and training sessions to enhance team knowledge and ensure efficient operational workflows.
+•	Developed an Excel-based dashboard to track project metrics, including error rates and completion percentages, for transformer detailing and nameplate drafting.
+•	Created automated visualizations (line and pie charts) to analyze error trends over time, improving personal workflow and quality control.
+•	Enhanced efficiency by implementing data-driven self-monitoring, reducing manual tracking time and proactively addressing recurring errors.
+•	Managed financial records, budgeting, and payroll to ensure compliance with financial regulations.
+
 
 ---
 
