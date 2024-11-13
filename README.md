@@ -97,4 +97,32 @@ Data Engineer with hands-on experience in a current internship, specializing in 
 
 ---
 
+### 📂 Other Projects
+
+#### **Machine Learning**
+- **Heart Disease Detector**  
+  Developed a model to predict heart disease presence based on patient data using various machine learning algorithms and metrics.  
+  *GitHub Repository*: [Heart Disease Detector](https://github.com/YSayaovong/Heart_Disease_Detector)
+
+#### **Data Analysis**
+- **Car Sales Analysis**  
+  Analyzed a car sales dataset to understand sales trends, customer preferences, and pricing models.  
+  *GitHub Repository*: [Car Sales Analysis](https://github.com/YSayaovong/car-sales)
+
+#### **Utilities**
+- **Password Checker**  
+  Developed a tool to validate password strength and check against commonly used weak passwords.  
+  *GitHub Repository*: [Password Checker](https://github.com/YSayaovong/password_checker)
+  
+- **Email Sender**  
+  Created a Python-based email sender with features for composing, scheduling, and sending emails programmatically.  
+  *GitHub Repository*: [Email Sender](https://github.com/YSayaovong/Email_Sender)
+
+#### **Game Development**
+- **The Creature**  
+  Developed a simple text-based adventure game using Python, where players interact with the environment and solve puzzles.  
+  *GitHub Repository*: [The Creature](https://github.com/YSayaovong/TheCreature)
+
+---
+
 Thank you for visiting my profile! Feel free to explore my projects and reach out if you'd like to collaborate or learn more about my work.
