@@ -1,4 +1,4 @@
-# Yengkong Sayaovong
+# Yengkong Vang Sayaovong
 
 📞 **Contact**  
 - **Phone**: 414-739-1246  
@@ -29,11 +29,14 @@ Data Engineer with hands-on experience in a current internship, specializing in 
 
 **Mechanical Designer | Prolec-GE Waukesha – Waukesha, WI**  
 *10/2020 – Present*  
-- Designed transformers and nameplates with CREO 8.0, adhering to industry standards.
-- Led process optimization initiatives, improving design efficiency by 10%.
-- Mentored 6 detailers, enhancing team performance and fostering skill development.
-- Developed an Excel-based dashboard to track metrics like error rates and completion percentages.
-- Created automated visualizations to analyze error trends, optimizing personal workflow.
+- Designed transformers and nameplates, ensuring compliance with industry standards using CREO 8.0.
+- Led process optimization initiatives, achieving a 10% reduction in design errors and improved design efficiency.
+- Mentored 6 detailers, enhancing team performance through guidance and skill development.
+- Worked cross-functionally to ensure timely and high-quality project delivery.
+- Facilitated production and training sessions, enhancing team knowledge and operational workflows.
+- Developed an Excel-based dashboard to track project metrics, including error rates and completion percentages, for transformer detailing and nameplate drafting.
+- Created automated visualizations (line and pie charts) to analyze error trends, optimizing personal workflow and quality control.
+- Enhanced efficiency by implementing data-driven self-monitoring, reducing manual tracking time and proactively addressing recurring errors.
 
 ---
 
