@@ -10,7 +10,7 @@
 
 ---
 
-## 🛠️ Mechanical Design Specialist | Aspiring Data Engineer
+## 🛠️ Mechanical Design Specialist
 
 Experienced Mechanical Designer with nearly 5 years of expertise in transformer design and drafting using Creo 8.0. Proven track record in delivering accurate, efficient designs and collaborating with cross-functional teams. Actively pursuing opportunities to expand technical versatility in data engineering and machine learning to integrate automation and data-driven engineering solutions.
 
