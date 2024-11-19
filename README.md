@@ -10,9 +10,9 @@
 
 ---
 
-## 🛠️ Machine Learning / Data Engineer
+## 🛠️ Mechanical Design Specialist | Aspiring Data Engineer
 
-Data Engineer with hands-on experience in a current internship, specializing in Python, SQL, and data visualization. Skilled in analyzing complex datasets, automating data workflows, and generating actionable insights to support business decision-making. Proficient in data warehousing, ETL processes, and creating interactive dashboards that drive strategic growth. Actively seeking a machine learning or data engineer position to leverage my analytical skills and contribute to meaningful, data-driven solutions.
+Experienced Mechanical Designer with nearly 5 years of expertise in transformer design and drafting using Creo 8.0. Proven track record in delivering accurate, efficient designs and collaborating with cross-functional teams. Actively pursuing opportunities to expand technical versatility in data engineering and machine learning to integrate automation and data-driven engineering solutions.
 
 ---
 
@@ -20,23 +20,18 @@ Data Engineer with hands-on experience in a current internship, specializing in 
 
 **Data Engineer Intern | Refonte Infini – Remote**  
 *11/2024 – Present*  
-- Cleaned and preprocessed data by addressing missing values, removing duplicates, and encoding categorical data for accuracy.
-- Conducted EDA using Seaborn and Matplotlib, visualizing distributions and correlations related to survival rates.
-- Engineered new features to enhance model performance, optimizing for predictive accuracy.
-- Developed a Random Forest Classifier using scikit-learn, enhancing robustness and classification accuracy.
-- Evaluated model effectiveness with metrics such as confusion matrix and classification report.
-- Documented analysis process and results in Jupyter Notebook for reproducibility.
+- Conducted basic data cleaning and preprocessing tasks to ensure data quality.  
+- Performed EDA using Python libraries to identify trends and patterns.  
+- Supported feature engineering and model development for predictive modeling.  
+- Documented data processing steps in Jupyter Notebook to ensure reproducibility.
 
 **Mechanical Designer | Prolec-GE Waukesha – Waukesha, WI**  
 *10/2020 – Present*  
-- Designed transformers and nameplates, ensuring compliance with industry standards using CREO 8.0.
-- Led process optimization initiatives, achieving a 10% reduction in design errors and improved design efficiency.
-- Mentored 6 detailers, enhancing team performance through guidance and skill development.
-- Worked cross-functionally to ensure timely and high-quality project delivery.
-- Facilitated production and training sessions, enhancing team knowledge and operational workflows.
-- Developed an Excel-based dashboard to track project metrics, including error rates and completion percentages, for transformer detailing and nameplate drafting.
-- Created automated visualizations (line and pie charts) to analyze error trends, optimizing personal workflow and quality control.
-- Enhanced efficiency by implementing data-driven self-monitoring, reducing manual tracking time and proactively addressing recurring errors.
+- Designed and detailed transformers and drafted nameplates using Creo 8.0.  
+- Debugged C++ code for design automation tools, improving workflow accuracy.  
+- Developed process optimization initiatives, achieving a 10% increase in design efficiency.  
+- Created and managed Excel-based project trackers with automated visualizations to monitor progress and error trends.  
+- Led training programs and authored comprehensive training manuals for team consistency.
 
 ---
 
@@ -44,85 +39,44 @@ Data Engineer with hands-on experience in a current internship, specializing in 
 
 - **B.S., Information Technology; Minor in Music** | *Arizona State University*, Expected: 5/2025  
 - **A.I. & Machine Learning Engineer Career Path** | *Zero to Mastery*, Expected: 5/2025  
-- **A.S. in Mechanical Design Technology** | *Milwaukee Area Technical College*, 5/2021  
+- **Data Analyst in Python Career Path** | *DataCamp*, Expected: 2025  
+- **A.S., Mechanical Design Technology** | *Milwaukee Area Technical College*, 5/2021  
 
 ---
 
 ### ⚙️ Technical Proficiencies
 
-- **Languages**:  
-  - **Python (Advanced)**: OOP, data structures, algorithms, backend development (Flask, Django), process automation.  
-  - **JavaScript (ES6+)**: Backend services, asynchronous operations, event-driven architecture.  
-  - **C++ (Basic), C# (Basic), Java (Basic)**: Foundational programming knowledge.  
+**Mechanical Design**  
+- Software: Creo 8.0, AutoCAD, SolidWorks (basic).  
+- Process Improvement: Root cause analysis, workflow optimization, and quality assurance.  
+- Project Tracking: Excel dashboards for tracking metrics, timelines, and error rates.
 
-- **Machine Learning & Data Science**:  
-  - **scikit-learn, Pandas**: Building, training, tuning ML models; efficient data manipulation and preparation.  
-  - **Feature Engineering & EDA**: Exploratory data analysis for patterns, trends, and insights.  
-  - **NLP**: Text preprocessing and sentiment analysis on unstructured data sources.  
+**Programming & Automation**  
+- Python: Data manipulation, automation scripting, and visualization (intermediate).  
+- C++: Debugging for automation tools (advanced).  
+- VBA for Excel: Automation of repetitive tasks, reporting, and dashboards.
 
-- **Data Engineering**:  
-  - **Apache Kafka, Spark, Hadoop**: High-performance data pipelines and distributed data processing.  
-  - **ETL & Data Warehousing**: Constructing pipelines for data quality and accessibility; designing warehouses for BI.  
-
-- **Cloud & DevOps**:  
-  - **AWS (EC2, S3, Lambda)**: Scalable infrastructure, serverless computing.  
-  - **Azure Synapse**: Unified analytics for large-scale data management.  
-  - **CI/CD & Containers**: Docker, Jenkins, GitHub Actions for automation in builds, testing, and deployments.  
-
-- **Databases**:  
-  - **PostgreSQL, SQL, NoSQL (MongoDB, Couchbase)**: Complex queries, ETL, optimizing storage/retrieval in large workflows.  
+**Data Analysis & Engineering**  
+- EDA: Pandas, Seaborn, Matplotlib.  
+- Machine Learning: scikit-learn for model development and evaluation.  
+- SQL: Foundational query skills for data retrieval and manipulation.
 
 ---
 
-### 📊 Projects
+### 📊 Featured Projects
 
 #### **Predictive Analysis and Data Insights on the Titanic Dataset**  
 *November 2024*  
-- Conducted comprehensive analysis of the Titanic dataset to identify factors influencing passenger survival.
-- **Data Preprocessing**: Addressed missing values, removed irrelevant columns, and prepared dataset.
-- **Exploratory Data Analysis**: Visualized survival trends using Seaborn and Matplotlib.
-- **Machine Learning Model**: Developed and evaluated a Random Forest Classifier using scikit-learn.
-
-*Key Skills*: Python, Data Analysis, Machine Learning, Data Visualization, EDA, scikit-learn, Pandas, Seaborn, Matplotlib  
-*GitHub Repository*: [Titanic Dataset Analysis](https://github.com/YSayaovong/Titanic-Dataset-Analysis)  
-
-#### **NBA Game Performance Analytics**  
-*November 2024*  
-- Analyzed NBA team performance data for the 2022-23 season, identifying top teams by average points per game.
-- **Data Retrieval**: Retrieved and filtered data for official games using nba_api library.
-- **Data Analysis and Visualization**: Developed bar chart to visualize team performance trends.
-
-*Key Skills*: Python, Data Analysis, Data Visualization, nba_api, Pandas, Matplotlib, Seaborn  
-*GitHub Repository*: [NBA Game Performance Analytics](https://github.com/YSayaovong/NBA-Game-Performance-Analytics)  
+- Preprocessed and analyzed the Titanic dataset to uncover survival factors.  
+- Developed a Random Forest Classifier using scikit-learn and evaluated model performance.  
+- Created insightful visualizations with Seaborn and Matplotlib.  
+- *GitHub Repository*: [Titanic Dataset Analysis](https://github.com/YSayaovong/Titanic-Dataset-Analysis)
 
 ---
 
-### 📂 Other Projects
+### 📂 Additional Projects
 
-#### **Machine Learning**
-- **Heart Disease Detector**  
-  Developed a model to predict heart disease presence based on patient data using various machine learning algorithms and metrics.  
-  *GitHub Repository*: [Heart Disease Detector](https://github.com/YSayaovong/Heart_Disease_Detector)
-
-#### **Data Analysis**
-- **Car Sales Analysis**  
-  Analyzed a car sales dataset to understand sales trends, customer preferences, and pricing models.  
-  *GitHub Repository*: [Car Sales Analysis](https://github.com/YSayaovong/car-sales)
-
-#### **Utilities**
-- **Password Checker**  
-  Developed a tool to validate password strength and check against commonly used weak passwords.  
-  *GitHub Repository*: [Password Checker](https://github.com/YSayaovong/password_checker)
-  
-- **Email Sender**  
-  Created a Python-based email sender with features for composing, scheduling, and sending emails programmatically.  
-  *GitHub Repository*: [Email Sender](https://github.com/YSayaovong/Email_Sender)
-
-#### **Game Development**
-- **The Creature**  
-  Developed a simple text-based adventure game using Python, where players interact with the environment and solve puzzles.  
-  *GitHub Repository*: [The Creature](https://github.com/YSayaovong/TheCreature)
-
----
-
-Thank you for visiting my profile! Feel free to explore my projects and reach out if you'd like to collaborate or learn more about my work.
+- **NBA Game Performance Analytics** | Analysis of team performance during the 2022-23 season using nba_api.  
+- **Heart Disease Detector** | Predictive model for diagnosing heart disease using patient data.  
+- **Car Sales Analysis** | Insights into trends, pricing models, and customer preferences.  
+- **The Creature** | Text-based adventure game using Python.  
