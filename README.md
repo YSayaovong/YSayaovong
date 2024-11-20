@@ -80,7 +80,5 @@ Experienced Mechanical Designer with nearly 5 years of expertise in transformer 
 
 ### 📂 Additional Projects
 
-- **NBA Game Performance Analytics** | Analysis of team performance during the 2022-23 season using nba_api.  
-- **Heart Disease Detector** | Predictive model for diagnosing heart disease using patient data.  
-- **Car Sales Analysis** | Insights into trends, pricing models, and customer preferences.  
+- **NBA Game Performance Analytics** | Analysis of team performance during the 2022-23 season using nba_api.   
 - **The Creature** | Text-based adventure game using Python.  
