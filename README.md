@@ -10,7 +10,8 @@
 
 ---
 
-**Controls Engineer:**
+### **Controls Engineer:**
+
 Experienced Mechanical Designer with nearly 5 years of expertise in collaborating with cross-functional teams and interpreting complex control systems. Extensive experience working with controls drawings and electrical schematics while ensuring accurate integration into design workflows. Proficient in utilizing tools like CREO 8.0 and Excel for design automation and optimization. Currently developing skills in PLC programming, ladder logic, and control systems integration through hands-on projects and training. Pursuing a Bachelor’s in IT to enhance technical capabilities and build expertise in industrial automation, control design, and system troubleshooting. Committed to leveraging engineering and design experience to support automation projects and drive innovative control solutions.
 
 ---
