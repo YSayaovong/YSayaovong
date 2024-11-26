@@ -19,23 +19,22 @@ Experienced Mechanical Designer with nearly 5 years of expertise in collaboratin
 ### 💼 Career Highlights
 
 Mechanical Designer | Prolec-GE Waukesha – Waukesha, WI	10/2020 – Present
-•	Design & Detailing: Designed and detailed transformers and drafted nameplates using CREO 8.0, ensuring compliance with industry standards and high precision in all design aspects. Collaborated with controls teams to interpret and incorporate control wiring diagrams into transformer designs.
-•	Quality Assurance: Conducted comprehensive quality checks on transformer designs, identifying and rectifying issues to maintain stringent quality standards.
-•	Process Improvement: Led multiple process optimization initiatives, resulting in a 10% increase in design efficiency and a significant reduction in errors.
-•	Control Systems Collaboration: Partnered with controls engineers to review and analyze control schematics, ensuring accurate representation in nameplate designs and improving cross-departmental alignment on design specifications.
-•	Code Debugging: Debugged C++ code for design automation tools, improving the efficiency and accuracy of workflows and reducing time spent on repetitive tasks.
-•	Training & Development: Trained new hires, developing a structured training program that includes hands-on sessions and written guides to ensure new team members meet performance standards.
-•	Project Management: Created and managed an Excel-based project tracker, providing real-time insights into project progress, error rates, and completion timelines, facilitating data-driven decision-making.
-•	Team Leadership: Led team meetings to discuss ongoing projects, resolve design challenges, and align team members with objectives, fostering a collaborative environment.
-•	Data-Driven Visualizations: Developed automated visualizations to analyze error trends over time, utilizing line and pie charts in Excel to support quality control and continuous improvement efforts.
-•	Documentation & Standardization: Authored a comprehensive training manual and standardized procedures, enhancing team consistency and reducing onboarding time for new hires.
+- Design & Detailing: Designed and detailed transformers and drafted nameplates using CREO 8.0, ensuring compliance with industry standards and high precision in all design aspects. Collaborated with controls teams to interpret and incorporate control wiring diagrams into transformer designs.
+- Quality Assurance: Conducted comprehensive quality checks on transformer designs, identifying and rectifying issues to maintain stringent quality standards.
+- Process Improvement: Led multiple process optimization initiatives, resulting in a 10% increase in design efficiency and a significant reduction in errors.
+- Control Systems Collaboration: Partnered with controls engineers to review and analyze control schematics, ensuring accurate representation in nameplate designs and improving cross-departmental alignment on design specifications.
+- Code Debugging: Debugged C++ code for design automation tools, improving the efficiency and accuracy of workflows and reducing time spent on repetitive tasks.
+- Training & Development: Trained new hires, developing a structured training program that includes hands-on sessions and written guides to ensure new team members meet performance standards.
+- Project Management: Created and managed an Excel-based project tracker, providing real-time insights into project progress, error rates, and completion timelines, facilitating data-driven decision-making.
+- Team Leadership: Led team meetings to discuss ongoing projects, resolve design challenges, and align team members with objectives, fostering a collaborative environment.
+- Data-Driven Visualizations: Developed automated visualizations to analyze error trends over time, utilizing line and pie charts in Excel to support quality control and continuous improvement efforts.
+- Documentation & Standardization: Authored a comprehensive training manual and standardized procedures, enhancing team consistency and reducing onboarding time for new hires.
 
 Data Engineer Intern | Refonte Infini – Remote	11/2024 – Present
-•	Assisted in basic data cleaning and preprocessing tasks, ensuring data quality for preliminary analysis.
-•	Conducted exploratory data analysis (EDA) to identify general trends and patterns, gaining hands-on experience with Python and data visualization tools.
-•	Supported feature engineering and model development under supervision, contributing to the preparation of data for predictive modeling.
-•	Documented data processing steps in Jupyter Notebook to establish a reproducible workflow.
-
+- Assisted in basic data cleaning and preprocessing tasks, ensuring data quality for preliminary analysis.
+- Conducted exploratory data analysis (EDA) to identify general trends and patterns, gaining hands-on experience with Python and data visualization tools.
+- Supported feature engineering and model development under supervision, contributing to the preparation of data for predictive modeling.
+- Documented data processing steps in Jupyter Notebook to establish a reproducible workflow.
 
 ---
 
