@@ -1,7 +1,9 @@
 # Yengkong Vang Sayaovong
 
-Experienced Mechanical Designer with nearly five years of expertise in designing and detailing transformers using CREO 8.0, collaborating with controls engineers on wiring schematics, and automating workflows through C++ debugging and advanced Excel tools. Currently pursuing a transition into data analytics by leveraging skills in Python, SQL, and data visualization. Proficient in data cleaning, exploratory data analysis, and creating reproducible workflows using Jupyter Notebook. Passionate about integrating mechanical design and data-driven insights to drive innovation. Open to relocation and actively seeking opportunities in mechanical design or data analytics.
+Aspiring Software Engineer with experience in Python, C++, and SQL. Skilled in debugging, data workflows, and building scalable solutions. Passionate about applying technical skills to solve real-world problems and drive innovation. Open to relocation and actively seeking software engineering roles.
 
-📧 Email: YSayaovong@gmail.com  
-📍 Location: Milwaukee, WI (Open to Relocation)  
-🔗 LinkedIn: linkedin.com/in/ysayaovong | GitHub: github.com/YSayaovong | Portfolio: ysayaovong.github.io/Portfolio
+📧 **Email:** [YSayaovong@gmail.com](mailto:YSayaovong@gmail.com)  
+📍 **Location:** Milwaukee, WI (Open to Relocation)  
+🔗 **Portfolio:** [ysayavong.github.io/Portfolio](https://ysayavong.github.io/Portfolio)  
+💻 **LinkedIn:** [linkedin.com/in/ysayaovong](https://linkedin.com/in/ysayaovong)  
+📂 **GitHub:** [github.com/YSayaovong](https://github.com/YSayaovong)
