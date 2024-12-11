@@ -12,8 +12,8 @@ Aspiring Data Analyst with 5 years of experience in Mechanical Design, 3 months 
 - [Python for Statistics Professional Bootcamp by Zero to Mastery](https://github.com/YSayaovong/Python-for-Statistics-Professional-Bootcamp-by-Zero-to-Mastery)  
 - [Business Analytics Bootcamp with Python by Zero to Mastery](https://github.com/YSayaovong/Business-Analytics-Bootcamp-with-Python-Zero-to-Mastery)  
 
-📂 **Internship Project:**  
-- [Refonte System Redesigns (Internship Project)](https://github.com/YSayaovong/Refonte-System-Redesigns)  
+📂 **Internship:**  
+- [Refonte System Redesigns (Internship)](https://github.com/YSayaovong/Refonte-System-Redesigns)  
 
 🌐 **Portfolio Website:** [ysayaovong.github.io/Portfolio/](https://ysayaovong.github.io/Portfolio/)
 
