@@ -6,6 +6,5 @@ Aspiring Data Analyst with 5 years of experience in Mechanical Design, 3 months 
 
 📧 **Email:** [YSayaovong@gmail.com](mailto:YSayaovong@gmail.com)  
 📍 **Location:** Milwaukee, WI (Open to Relocation in Georgia)  
-🔗 **Portfolio:** [ysayaovong.github.io/Portfolio/](ysayaovong.github.io/Portfolio/)  
 💻 **LinkedIn:** [linkedin.com/in/ysayaovong](https://linkedin.com/in/ysayaovong)  
 📂 **GitHub:** [github.com/YSayaovong](https://github.com/YSayaovong)
