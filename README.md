@@ -8,9 +8,7 @@ Aspiring Data Analyst with 5 years of experience in Mechanical Design, 3 months 
 📍 **Location:** Milwaukee, WI (Open to Relocation in Georgia)  
 💻 **LinkedIn:** [linkedin.com/in/ysayaovong](https://linkedin.com/in/ysayaovong)  
 📂 **GitHub Portfolio:**  
-- [DataCamp: Data Analyst in Python Certification Project](https://github.com/YSayaovong/DataCamp-Data-Analyst-in-Python)  
-- [Python for Statistics Professional Bootcamp by Zero to Mastery](https://github.com/YSayaovong/Python-for-Statistics-Professional-Bootcamp-by-Zero-to-Mastery)  
-- [Business Analytics Bootcamp with Python by Zero to Mastery](https://github.com/YSayaovong/Business-Analytics-Bootcamp-with-Python-Zero-to-Mastery)  
+- [Python for Statistics Professional Bootcamp by Zero to Mastery](https://github.com/YSayaovong/Python-for-Statistics-Professional-Bootcamp-by-Zero-to-Mastery)   
 
 📂 **Internship:**  
 - [Refonte System Redesigns (Internship)](https://github.com/YSayaovong/Refonte-System-Redesigns)  
