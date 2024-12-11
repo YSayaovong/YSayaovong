@@ -2,10 +2,10 @@
 
 # Yengkong Vang Sayaovong
 
-Aspiring Software Engineer with experience in Python, C++, and SQL. Skilled in debugging, data workflows, and building scalable solutions. Passionate about applying technical skills to solve real-world problems and drive innovation. Open to relocation in Georgia and actively seeking software engineering roles.
+Aspiring Data Analyst with 5 years of experience in Mechanical Design, 3 months of Data Engineering experience, and an upcoming DevOps internship starting January 2025. Proficient in Python, SQL, and data visualization, with a strong foundation in analyzing workflows, creating dashboards, and optimizing processes. Passionate about leveraging technical expertise and problem-solving skills to deliver data-driven insights and support business innovation. Open to relocation in Georgia and actively seeking data analyst roles.
 
 📧 **Email:** [YSayaovong@gmail.com](mailto:YSayaovong@gmail.com)  
-📍 **Location:** Milwaukee, WI (Open to Relocation)  
+📍 **Location:** Milwaukee, WI (Open to Relocation in Georgia)  
 🔗 **Portfolio:** [ysayavong.github.io/Portfolio](https://ysayavong.github.io/Portfolio)  
 💻 **LinkedIn:** [linkedin.com/in/ysayaovong](https://linkedin.com/in/ysayaovong)  
 📂 **GitHub:** [github.com/YSayaovong](https://github.com/YSayaovong)
