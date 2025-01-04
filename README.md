@@ -7,8 +7,6 @@ Aspiring Data Analyst with 5 years of experience in Mechanical Design, 3 months 
 📧 **Email:** [YSayaovong@gmail.com](mailto:YSayaovong@gmail.com)  
 📍 **Location:** Milwaukee, WI (Open to Relocation in Georgia)  
 💻 **LinkedIn:** [linkedin.com/in/ysayaovong](https://linkedin.com/in/ysayaovong)  
-📂 **GitHub Portfolio:**  
-- [Python for Statistics Professional Bootcamp by Zero to Mastery](https://github.com/YSayaovong/Python-for-Statistics-Professional-Bootcamp-by-Zero-to-Mastery)   
 
 📂 **Internship:**  
 - [Refonte System Redesigns (Internship)](https://github.com/YSayaovong/Refonte-System-Redesigns)  
