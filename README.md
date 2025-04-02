@@ -32,8 +32,6 @@ Automation: Python scripting, Excel automation, API integration
 
 A full ETL + analysis pipeline using Python and Jupyter Notebooks. Included data cleaning, transformation, feature engineering, and insights visualization.
 
-🔗 GitHub Repo
-
 ## 🤝 Let’s Connect
 
 If you're seeking a data-driven professional who blends business, engineering, and analytics—and is laser-focused on scaling into data engineering—I'm open to opportunities and collaboration.
