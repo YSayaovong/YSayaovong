@@ -28,8 +28,10 @@ Automation: Python scripting, Excel automation, API integration
 
 ## 📂 Project Spotlight
 
-🚢 Titanic Dataset Analysis
+🚢 Titanic Dataset Analysis:
+
 A full ETL + analysis pipeline using Python and Jupyter Notebooks. Included data cleaning, transformation, feature engineering, and insights visualization.
+
 🔗 GitHub Repo
 
 ## 🤝 Let’s Connect
