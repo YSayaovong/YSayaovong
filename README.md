@@ -1,3 +1,7 @@
+![Yengkong Vang Sayaovong](images/Yengkong.PNG)
+
+# Yengkong Vang Sayaovong
+
 🔍 About Me
 
 I’m a Financial Data Analyst and Mechanical Designer with over 5 years of technical experience across manufacturing, reporting, and business analytics. My work bridges engineering precision with financial insight—leveraging tools like Power BI, Excel, Python, and SQL to drive better decisions and optimize performance.
