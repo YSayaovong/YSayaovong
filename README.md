@@ -1,15 +1,36 @@
-![Yengkong Vang Sayaovong](images/Yengkong.PNG)
+🔍 About Me
 
-# Yengkong Vang Sayaovong
+I’m a Financial Data Analyst and Mechanical Designer with over 5 years of technical experience across manufacturing, reporting, and business analytics. My work bridges engineering precision with financial insight—leveraging tools like Power BI, Excel, Python, and SQL to drive better decisions and optimize performance.
 
-Aspiring Data Analyst with 5 years of experience in Mechanical Design, 3 months of Data Engineering experience, and an upcoming DevOps internship starting January 2025. Proficient in Python, SQL, and data visualization, with a strong foundation in analyzing workflows, creating dashboards, and optimizing processes. Passionate about leveraging technical expertise and problem-solving skills to deliver data-driven insights and support business innovation. Open to relocation in Georgia and actively seeking data analyst roles.
+With internships in DevOps and Data Engineering, I've designed scalable ETL pipelines, automated CI/CD workflows, and deployed cloud-based monitoring solutions. I’m now focused on transitioning fully into a Data Engineering role, where I can build data infrastructure that powers advanced analytics and business intelligence.
 
-📧 **Email:** [YSayaovong@gmail.com](mailto:YSayaovong@gmail.com)  
-📍 **Location:** Milwaukee, WI (Open to Relocation in Georgia)  
-💻 **LinkedIn:** [linkedin.com/in/ysayaovong](https://linkedin.com/in/ysayaovong)  
+🎯 Career Goal
 
-📂 **Internship:**  
-- [Refonte System Redesigns (Internship)](https://github.com/YSayaovong/Refonte-System-Redesigns)  
+To secure a full-time Data Engineering position by January 2026. My goal is to architect and maintain modern data pipelines that automate data flows, enhance accessibility, and deliver clean, actionable insights for high-impact teams.
 
-🌐 **Portfolio Website:** [ysayaovong.github.io/Portfolio/](https://ysayaovong.github.io/Portfolio/)
+🧰 Tech Stack
+
+Languages & Tools: Python (Pandas, NumPy, Seaborn, Matplotlib), SQL, Bash
+
+Data Engineering: Apache Airflow, dbt, Spark, Kafka, Hadoop
+
+Databases: PostgreSQL, Snowflake, AWS Redshift, Google BigQuery
+
+Cloud & DevOps: AWS (S3, RDS), GCP (BigQuery), Prometheus, CI/CD
+
+BI & Analytics: Power BI, Excel (Power Query, Macros, VBA), Tableau, DAX
+
+Automation: Python scripting, Excel automation, API integration
+
+📂 Project Spotlight
+
+🚢 Titanic Dataset Analysis
+A full ETL + analysis pipeline using Python and Jupyter Notebooks. Included data cleaning, transformation, feature engineering, and insights visualization.
+🔗 GitHub Repo
+
+🤝 Let’s Connect
+
+If you're seeking a data-driven professional who blends business, engineering, and analytics—and is laser-focused on scaling into data engineering—I'm open to opportunities and collaboration.
+
+
 
