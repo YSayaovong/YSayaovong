@@ -23,6 +23,11 @@ To secure a full-time Data Engineering position. My goal is to architect and mai
 
 ## 📂 Project Spotlight
 
+🚀 **Enterprise Financial Forecasting System**  
+Forecasting and analytics solution using **Python, PostgreSQL, Power BI, and Excel** to simulate and report on revenue and net income. Built an automated ETL pipeline and dynamic executive dashboard to visualize actual vs projected performance.  
+🔗 [View GitHub Repo](https://github.com/YSayaovong/enterprise-financial-forecasting)  
+![Dashboard Preview](https://github.com/YSayaovong/enterprise-financial-forecasting/blob/main/images/forcasting_model.PNG)
+
 🚢 **Titanic Dataset Analysis**  
 A full ETL + analysis pipeline using Python and Jupyter Notebooks. Included data cleaning, transformation, feature engineering, and insights visualization.
 
