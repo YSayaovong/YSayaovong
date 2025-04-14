@@ -29,7 +29,7 @@ To secure a full-time Financial Data Analyst position. My goal is to deliver acc
 🔗 [View GitHub Repo](https://github.com/YSayaovong/enterprise-financial-forecasting)  
 
 📊 **Sales Drivers Forecasting Model**  
-An end-to-end data analysis project to uncover the key factors driving sales performance. Utilized **Python** for data cleaning, analysis, visualization, and modeling to deliver strategic insights for revenue optimization.  
+An **end-to-end** data analysis project to uncover the key factors driving sales performance. Utilized **Python** for data cleaning, analysis, visualization, and modeling to deliver strategic insights for revenue optimization.  
 🔗 [View GitHub Repo](https://github.com/YSayaovong/Sales-Drivers-Forecasting-Model-)  
 
 🏬 **Surf Shop BI Solution**  
