@@ -10,7 +10,7 @@ With internships in DevOps and Data Engineering, I've designed scalable ETL pipe
 
 ## 🎯 Career Goal
 
-To secure a full-time Data Engineering position. My goal is to architect and maintain modern data pipelines that automate data flows, enhance accessibility, and deliver clean, actionable insights for high-impact teams.
+To secure a full-time Financial Data Analyst position. My goal is to deliver accurate, data-driven financial insights by automating reporting workflows, enhancing data accessibility, and supporting strategic decision-making with clean, actionable metrics.
 
 ## 🧰 Tech Stack
 
