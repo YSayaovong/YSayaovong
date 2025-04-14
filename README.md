@@ -25,6 +25,7 @@ To secure a full-time Financial Data Analyst position. My goal is to deliver acc
 
 🚀 **Enterprise Financial Forecasting System**  
 Forecasting and analytics solution using **Python, PostgreSQL, Power BI, and Excel** to simulate and report on revenue and net income. Built an automated ETL pipeline and dynamic executive dashboard to visualize actual vs projected performance. 
+
 🔗 [View GitHub Repo](https://github.com/YSayaovong/enterprise-financial-forecasting)  
 
 📊 **Sales Drivers Forecasting Model**  
