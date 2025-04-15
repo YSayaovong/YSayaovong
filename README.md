@@ -21,11 +21,11 @@ With internships in DevOps and Data Engineering, I've designed scalable ETL pipe
 
 📊 **Engineering Project Tracking Dashboard**  
 An Excel-based KPI dashboard designed to track drawing status, error trends, and detailing progress. Built with real-world transformer engineering context and includes real-time calculations (e.g., Days Remaining, Status logic), dynamic conditional formatting, and a dashboard tab with charts and metrics.  
-🔗 [View GitHub Repo](https://github.com/YSayaovong/Project-Tracking)
+🔗 [View GitHub Repo](https://github.com/YSayaovong/Engineering-KPI-Dashboard-in-Excel)
 
 ⚙️ **Transformer Cable & Lead Length Calculator Suite**  
 A professional-grade Excel calculator for cable sizing, part number lookup, and lead length aggregation in transformer builds. Features a clean main menu, protected outputs, structured formulas, and mock data ready for portfolio sharing.  
-🔗 [View GitHub Repo](https://github.com/YSayaovong/Calculator_Project)
+🔗 [View GitHub Repo](https://github.com/YSayaovong/transformer-engineering-calculation-reference)
 
 ## 🤝 Let’s Connect
 
