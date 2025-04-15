@@ -8,10 +8,6 @@ I’m a Financial Data Analyst and Mechanical Designer with over 5 years of tech
 
 With internships in DevOps and Data Engineering, I've designed scalable ETL pipelines, automated CI/CD workflows, and deployed cloud-based monitoring solutions. I’m now focused on transitioning fully into a Data Engineering role, where I can build data infrastructure that powers advanced analytics and business intelligence.
 
-## 🎯 Career Goal
-
-To secure a full-time Financial Data Analyst position. My goal is to deliver accurate, data-driven financial insights by automating reporting workflows, enhancing data accessibility, and supporting strategic decision-making with clean, actionable metrics.
-
 ## 🧰 Tech Stack
 
 **Languages & Tools:** Python (Pandas, NumPy, Seaborn, Matplotlib), SQL, Bash  
@@ -23,30 +19,13 @@ To secure a full-time Financial Data Analyst position. My goal is to deliver acc
 
 ## 📂 Project Spotlight
 
-🚀 **Enterprise Financial Forecasting System**  
-**Forecasting** and analytics solution using **Python, PostgreSQL, Power BI, and Excel** to simulate and report on **revenue and net income**. Built an automated **ETL pipeline** and dynamic **executive dashboard** to visualize actual vs projected performance. 
+📊 **Engineering Project Tracking Dashboard**  
+An Excel-based KPI dashboard designed to track drawing status, error trends, and detailing progress. Built with real-world transformer engineering context and includes real-time calculations (e.g., Days Remaining, Status logic), dynamic conditional formatting, and a dashboard tab with charts and metrics.  
+🔗 [View GitHub Repo](https://github.com/YSayaovong/Project-Tracking)
 
-🔗 [View GitHub Repo](https://github.com/YSayaovong/enterprise-financial-forecasting)  
-
-📊 **Sales Drivers Forecasting Model**  
-An **end-to-end** data analysis project to uncover the key factors driving sales performance. Utilized **Python** for data cleaning, analysis, visualization, and modeling to deliver strategic insights for revenue optimization.  
-🔗 [View GitHub Repo](https://github.com/YSayaovong/Sales-Drivers-Forecasting-Model-)  
-
-🏬 **Surf Shop BI Solution**  
-A comprehensive **Power BI** dashboard built with **DAX** and **Excel** data to analyze **KPIs** across inventory, customer segmentation, and revenue streams. Includes **visualizations** for real-time operational insight and performance tracking.  
-🔗 [View GitHub Repo](https://github.com/YSayaovong/Surf-Shop-BI-Solution-)  
-
-🧩 **Virtual Escape Room**  
-An interactive puzzle-solving game built with **Python** in a **Jupyter Notebook** environment. Challenges users with logic puzzles and riddles that test critical thinking, creativity, and time management skills.  
-🔗 [View GitHub Repo](https://github.com/YSayaovong/virtual-escape-room)  
-
-🚢 **Titanic Dataset Analysis**  
-A full **ETL** and **analysis pipeline** using **Python** and **Jupyter Notebooks**. Included **data cleaning, transformation, feature engineering, and insights visualization** to uncover key insights into survival patterns.  
-🔗 [View GitHub Repo](https://github.com/YSayaovong/Titanic-Dataset-Analysis)  
-
-📈 **Retirement Planner**  
-An **Excel-based** retirement planning tool with **automated forecasting** using **VBA**. Calculates future savings based on user inputs such as age, income, contributions, and return rate. Includes inflation-adjusted visuals, yearly breakdowns, and scenario analysis.  
-🔗 [View GitHub Repo](https://github.com/YSayaovong/Retirement-Planner)  
+⚙️ **Transformer Cable & Lead Length Calculator Suite**  
+A professional-grade Excel calculator for cable sizing, part number lookup, and lead length aggregation in transformer builds. Features a clean main menu, protected outputs, structured formulas, and mock data ready for portfolio sharing.  
+🔗 [View GitHub Repo](https://github.com/YSayaovong/Calculator_Project)
 
 ## 🤝 Let’s Connect
 
