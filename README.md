@@ -4,9 +4,7 @@
 
 ## 🔍 About Me
 
-I’m a Financial Data Analyst and Mechanical Designer with over 5 years of technical experience across manufacturing, reporting, and business analytics. My work bridges engineering precision with financial insight—leveraging tools like Power BI, Excel, Python, and SQL to drive better decisions and optimize performance.
-
-With internships in DevOps and Data Engineering, I've designed scalable ETL pipelines, automated CI/CD workflows, and deployed cloud-based monitoring solutions. I’m now focused on transitioning fully into a Data Engineering role, where I can build data infrastructure that powers advanced analytics and business intelligence.
+Business Intelligence Analyst with 5+ years of experience transforming financial, operational, and engineering data into strategic reporting solutions. Skilled in building dynamic dashboards, automating performance tracking, and delivering KPI-driven insights using Power BI, Excel, SQL, and Python. Proven ability to manage and visualize high-value budgets ($200K+), support executive decision-making, and align cross-functional teams through data transparency and streamlined reporting.
 
 ## 🧰 Tech Stack
 
