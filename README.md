@@ -6,6 +6,11 @@
 
 Business Intelligence Analyst with 5+ years of experience transforming financial, operational, and engineering data into strategic reporting solutions. Skilled in building dynamic dashboards, automating performance tracking, and delivering KPI-driven insights using Power BI, Excel, SQL, and Python. Proven ability to manage and visualize high-value budgets ($200K+), support executive decision-making, and align cross-functional teams through data transparency and streamlined reporting.
 
+## 🎓 Education
+
+- **B.S. in Information Technology** – Arizona State University *(In Progress)*  
+- **Minor in Music** – Arizona State University *(In Progress)*  
+
 ## 📜 Certifications
 
 - 🎓 **Google Data Analytics Professional Certificate** – Google, 2025  
@@ -15,7 +20,6 @@ Business Intelligence Analyst with 5+ years of experience transforming financial
 - 🐍 **Python for Data Science and AI** – IBM, 2024  
 - 🤖 **Machine Learning with Python** – IBM, 2024  
 - 🛠️ **Google IT Automation with Python** – Google, 2024  
-
 
 ## 🧰 Tech Stack
 
