@@ -6,6 +6,17 @@
 
 Business Intelligence Analyst with 5+ years of experience transforming financial, operational, and engineering data into strategic reporting solutions. Skilled in building dynamic dashboards, automating performance tracking, and delivering KPI-driven insights using Power BI, Excel, SQL, and Python. Proven ability to manage and visualize high-value budgets ($200K+), support executive decision-making, and align cross-functional teams through data transparency and streamlined reporting.
 
+## 📜 Certifications
+
+- 🎓 **Google Data Analytics Professional Certificate** – Google, 2025  
+- 🎓 **Meta Data Analyst Professional Certificate** – Meta, 2025  
+- 🎓 **Google Business Intelligence Certificate** – Google, 2024  
+- 🎓 **Excel for Business Analysts** – LinkedIn Learning, 2025  
+- 🐍 **Python for Data Science and AI** – IBM, 2024  
+- 🤖 **Machine Learning with Python** – IBM, 2024  
+- 🛠️ **Google IT Automation with Python** – Google, 2024  
+
+
 ## 🧰 Tech Stack
 
 **Languages & Tools:** Python (Pandas, NumPy, Seaborn, Matplotlib), SQL, Bash  
