@@ -1,35 +1,46 @@
 ![Yengkong Vang Sayaovong](images/Yengkong.PNG)
 
-# Yengkong Vang Sayaovong
+# 👋 Hello, I'm Yengkong Sayaovong
 
-## 🔍 About Me
+**Data Analyst | Business Intelligence Analyst | Financial Reporting Specialist**
 
-Business Intelligence Analyst with 5+ years of experience transforming financial, operational, and engineering data into strategic reporting solutions. Skilled in building dynamic dashboards, automating performance tracking, and delivering KPI-driven insights using Power BI, Excel, SQL, and Python. Proven ability to manage and visualize high-value budgets ($200K+), support executive decision-making, and align cross-functional teams through data transparency and streamlined reporting.
+---
+## 📈 About Me
+I am a results-driven Data Analyst with over 5 years of experience translating complex data into actionable insights. My expertise spans financial forecasting, KPI reporting, dashboard automation, and ETL pipelines. I leverage SQL, Python, Power BI, and Excel to deliver practical, scalable solutions across financial, operational, and nonprofit sectors.
 
-## 🎓 Education
+I specialize in building data-driven frameworks that drive better decision-making, operational efficiency, and sustainable growth.
 
-- **B.S. in Information Technology** – Arizona State University *(In Progress)*  
-- **Minor in Music** – Arizona State University *(In Progress)*  
+---
+## 🛠️ Core Technical Skills
+- **Data Analysis & Forecasting**: SQL, Excel (Advanced Formulas, Power Query, VBA, Financial Modeling)
+- **Business Intelligence**: Power BI (DAX, Measures), Tableau, KPI Dashboards
+- **Automation & ETL**: Python (Pandas, NumPy, Matplotlib, Seaborn), PostgreSQL, AWS (S3, Lambda, RDS)
+- **Financial Systems**: QuickBooks, SAP, Servant Keeper
+- **Data Storytelling**: Dashboarding, Executive Reporting, Strategic Scenario Planning
 
-## 📜 Certifications
+---
+## 📊 Featured Projects
+- [🔗 Financial ETL Datalake Pipeline](https://github.com/YSayaovong/Financial-ETL-Datalake-Pipeline)  
+  *Automated financial ETL system integrating AWS and PostgreSQL to streamline reporting and reduce manual workload.*
 
-- 🎓 **Google Data Analytics Professional Certificate** – Google, 2025  
-- 🎓 **Meta Data Analyst Professional Certificate** – Meta, 2025  
-- 🎓 **Google Business Intelligence Certificate** – Google, 2024  
-- 🎓 **Excel for Business Analysts** – LinkedIn Learning, 2025  
-- 🐍 **Python for Data Science and AI** – IBM, 2024  
-- 🤖 **Machine Learning with Python** – IBM, 2024  
-- 🛠️ **Google IT Automation with Python** – Google, 2024  
+- [🔗 Enterprise Financial Forecasting System](https://github.com/YSayaovong/enterprise-financial-forecasting)  
+  *Dynamic Excel-based forecasting model supporting 5-year revenue and expense projections.*
 
-## 🧰 Tech Stack
+- [🔗 Sales Forecasting & KPI Analysis](https://github.com/YSayaovong/Sales-Forecasting-KPI-Analysis)  
+  *Power BI dashboard using SARIMAX modeling to predict sales trends and monitor growth drivers.*
 
-**Languages & Tools:** Python (Pandas, NumPy, Seaborn, Matplotlib), SQL, Bash  
-**Data Engineering:** Apache Airflow, dbt, Spark, Kafka, Hadoop  
-**Databases:** PostgreSQL, Snowflake, AWS Redshift, Google BigQuery  
-**Cloud & DevOps:** AWS (S3, RDS), GCP (BigQuery), Prometheus, CI/CD  
-**BI & Analytics:** Power BI, Excel (Power Query, Macros, VBA), Tableau, DAX  
-**Automation:** Python scripting, Excel automation, API integration  
+- [🔗 Rental Property Financial Dashboard](https://github.com/YSayaovong/Rental-Property-Financial-Dashboard)  
+  *Comprehensive financial performance dashboard for rental income and expense tracking.*
 
-## 🤝 Let’s Connect
+- [🔗 Loan Default Risk Analysis (SAS Project)](https://github.com/YSayaovong/Loan-Default-Risk-Analysis-SAS-Project)  
+  *Built predictive models to assess loan default risks using SAS, enhancing credit decision-making.*
 
-If you're seeking a data-driven professional who blends business, engineering, and analytics—and is laser-focused on scaling into data engineering—I'm open to opportunities and collaboration.
+---
+## 🤝 Let's Connect
+- [LinkedIn Profile](https://www.linkedin.com/in/ysayaovong)
+- [GitHub Portfolio](https://github.com/YSayaovong)
+- [Email](mailto:ysayaovong@gmail.com)
+
+---
+> "Data is not just numbers. It's a foundation for strategic, profitable action."
+
