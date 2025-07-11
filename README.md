@@ -38,4 +38,4 @@ My focus is on developing efficient data pipelines, optimizing storage and retri
   *Structured multi-source property data into a unified reporting model; implemented monthly automation scripts for financial sync.*
 
 - [🔗 Loan Default Risk Analysis (SAS Project)](https://github.com/YSayaovong/Loan-Default-Risk-Analysis-SAS-Project)  
-  *Transformed raw cre*
+  *Transformed raw credit data into a clean pipeline supporting classification models for loan risk evaluation.*
