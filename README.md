@@ -7,7 +7,7 @@
 ---
 
 ## ⚙️ About Me  
-I am a mechanically trained, IT-focused Data Engineer with a strong foundation in building scalable ETL pipelines, automating data workflows, and structuring high-integrity data systems. Backed by 5+ years of analytical engineering experience and a Bachelor's in IT (Dec 2025), I specialize in transforming raw datasets into reliable, query-optimized structures that support advanced analytics, financial reporting, and business intelligence.
+Entry-level Data Engineer with a strong foundation in Python, SQL, and cloud-based data pipelines. Former mechanical designer with 5+ years of experience building high-precision models, process workflows, and analytics tools in the engineering space. Currently completing a B.S. in Information Technology. Known for problem-solving, hands-on implementation, and cross-functional collaboration across technical and operations teams.
 
 My focus is on developing efficient data pipelines, optimizing storage and retrieval, and ensuring clean, validated data for decision-making.
 
