@@ -25,17 +25,4 @@ My focus is on developing efficient data pipelines, optimizing storage and retri
 ---
 
 ## 🧱 Featured Engineering Projects  
-- [🔗 Financial ETL Datalake Pipeline](https://github.com/YSayaovong/Financial-ETL-Datalake-Pipeline)  
-  *Built an automated financial ETL pipeline using AWS and PostgreSQL; reduced manual data prep time by 80% and enabled scalable reporting.*
 
-- [🔗 Enterprise Financial Forecasting System](https://github.com/YSayaovong/enterprise-financial-forecasting)  
-  *Engineered a robust forecasting model using structured Excel logic and automated data refresh routines for a 5-year projection cycle.*
-
-- [🔗 Sales Forecasting & KPI Analysis](https://github.com/YSayaovong/Sales-Forecasting-KPI-Analysis)  
-  *Orchestrated Power BI + SQL integration with time-series forecasting to support real-time KPI monitoring and sales trend projections.*
-
-- [🔗 Rental Property Financial Dashboard](https://github.com/YSayaovong/Rental-Property-Financial-Dashboard)  
-  *Structured multi-source property data into a unified reporting model; implemented monthly automation scripts for financial sync.*
-
-- [🔗 Loan Default Risk Analysis (SAS Project)](https://github.com/YSayaovong/Loan-Default-Risk-Analysis-SAS-Project)  
-  *Transformed raw credit data into a clean pipeline supporting classification models for loan risk evaluation.*
