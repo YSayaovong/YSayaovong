@@ -22,7 +22,4 @@ My focus is on developing efficient data pipelines, optimizing storage and retri
 - **Cloud Platforms**: AWS (S3, Lambda, IAM), Azure (fundamentals)  
 - **Data Visualization Support**: Power BI (DAX), Tableau (starter)
 
----
-
-## 🧱 Featured Engineering Projects  
 
