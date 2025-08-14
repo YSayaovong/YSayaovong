@@ -1,31 +1,34 @@
 ![Yengkong Vang Sayaovong](images/Yengkong.PNG)
 
-# 👋 Hello, I'm Yengkong Sayaovong
+## About Me
+**Python Developer & Data Engineer** specializing in backend development, automation, and data pipelines.  
+I build efficient **ETL workflows**, automate repetitive processes, and create clean, scalable solutions using **Python, SQL, and cloud tools**.
 
-**Entry-Level Backend Developer | API & Database Integration Specialist | Server-Side Application Builder**
-
----
-
-## ⚙️ About Me  
-Entry-Level Backend Developer with a strong foundation in Python, SQL, and server-side application development. Currently a Mechanical Designer with 5+ years of experience creating high-precision models, process workflows, and analytics tools. Completing a B.S. in Information Technology at Arizona State university and trained through Zero to Mastery (ZTM) and Boot.dev bootcamps. Recognized for problem-solving, hands-on implementation, and effective collaboration between technical and operations teams.
+I work best in focused, independent environments where results matter more than meetings.  
+My experience includes building **data ingestion pipelines**, scraping and structuring large datasets, and optimizing reporting systems to save time and improve accuracy.
 
 ---
 
-## 🛠️ Core Technical Skills  
-**Backend Languages & Frameworks:** Python (Flask, FastAPI), JavaScript (Node.js basics), RESTful API Development
+## Key Skills
+- **Languages & Libraries:** Python (Pandas, NumPy, Regular Expressions), SQL, VBA
+- **Data Engineering:** ETL Pipelines, Web Scraping
+- **Cloud:** AWS (S3, Lambda, RDS), Azure (fundamentals)
+- **BI & Visualization:** Power BI
+- **Version Control:** Git/GitHub
 
-**Databases & Querying:** PostgreSQL, MySQL, SQL Server, Database Design & Optimization, Stored Procedures
+---
 
-**Server-Side Development:** API Integration, Authentication & Authorization (JWT/OAuth), Session Management
+## Projects
+### [Financial ETL Datalake Pipeline](https://github.com/YSayaovong/Financial-ETL-Datalake-Pipeline)
+Automated ingestion, transformation, and storage of financial data from multiple sources.
 
-**Automation & Scripting:** Python (Pandas, NumPy), Shell Scripting, VBA (for process automation)
+### [Job Board Scraper](https://github.com/YSayaovong/job-board-scraper)
+Collected and cleaned 1,000+ job listings for trend analysis, skill extraction, and data standardization.
 
-**Infrastructure & Deployment:** Git, GitHub Actions, Linux (basic), Docker (starter), VS Code
+---
 
-**Cloud Platforms:** AWS (S3, Lambda, RDS, IAM), Azure (fundamentals)
-
-**Testing & Debugging:** Unit Testing (PyTest), Postman, Logging & Error Handling
-
-**System Design Fundamentals:** MVC Pattern, Basic Microservices Concepts, Scalability Principles
-
-
+## Opportunities
+I’m open to **remote opportunities** and **long-term roles in Georgia** that allow me to:
+- Solve technical problems
+- Improve processes
+- Deliver consistent, high-quality results
