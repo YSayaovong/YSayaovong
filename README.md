@@ -2,9 +2,11 @@
 
 ## About Me
 **Front-End Developer & Python Engineer** with a strong foundation in **HTML, CSS, JavaScript, and React**, complemented by backend and data engineering experience.  
+
 I build **responsive, user-friendly interfaces** and also design **efficient data workflows** using Python, SQL, and cloud tools.  
 
-I enjoy turning ideas into working applications, from **chatbot UIs** to **data pipelines**, and thrive in environments where results matter more than meetings.  
+I enjoy turning ideas into working applications, from **chatbot UIs** to **data pipelines**, and thrive in environments where results matter more than meetings. 
+
 My experience spans building **interactive web apps**, creating **ETL pipelines**, scraping and structuring large datasets, and optimizing reporting systems to save time and improve accuracy.  
 
 ---
