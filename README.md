@@ -22,8 +22,7 @@ My experience spans building **interactive web apps**, creating **ETL pipelines*
 
 ## Projects
 ### [AI Chat Bot](https://github.com/YSayaovong/AI-Chat-Bot)
-Built a **responsive chatbot interface** using **HTML, CSS, and JavaScript**.  
-Features include dynamic DOM updates, formatted responses (text, lists, images), and API-ready logic for integration with AI backends. Designed as a **front-end portfolio project** to demonstrate modern UI/UX practices and API handling.  
+Built a **responsive chatbot interface** using **HTML, CSS, and JavaScript**. Features include dynamic DOM updates, formatted responses (text, lists, images), and API-ready logic for integration with AI backends. Designed as a **front-end portfolio project** to demonstrate modern UI/UX practices and API handling.  
 
 ### [Financial ETL Datalake Pipeline](https://github.com/YSayaovong/Financial-ETL-Datalake-Pipeline)
 Developed a modular ETL pipeline in **Python + SQL** to ingest, transform, and store financial data from multiple sources. Implemented schema validation and quality checks for reliable batch workflows.  
