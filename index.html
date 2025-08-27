@@ -3,16 +3,13 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Yengkong Sayaovong — Software Engineering Portfolio</title>
-  <meta name="description" content="Software Engineering portfolio for Yengkong Sayaovong — pivoting from Mechanical Design to Frontend → Backend → Data Engineering → AI/ML." />
+  <title>Yengkong Sayaovong — Frontend Engineering Portfolio</title>
+  <meta name="description" content="Frontend Engineering portfolio for Yengkong Sayaovong — clean, accessible UIs with modern HTML/CSS/JavaScript (React), deployed on GitHub Pages." />
   <style>
-    :root{
-      --bg:#0b0f19; --panel:#111628; --ink:#e6e9f2; --muted:#9aa4b2; --line:#22304a; --accent:#58a6ff; --chip:#1a2440;
-    }
+    :root{ --bg:#0b0f19; --panel:#111628; --ink:#e6e9f2; --muted:#9aa4b2; --line:#22304a; --accent:#58a6ff; --chip:#1a2440; }
     *{box-sizing:border-box}
     body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,'Helvetica Neue',Arial,'Noto Sans',sans-serif;background:linear-gradient(180deg,#0b0f19 0%,#0d1324 60%,#0b0f19 100%);color:var(--ink)}
-    a{color:var(--accent);text-decoration:none}
-    a:hover{text-decoration:underline}
+    a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
     .wrap{max-width:1120px;margin:0 auto;padding:24px}
     header{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:18px 0;border-bottom:1px solid var(--line)}
     .brand{display:flex;align-items:center;gap:14px}
@@ -61,48 +58,47 @@
         <div class="logo" aria-hidden="true"></div>
         <div>
           <div class="name">Yengkong Sayaovong</div>
-          <div style="color:var(--muted);font-size:13px">Software Engineering Portfolio</div>
+          <div style="color:var(--muted);font-size:13px">Frontend Engineering Portfolio</div>
         </div>
       </div>
       <nav>
         <a href="#projects">Projects</a>
         <a href="#about">About</a>
+        <a href="#resume">Résumé</a>
         <a href="#contact">Contact</a>
       </nav>
     </header>
 
     <section class="hero">
       <div>
-        <h1 class="h-title">Pivoting from Mechanical Design → Frontend → Backend → Data Engineering → AI/ML</h1>
-        <p class="h-sub">I design reliable systems and clean UIs, then scale into APIs, pipelines, and pragmatic AI. This site highlights hands-on projects across the entire path.</p>
+        <h1 class="h-title">Frontend Engineering Portfolio</h1>
+        <p class="h-sub">Clean, accessible interfaces built with modern HTML/CSS/JavaScript and React. Selected work emphasizing performance, clarity, and maintainability.</p>
         <div class="badges">
           <span class="chip">Frontend (React, HTML/CSS/JS)</span>
-          <span class="chip">Backend (APIs, Node/Python)</span>
-          <span class="chip">Data Engineering (SQL, ETL, BI)</span>
-          <span class="chip">AI/ML (applied)</span>
         </div>
         <div class="cta">
           <a class="btn primary" href="#projects">Browse Projects</a>
-          <a class="btn" href="https://github.com/YSayaovong" target="_blank" rel="noopener">GitHub Profile</a>
+          <a class="btn" href="#resume">View Résumé</a>
+          <a class="btn" href="resume/Yengkong.Sayaovong.Resume.pdf" download>Download Résumé</a>
         </div>
       </div>
       <div class="panel">
         <h2 style="margin-top:0">Brand Focus</h2>
         <ul style="margin:8px 0 0 18px;line-height:1.6">
-          <li>Lean, framework‑light builds with measurable performance</li>
-          <li>API reliability, logging, and docs on the backend</li>
-          <li>Solid SQL/ETL foundations and clear BI storytelling</li>
-          <li>Practical AI features that add user value</li>
+          <li>Accessible UI and semantic HTML</li>
+          <li>Responsive, component-based CSS (Flexbox/Grid)</li>
+          <li>Performance: lazy loading, minimal JS, Lighthouse goals</li>
+          <li>Quality: clear state management and basic testing</li>
         </ul>
       </div>
     </section>
 
     <section id="projects">
       <h2>Projects</h2>
-      <p class="section-sub">Curated set covering the pivot track. Toggle a filter to focus by discipline.</p>
+      <p class="section-sub">Frontend work highlighted first. Use filters to view other disciplines if present.</p>
       <div class="controls">
-        <button class="filter active" data-filter="all">All</button>
-        <button class="filter" data-filter="frontend">Frontend</button>
+        <button class="filter" data-filter="all">All</button>
+        <button class="filter active" data-filter="frontend">Frontend</button>
         <button class="filter" data-filter="backend">Backend</button>
         <button class="filter" data-filter="data">Data Engineering</button>
         <button class="filter" data-filter="ai">AI/ML</button>
@@ -118,17 +114,28 @@
     <section id="about" class="about">
       <div class="panel">
         <h2>About</h2>
-        <p>I am <strong>Yengkong Sayaovong</strong>, a Mechanical Designer transitioning into Software Engineering with a laddered plan: Frontend → Backend → Data Engineering → AI/ML. I value reliable systems, readable code, and measurable outcomes.</p>
+        <p>I am <strong>Yengkong Sayaovong</strong>, focusing on <strong>Frontend Engineering</strong>. I build clean, performant interfaces with modern web standards and pragmatic React patterns.</p>
       </div>
       <div class="panel">
         <h2>Tools</h2>
-        <p class="section-sub">Primary stack used across projects:</p>
+        <p class="section-sub">Primary frontend stack:</p>
         <ul style="margin:8px 0 0 18px;line-height:1.6">
-          <li>HTML/CSS/JavaScript, React</li>
-          <li>Node.js/Express & Python (APIs/automation)</li>
-          <li>SQL (PostgreSQL), ETL, Power BI</li>
-          <li>GitHub Actions, GitHub Pages</li>
+          <li>HTML5, CSS3 (Flexbox/Grid), Accessibility</li>
+          <li>JavaScript (ES6+), React</li>
+          <li>Vite / simple static builds, GitHub Pages</li>
+          <li>Basic testing (Playwright/Jest as applicable)</li>
         </ul>
+      </div>
+    </section>
+
+    <section id="resume">
+      <div class="panel">
+        <h2>Résumé</h2>
+        <p class="section-sub">Latest résumé is loaded from the repository. Download for sharing, or view inline below.</p>
+        <p><a class="btn" href="resume/Yengkong.Sayaovong.Resume.pdf" download>Download Résumé (PDF)</a></p>
+        <object data="resume/Yengkong.Sayaovong.Resume.pdf" type="application/pdf" width="100%" height="640">
+          <p>PDF preview unavailable. <a href="resume/Yengkong.Sayaovong.Resume.pdf" target="_blank" rel="noopener">Open the résumé</a>.</p>
+        </object>
       </div>
     </section>
 
@@ -144,106 +151,22 @@
     </footer>
   </div>
 
+  <!-- PDF.js for auto-focus detection -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.4.168/pdf.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script>
-    // === Configuration ===
+    // ====== CONFIG ======
     const CONFIG = {
-      githubUser: 'YSayaovong',
-      // Allow-list featured repos with their discipline tags for accurate filtering
+      githubUser: "YSayaovong",
+      resumePath: "resume/Yengkong.Sayaovong.Resume.pdf",
       featured: [
-        { name: 'Treact', tags:['frontend'], blurb:'Responsive landing pages and UI patterns in React.' },
-        { name: 'E-Commerce-Book-Store', tags:['frontend','backend'], blurb:'Full-stack store demo with cart and product flows.' },
-        { name: 'Financial-ETL-Datalake-Pipeline', tags:['data'], blurb:'End-to-end ETL pipeline with data lake patterns.' },
-        { name: 'AI-Chat-Bot', tags:['ai','backend'], blurb:'Chat bot with NLP features and API integration.' },
-        { name: 'job-board-scraper', tags:['backend','data'], blurb:'Python scraping + processing pipeline for job listings.' },
-        { name: 'Python-Email-Automation-Tool', tags:['backend'], blurb:'Automated reporting & email sender in Python.' },
-        { name: 'Hotel-Lead-Dashboard', tags:['data','frontend'], blurb:'BI dashboard with aggregation and KPI views.' }
+        { name: "Treact", tags:["frontend"], blurb:"Responsive landing pages and UI patterns in React." },
+        { name: "E-Commerce-Book-Store", tags:["frontend","backend"], blurb:"Full-stack store demo with cart and product flows." },
+        { name: "Financial-ETL-Datalake-Pipeline", tags:["data"], blurb:"End-to-end ETL pipeline with data lake patterns." },
+        { name: "AI-Chat-Bot", tags:["ai","backend"], blurb:"Chat bot with NLP features and API integration." },
+        { name: "job-board-scraper", tags:["backend","data"], blurb:"Python scraping + processing pipeline for job listings." },
+        { name: "Python-Email-Automation-Tool", tags:["backend"], blurb:"Automated reporting & email sender in Python." },
+        { name: "Hotel-Lead-Dashboard", tags:["data","frontend"], blurb:"BI dashboard with aggregation and KPI views." }
       ]
     };
 
-    const $grid = document.getElementById('grid');
-    const $sort = document.getElementById('sort');
-    const $filters = Array.from(document.querySelectorAll('.filter'));
-    const state = { repos: [], activeFilter: 'all', sort: 'updated' };
-
-    document.getElementById('year').textContent = new Date().getFullYear();
-
-    // Fetch repo metadata from GitHub then merge with allow-list tags
-    async function loadRepos(){
-      try{
-        const repoNames = CONFIG.featured.map(f=>f.name);
-        const resp = await fetch(`https://api.github.com/users/${CONFIG.githubUser}/repos?per_page=100`, { headers: { 'Accept':'application/vnd.github+json' }});
-        const all = await resp.json();
-        const pick = all.filter(r => repoNames.includes(r.name));
-        // merge tags + blurbs
-        state.repos = CONFIG.featured.map(f => {
-          const r = pick.find(x => x.name === f.name) || {};
-          return {
-            name: f.name,
-            html_url: r.html_url || `https://github.com/${CONFIG.githubUser}/${f.name}`,
-            description: r.description || f.blurb || '',
-            stargazers_count: r.stargazers_count || 0,
-            updated_at: r.updated_at || '1970-01-01T00:00:00Z',
-            language: r.language || '',
-            tags: f.tags
-          };
-        });
-        render();
-      }catch(e){
-        console.error(e);
-        // Fallback to minimal cards if API rate-limits
-        state.repos = CONFIG.featured.map(f=>({
-          name:f.name,
-          html_url:`https://github.com/${CONFIG.githubUser}/${f.name}`,
-          description:f.blurb||'',
-          stargazers_count:0,updated_at:'1970-01-01T00:00:00Z',language:'',tags:f.tags
-        }));
-        render();
-      }
-    }
-
-    function render(){
-      let list = [...state.repos];
-      // filter
-      if(state.activeFilter !== 'all'){
-        list = list.filter(r => r.tags.includes(state.activeFilter));
-      }
-      // sort
-      if(state.sort === 'stars'){
-        list.sort((a,b)=>b.stargazers_count - a.stargazers_count);
-      }else if(state.sort === 'az'){
-        list.sort((a,b)=>a.name.localeCompare(b.name));
-      }else{
-        list.sort((a,b)=> new Date(b.updated_at) - new Date(a.updated_at));
-      }
-      // draw
-      $grid.innerHTML = list.map(r=>`
-        <article class="card">
-          <h3><a href="${r.html_url}" target="_blank" rel="noopener">${r.name}</a></h3>
-          <p>${(r.description||'').replace(/</g,'&lt;')}</p>
-          <div class="meta">
-            ${r.language?`<span>${r.language}</span>`:''}
-            <span>★ ${r.stargazers_count}</span>
-            <span>Updated: ${new Date(r.updated_at).toLocaleDateString()}</span>
-          </div>
-          <div class="tags">${r.tags.map(t=>`<span class="tag">${label(t)}</span>`).join('')}</div>
-        </article>
-      `).join('');
-    }
-
-    function label(key){
-      return ({frontend:'Frontend', backend:'Backend', data:'Data Engineering', ai:'AI/ML'})[key] || key;
-    }
-
-    $filters.forEach(btn=>btn.addEventListener('click',()=>{
-      $filters.forEach(b=>b.classList.remove('active'));
-      btn.classList.add('active');
-      state.activeFilter = btn.dataset.filter;
-      render();
-    }));
-
-    $sort.addEventListener('change',()=>{ state.sort = $sort.value; render(); });
-
-    loadRepos();
-  </script>
-</body>
-</html>
+    // ====== STATE
