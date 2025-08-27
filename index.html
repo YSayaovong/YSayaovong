@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Yengkong Sayaovong — Frontend Engineering Portfolio</title>
-  <meta name="description" content="Frontend Engineering portfolio for Yengkong Sayaovong — clean, accessible UIs with modern HTML/CSS/JavaScript (React), deployed on GitHub Pages." />
+  <title>Yengkong Sayaovong — Data Engineering Portfolio</title>
+  <meta name="description" content="Data Engineering portfolio for Yengkong Sayaovong — SQL, ETL, pipelines, and analytics; with supporting backend and frontend skills." />
   <style>
     :root{ --bg:#0b0f19; --panel:#111628; --ink:#e6e9f2; --muted:#9aa4b2; --line:#22304a; --accent:#58a6ff; --chip:#1a2440; }
     *{box-sizing:border-box}
@@ -30,25 +30,12 @@
     h2{font-size:22px;margin:0 0 10px}
     p.section-sub{color:var(--muted);margin:0 0 18px}
 
-    /* Projects */
-    .controls{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:12px}
-    .filter{background:#0f152a;border:1px solid var(--line);color:#cdd6e4;padding:7px 12px;border-radius:999px;font-size:13px;cursor:pointer}
-    .filter.active{outline:2px solid var(--accent)}
-    .sort{margin-left:auto;background:#0f152a;border:1px solid var(--line);color:#cdd6e4;padding:7px 12px;border-radius:10px}
-
-    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
-    .card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:10px;min-height:170px}
-    .card h3{margin:0;font-size:16px}
-    .meta{display:flex;gap:10px;flex-wrap:wrap;color:var(--muted);font-size:12px}
-    .tags{margin-top:auto;display:flex;gap:8px;flex-wrap:wrap}
-    .tag{background:#0f152a;border:1px solid var(--line);padding:4px 8px;border-radius:999px;color:#b9c5d8;font-size:11px}
-
     .about{display:grid;grid-template-columns:1fr 1fr;gap:22px}
     .panel{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px}
 
     footer{border-top:1px solid var(--line);padding:22px 0;color:var(--muted)}
-    @media (max-width: 920px){.hero{grid-template-columns:1fr}.grid{grid-template-columns:1fr 1fr}.about{grid-template-columns:1fr}}
-    @media (max-width: 640px){.grid{grid-template-columns:1fr}.h-title{font-size:32px}}
+    @media (max-width:920px){.hero{grid-template-columns:1fr}.about{grid-template-columns:1fr}}
+    @media (max-width:640px){.h-title{font-size:32px}}
   </style>
 </head>
 <body>
@@ -58,11 +45,10 @@
         <div class="logo" aria-hidden="true"></div>
         <div>
           <div class="name">Yengkong Sayaovong</div>
-          <div style="color:var(--muted);font-size:13px">Frontend Engineering Portfolio</div>
+          <div style="color:var(--muted);font-size:13px">Data Engineering Portfolio</div>
         </div>
       </div>
       <nav>
-        <a href="#projects">Projects</a>
         <a href="#about">About</a>
         <a href="#resume">Résumé</a>
         <a href="#contact">Contact</a>
@@ -71,59 +57,43 @@
 
     <section class="hero">
       <div>
-        <h1 class="h-title">Frontend Engineering Portfolio</h1>
-        <p class="h-sub">Clean, accessible interfaces built with modern HTML/CSS/JavaScript and React. Selected work emphasizing performance, clarity, and maintainability.</p>
+        <h1 class="h-title">Data Engineering Portfolio</h1>
+        <p class="h-sub">SQL-first pipelines, robust ETL, and clear analytics—supported by pragmatic backend services and growing frontend skills.</p>
         <div class="badges">
-          <span class="chip">Frontend (React, HTML/CSS/JS)</span>
+          <span class="chip">Data Engineering (SQL, ETL, BI)</span>
+          <span class="chip">Backend (Python, Node.js, APIs)</span>
+          <span class="chip">Frontend (HTML, CSS, JS, React)</span>
+          <span class="chip">Cloud (AWS basics, CI/CD)</span>
         </div>
         <div class="cta">
-          <a class="btn primary" href="#projects">Browse Projects</a>
-          <a class="btn" href="#resume">View Résumé</a>
-          <a class="btn" href="resume/Yengkong.Sayaovong.Resume.pdf" download>Download Résumé</a>
+          <a class="btn primary" href="#resume">View Résumé</a>
+          <a class="btn" href="/resume/Yengkong.Sayaovong.Resume.pdf" download>Download Résumé</a>
+          <a class="btn" href="https://github.com/YSayaovong" target="_blank" rel="noopener">GitHub Profile</a>
         </div>
       </div>
       <div class="panel">
-        <h2 style="margin-top:0">Brand Focus</h2>
+        <h2 style="margin-top:0">Focus</h2>
         <ul style="margin:8px 0 0 18px;line-height:1.6">
-          <li>Accessible UI and semantic HTML</li>
-          <li>Responsive, component-based CSS (Flexbox/Grid)</li>
-          <li>Performance: lazy loading, minimal JS, Lighthouse goals</li>
-          <li>Quality: clear state management and basic testing</li>
+          <li>Reliable ELT/ETL with auditable transformations</li>
+          <li>Dimensional modeling for dashboards & KPIs</li>
+          <li>Automation: scheduled jobs and reporting</li>
+          <li>Cost-aware, simple cloud patterns</li>
         </ul>
       </div>
-    </section>
-
-    <section id="projects">
-      <h2>Projects</h2>
-      <p class="section-sub">Frontend work highlighted first. Use filters to view other disciplines if present.</p>
-      <div class="controls">
-        <button class="filter" data-filter="all">All</button>
-        <button class="filter active" data-filter="frontend">Frontend</button>
-        <button class="filter" data-filter="backend">Backend</button>
-        <button class="filter" data-filter="data">Data Engineering</button>
-        <button class="filter" data-filter="ai">AI/ML</button>
-        <select id="sort" class="sort" aria-label="Sort projects">
-          <option value="updated">Recently Updated</option>
-          <option value="stars">Most Stars</option>
-          <option value="az">A → Z</option>
-        </select>
-      </div>
-      <div id="grid" class="grid" aria-live="polite"></div>
     </section>
 
     <section id="about" class="about">
       <div class="panel">
         <h2>About</h2>
-        <p>I am <strong>Yengkong Sayaovong</strong>, focusing on <strong>Frontend Engineering</strong>. I build clean, performant interfaces with modern web standards and pragmatic React patterns.</p>
+        <p>I’m <strong>Yengkong Sayaovong</strong>, a Data Engineer–oriented developer with strong SQL and ETL experience, plus supporting backend skills. I build pipelines and analytics that are simple, observable, and useful to the business.</p>
       </div>
       <div class="panel">
-        <h2>Tools</h2>
-        <p class="section-sub">Primary frontend stack:</p>
+        <h2>Core Tools</h2>
         <ul style="margin:8px 0 0 18px;line-height:1.6">
-          <li>HTML5, CSS3 (Flexbox/Grid), Accessibility</li>
-          <li>JavaScript (ES6+), React</li>
-          <li>Vite / simple static builds, GitHub Pages</li>
-          <li>Basic testing (Playwright/Jest as applicable)</li>
+          <li>SQL (PostgreSQL), Python (pandas), Power BI</li>
+          <li>Batch ETL, CSV/JSON ingestion, data validation</li>
+          <li>REST APIs, basic Node.js services</li>
+          <li>GitHub Actions, GitHub Pages</li>
         </ul>
       </div>
     </section>
@@ -131,10 +101,13 @@
     <section id="resume">
       <div class="panel">
         <h2>Résumé</h2>
-        <p class="section-sub">Latest résumé is loaded from the repository. Download for sharing, or view inline below.</p>
-        <p><a class="btn" href="resume/Yengkong.Sayaovong.Resume.pdf" download>Download Résumé (PDF)</a></p>
-        <object data="resume/Yengkong.Sayaovong.Resume.pdf" type="application/pdf" width="100%" height="640">
-          <p>PDF preview unavailable. <a href="resume/Yengkong.Sayaovong.Resume.pdf" target="_blank" rel="noopener">Open the résumé</a>.</p>
+        <p class="section-sub">The PDF below is served directly from the repository.</p>
+        <p>
+          <a class="btn" href="/resume/Yengkong.Sayaovong.Resume.pdf" download>Download Résumé (PDF)</a>
+        </p>
+        <!-- Inline PDF preview (no private repo/API access) -->
+        <object data="/resume/Yengkong.Sayaovong.Resume.pdf" type="application/pdf" width="100%" height="640">
+          <p>PDF preview unavailable. <a href="/resume/Yengkong.Sayaovong.Resume.pdf" target="_blank" rel="noopener">Open the résumé</a>.</p>
         </object>
       </div>
     </section>
@@ -151,22 +124,9 @@
     </footer>
   </div>
 
-  <!-- PDF.js for auto-focus detection -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.4.168/pdf.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script>
-    // ====== CONFIG ======
-    const CONFIG = {
-      githubUser: "YSayaovong",
-      resumePath: "resume/Yengkong.Sayaovong.Resume.pdf",
-      featured: [
-        { name: "Treact", tags:["frontend"], blurb:"Responsive landing pages and UI patterns in React." },
-        { name: "E-Commerce-Book-Store", tags:["frontend","backend"], blurb:"Full-stack store demo with cart and product flows." },
-        { name: "Financial-ETL-Datalake-Pipeline", tags:["data"], blurb:"End-to-end ETL pipeline with data lake patterns." },
-        { name: "AI-Chat-Bot", tags:["ai","backend"], blurb:"Chat bot with NLP features and API integration." },
-        { name: "job-board-scraper", tags:["backend","data"], blurb:"Python scraping + processing pipeline for job listings." },
-        { name: "Python-Email-Automation-Tool", tags:["backend"], blurb:"Automated reporting & email sender in Python." },
-        { name: "Hotel-Lead-Dashboard", tags:["data","frontend"], blurb:"BI dashboard with aggregation and KPI views." }
-      ]
-    };
-
-    // ====== STATE
+    // No API calls; no private repository reads.
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
