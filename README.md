@@ -5,7 +5,7 @@ A fast, single-page portfolio for showcasing work across **Frontend, Backend, Da
 **Live site:** https://ysayaovong.github.io/YSayaovong/  
 **Source profile:** https://github.com/YSayaovong
 
-> The site emphasizes a full-stack brand (Frontend · Backend · Data Engineering · AI/ML) and includes sections for Brand Focus, Projects (with filtering/sorting), and About/Contact. It also indicates the projects grid is auto-populated from GitHub metadata. :contentReference[oaicite:0]{index=0}
+> The site emphasizes a full-stack brand (Frontend · Backend · Data Engineering · AI/ML) and includes sections for Brand Focus, Projects (with filtering/sorting), and About/Contact. It also indicates the projects grid is auto-populated from GitHub metadata. 
 
 ---
 
