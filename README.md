@@ -1,6 +1,6 @@
 # Portfolio Site — @YSayaovong
 
-A sleek, single-page **software engineering portfolio** showcasing Projects across multiple disciplines (Frontend, Backend, Data Engineering, AI/ML). The site is written entirely in **plain HTML, CSS, and JavaScript**, and dynamically populates project information using **GitHub metadata**. It’s hosted seamlessly on **GitHub Pages**.
+A sleek, single-page **portfolio** showcasing Projects across multiple disciplines (Frontend, Backend, Data Engineering, AI/ML). The site is written entirely in **plain HTML, CSS, and JavaScript**, and dynamically populates project information using **GitHub metadata**. It’s hosted seamlessly on **GitHub Pages**.
 
 ## What This Project Is
 
