@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Yengkong Sayaovong — Frontend Engineering Portfolio</title>
-  <meta name="description" content="Frontend Engineering portfolio for Yengkong Sayaovong — clean, accessible UIs with modern HTML/CSS/JavaScript and React; résumé viewer and selected public projects." />
+  <meta name="description" content="Frontend Engineering portfolio for Yengkong Sayaovong — clean, accessible UIs with modern HTML/CSS/JavaScript and React; selected public projects and résumé link." />
   <style>
     :root{ --bg:#0b0f19; --panel:#111628; --ink:#e6e9f2; --muted:#9aa4b2; --line:#22304a; --accent:#58a6ff; --chip:#1a2440; }
     *{box-sizing:border-box}
@@ -75,8 +75,8 @@
         <div class="cta">
           <a class="btn primary" href="#projects">Browse Projects</a>
           <a class="btn" href="#resume">View Résumé</a>
-          <!-- GitHub RAW link -->
-          <a class="btn" href="https://raw.githubusercontent.com/YSayaovong/YSayaovong/main/resume/Yengkong.Sayaovong.Resume.pdf" download rel="noopener noreferrer">Download Résumé</a>
+          <!-- Resume: open in new tab only -->
+          <a class="btn" href="https://raw.githubusercontent.com/YSayaovong/YSayaovong/main/resume/Yengkong.Sayaovong.Resume.pdf" target="_blank" rel="noopener noreferrer">Open Résumé</a>
         </div>
       </div>
       <div class="panel">
@@ -158,24 +158,13 @@
     <section id="resume">
       <div class="panel">
         <h2>Résumé</h2>
-        <p class="section-sub">The PDF below is served from GitHub (raw content URL).</p>
-
-        <!-- RAW GitHub links (change 'main' to 'master' if needed) -->
+        <p class="section-sub">Open the PDF in a new tab via GitHub (raw content URL).</p>
+        <!-- Open only; no preview, no download attribute -->
         <p>
-          <a class="btn" href="https://raw.githubusercontent.com/YSayaovong/YSayaovong/main/resume/Yengkong.Sayaovong.Resume.pdf" download rel="noopener noreferrer">
-            Download Résumé (PDF)
-          </a>
           <a class="btn" href="https://raw.githubusercontent.com/YSayaovong/YSayaovong/main/resume/Yengkong.Sayaovong.Resume.pdf" target="_blank" rel="noopener noreferrer">
-            Open in new tab
+            Open Résumé in New Tab
           </a>
         </p>
-
-        <!-- Inline preview from raw.githubusercontent.com -->
-        <object
-          data="https://raw.githubusercontent.com/YSayaovong/YSayaovong/main/resume/Yengkong.Sayaovong.Resume.pdf"
-          type="application/pdf" width="100%" height="640">
-          <p>PDF preview unavailable. <a href="https://raw.githubusercontent.com/YSayaovong/YSayaovong/main/resume/Yengkong.Sayaovong.Resume.pdf" target="_blank" rel="noopener noreferrer">Open the résumé</a>.</p>
-        </object>
       </div>
     </section>
 
