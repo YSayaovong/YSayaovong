@@ -9,7 +9,8 @@
     :root{ --bg:#0b0f19; --panel:#111628; --ink:#e6e9f2; --muted:#9aa4b2; --line:#22304a; --accent:#58a6ff; --chip:#1a2440; }
     *{box-sizing:border-box}
     body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,'Helvetica Neue',Arial,'Noto Sans',sans-serif;background:linear-gradient(180deg,#0b0f19 0%,#0d1324 60%,#0b0f19 100%);color:var(--ink)}
-    a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
     .wrap{max-width:1120px;margin:0 auto;padding:24px}
     header{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:18px 0;border-bottom:1px solid var(--line)}
     .brand{display:flex;align-items:center;gap:14px}
@@ -75,8 +76,8 @@
         <div class="cta">
           <a class="btn primary" href="#projects">Browse Projects</a>
           <a class="btn" href="#resume">View Résumé</a>
-          <!-- IMPORTANT: relative path (no leading /) for project pages -->
-          <a class="btn" href="resume/Yengkong.Sayaovong.Resume.pdf" download>Download Résumé</a>
+          <!-- RELATIVE path (no leading /) so it works on project pages -->
+          <a class="btn" id="resumeDownloadTop" href="resume/Yengkong.Sayaovong.Resume.pdf" download>Download Résumé</a>
         </div>
       </div>
       <div class="panel">
@@ -158,11 +159,20 @@
     <section id="resume">
       <div class="panel">
         <h2>Résumé</h2>
-        <p class="section-sub">The PDF below is served directly from the repository.</p>
-        <!-- IMPORTANT: relative path (no leading /) -->
-        <p><a class="btn" href="resume/Yengkong.Sayaovong.Resume.pdf" download>Download Résumé (PDF)</a></p>
-        <object data="resume/Yengkong.Sayaovong.Resume.pdf" type="application/pdf" width="100%" height="640">
-          <p>PDF preview unavailable. <a href="resume/Yengkong.Sayaovong.Resume.pdf" target="_blank" rel="noopener">Open the résumé</a>.</p>
+        <p class="section-sub">The PDF below is served directly from this repository.</p>
+
+        <!-- RELATIVE path + a small cache-buster query -->
+        <p>
+          <a class="btn" id="resumeDownload" href="resume/Yengkong.Sayaovong.Resume.pdf?v=1" download>Download Résumé (PDF)</a>
+          <a class="btn" id="resumeOpen" href="resume/Yengkong.Sayaovong.Resume.pdf?v=1" target="_blank" rel="noopener">Open in new tab</a>
+        </p>
+
+        <div id="resumeError" style="color:#ffb4b4;display:none;margin-bottom:12px"></div>
+
+        <object id="resumeViewer"
+                data="resume/Yengkong.Sayaovong.Resume.pdf?v=1"
+                type="application/pdf" width="100%" height="640">
+          <p>PDF preview unavailable. <a href="resume/Yengkong.Sayaovong.Resume.pdf?v=1" target="_blank" rel="noopener">Open the résumé</a>.</p>
         </object>
       </div>
     </section>
@@ -180,7 +190,64 @@
   </div>
 
   <script>
+    // Year
     document.getElementById('year').textContent = new Date().getFullYear();
+
+    // ---- Résumé existence check + robust fallback ----
+    (function () {
+      // The relative path we expect in this repo (no leading slash)
+      const rel = "resume/Yengkong.Sayaovong.Resume.pdf";
+      const bust = "v=1"; // bump when you replace the PDF to bypass CDN cache
+
+      // Try the local file first
+      const localUrl = rel + "?" + bust;
+      const viewer = document.getElementById("resumeViewer");
+      const dlTop = document.getElementById("resumeDownloadTop");
+      const dl = document.getElementById("resumeDownload");
+      const open = document.getElementById("resumeOpen");
+      const err = document.getElementById("resumeError");
+
+      function setAllLinks(url){
+        if (viewer) viewer.setAttribute("data", url);
+        if (dlTop)  dlTop.setAttribute("href", url);
+        if (dl)     dl.setAttribute("href", url);
+        if (open)   open.setAttribute("href", url);
+      }
+
+      setAllLinks(localUrl);
+
+      // HEAD request to confirm availability at the relative path
+      fetch(localUrl, { method: "HEAD" }).then(r => {
+        if (!r.ok) throw new Error(r.status);
+      }).catch(async () => {
+        // Build a raw.githubusercontent.com fallback automatically
+        const owner = (location.hostname.split(".")[0] || "YSayaovong");
+        // On project pages the first path segment is the repo name; on user pages it may be empty.
+        const repo = (location.pathname.split("/").filter(Boolean)[0] || owner);
+        const rawMain   = `https://raw.githubusercontent.com/${owner}/${repo}/main/${rel}`;
+        const rawMaster = `https://raw.githubusercontent.com/${owner}/${repo}/master/${rel}`;
+
+        // Try main, then master
+        try {
+          const r = await fetch(rawMain, { method: "HEAD" });
+          if (r.ok) { setAllLinks(rawMain + "?" + bust); return; }
+          throw new Error("main 404");
+        } catch {
+          const r2 = await fetch(rawMaster, { method: "HEAD" });
+          if (r2.ok) { setAllLinks(rawMaster + "?" + bust); return; }
+        }
+
+        // If neither exists, show guidance
+        if (err){
+          err.style.display = "block";
+          err.innerHTML = 'Résumé not found at <code>' + rel + '</code>. ' +
+                          'Create the folder <code>resume</code> at the repo root and add ' +
+                          '<code>Yengkong.Sayaovong.Resume.pdf</code> (case-sensitive).';
+          if (viewer) viewer.outerHTML =
+            '<p>Inline preview unavailable. Ensure the file exists at <code>' + rel + '</code>.</p>';
+        }
+      });
+    })();
   </script>
 </body>
 </html>
