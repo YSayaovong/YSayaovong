@@ -14,10 +14,6 @@ A sleek, single-page **portfolio** showcasing Projects across multiple disciplin
 - **JavaScript (ES6+)** — Dynamic content loading and interactivity.
 - **GitHub REST API (client-side)** — Retrieves profile and repository data in real time.
 - **GitHub Pages** — Hosting platform for deployment.
-- Optional enhancements via:
-  - **Fetch API** — Requests GitHub data without a backend.
-  - **CSS Flexbox/Grid** — Layout for responsive project grids.
-  - Pure **JavaScript filtering/sorting logic** — Enables category toggles and order controls.
 
 ---
 
