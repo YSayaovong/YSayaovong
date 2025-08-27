@@ -1,35 +1,36 @@
-# Software Engineering Portfolio — @YSayaovong
+# Portfolio Site — @YSayaovong
 
-A fast, single-page portfolio for showcasing work across **Frontend, Backend, Data Engineering, and AI/ML**. Built with **plain HTML/CSS/JavaScript**, designed to be easy to maintain, and deployable on **GitHub Pages**.
+A sleek, single-page **software engineering portfolio** showcasing Projects across multiple disciplines (Frontend, Backend, Data Engineering, AI/ML). The site is written entirely in **plain HTML, CSS, and JavaScript**, and dynamically populates project information using **GitHub metadata**. It’s hosted seamlessly on **GitHub Pages**.
 
-**Live site:** https://ysayaovong.github.io/YSayaovong/  
-**Source profile:** https://github.com/YSayaovong
+## What This Project Is
 
-> The site emphasizes a full-stack brand (Frontend · Backend · Data Engineering · AI/ML) and includes sections for Brand Focus, Projects (with filtering/sorting), and About/Contact. It also indicates the projects grid is auto-populated from GitHub metadata. 
+- A **responsive, client-side portfolio** designed for clarity and quick maintenance.
+- **Auto-fetches GitHub data**—such as your repositories, names, descriptions, and metadata—so it stays up-to-date without manual content edits.
+- Showcases various projects using **categorization and sorting** (e.g., by “Frontend”, “Backend”, “Data Engineering”, “AI/ML”; sorted by stars, update date, or alphabetical).
 
----
+## Tools & Technologies Used
 
-## Features
-
-- **Clear brand positioning** across four tracks (Frontend, Backend, Data Engineering, AI/ML). :contentReference[oaicite:1]{index=1}
-- **Projects gallery** with category filters and sorting (Recently Updated / Most Stars / A→Z). :contentReference[oaicite:2]{index=2}
-- **Auto-populated GitHub data**: pulls profile/repo info client-side to keep the site up-to-date without manual edits. :contentReference[oaicite:3]{index=3}
-- **Plain HTML/CSS/JS** (no framework) for minimal overhead and fast loads. :contentReference[oaicite:4]{index=4}
-- **GitHub Pages ready** for free hosting.
-
----
-
-## Tech Stack
-
-- **HTML5 / CSS3 / JavaScript (ES6+)**
-- **GitHub Pages** for hosting
+- **HTML5 / CSS3** — Structure and style.
+- **JavaScript (ES6+)** — Dynamic content loading and interactivity.
+- **GitHub REST API (client-side)** — Retrieves profile and repository data in real time.
+- **GitHub Pages** — Hosting platform for deployment.
+- Optional enhancements via:
+  - **Fetch API** — Requests GitHub data without a backend.
+  - **CSS Flexbox/Grid** — Layout for responsive project grids.
+  - Pure **JavaScript filtering/sorting logic** — Enables category toggles and order controls.
 
 ---
 
-## Quick Start (Local)
+## At-a-Glance
 
-1. **Clone** the repository:
-   ```bash
-   git clone https://github.com/<your-username>/<your-portfolio-repo>.git
-   cd <your-portfolio-repo>
+| Feature                      | Description |
+|-----------------------------|-------------|
+| **Purpose**                 | Showcase engineering projects in a minimal, maintainable, one-page site |
+| **Content Source**          | Dynamically pulled from GitHub using public API |
+| **Tech Stack**              | HTML, CSS, JS, GitHub API, GitHub Pages |
 
+---
+
+**Live Demo:** https://ysayaovong.github.io/YSayaovong/ 
+
+---
