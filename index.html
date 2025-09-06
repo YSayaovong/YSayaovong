@@ -40,6 +40,11 @@
     .about{display:grid;grid-template-columns:1fr 1fr;gap:22px}
     .panel{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px}
 
+    .center{display:flex;align-items:center;justify-content:center}
+    .muted{color:var(--muted)}
+    .skeleton{background:linear-gradient(90deg, rgba(255,255,255,.06), rgba(255,255,255,.12), rgba(255,255,255,.06));background-size:200% 100%;animation:s 1.2s linear infinite}
+    @keyframes s{0%{background-position:200% 0}100%{background-position:-200% 0}}
+
     footer{border-top:1px solid var(--line);padding:22px 0;color:var(--muted)}
     @media (max-width: 920px){.hero{grid-template-columns:1fr}.grid{grid-template-columns:1fr 1fr}.about{grid-template-columns:1fr}}
     @media (max-width: 640px){.grid{grid-template-columns:1fr}.h-title{font-size:32px}}
@@ -75,7 +80,6 @@
         <div class="cta">
           <a class="btn primary" href="#projects">Browse Projects</a>
           <a class="btn" href="#resume">View Résumé</a>
-          <!-- Open only; GitHub BLOB page avoids auto-download -->
           <a class="btn" href="https://github.com/YSayaovong/YSayaovong/blob/main/resume/Yengkong.Sayaovong.Resume.pdf" target="_blank" rel="noopener noreferrer">Open Résumé</a>
         </div>
       </div>
@@ -90,52 +94,40 @@
       </div>
     </section>
 
-    <!-- Static projects: prioritized for Frontend first -->
+    <!-- Projects (auto-populated from GitHub) -->
     <section id="projects">
       <h2>Projects</h2>
-      <p class="section-sub">Selected public repositories prioritized by current focus: <strong>Frontend</strong> first.</p>
+      <p class="section-sub">Public repositories pulled live from <strong>@YSayaovong</strong>. Forks and archived repos are hidden.</p>
 
-      <div class="grid">
-        <!-- Frontend -->
+      <div id="projectsGrid" class="grid" aria-live="polite" aria-busy="true">
+        <!-- Skeleton placeholders while loading -->
+        <article class="card skeleton" aria-hidden="true" style="height:170px"></article>
+        <article class="card skeleton" aria-hidden="true" style="height:170px"></article>
+        <article class="card skeleton" aria-hidden="true" style="height:170px"></article>
+      </div>
+
+      <div class="center" style="margin-top:16px;">
+        <button id="loadMore" class="btn" style="display:none">Load more</button>
+      </div>
+
+      <!-- Fallback (shown only if API fails) -->
+      <template id="fallbackProjects">
         <article class="card">
           <h3><a href="https://github.com/YSayaovong/E-Commerce-Book-Store" target="_blank" rel="noopener">E-Commerce-Book-Store</a></h3>
           <p>Frontend-first store with product views and cart flows; showcases component design and UI state.</p>
           <div class="tags"><span class="tag">Frontend</span><span class="tag">React</span></div>
         </article>
-
         <article class="card">
           <h3><a href="https://github.com/YSayaovong/Treact" target="_blank" rel="noopener">Treact</a></h3>
           <p>Responsive landing pages and UI patterns in React; typography, spacing, and layout practice.</p>
           <div class="tags"><span class="tag">Frontend</span><span class="tag">React</span></div>
         </article>
-
-        <!-- Backend -->
-        <article class="card">
-          <h3><a href="https://github.com/YSayaovong/Python-Email-Automation-Tool" target="_blank" rel="noopener">Python-Email-Automation-Tool</a></h3>
-          <p>Automated reporting with scheduled email distribution and logging.</p>
-          <div class="tags"><span class="tag">Backend</span><span class="tag">Python</span></div>
-        </article>
-
-        <article class="card">
-          <h3><a href="https://github.com/YSayaovong/job-board-scraper" target="_blank" rel="noopener">job-board-scraper</a></h3>
-          <p>Scraping + processing pipeline for job listings; exports clean datasets.</p>
-          <div class="tags"><span class="tag">Backend</span><span class="tag">Data</span><span class="tag">Python</span></div>
-        </article>
-
-        <!-- Data Engineering -->
         <article class="card">
           <h3><a href="https://github.com/YSayaovong/Financial-ETL-Datalake-Pipeline" target="_blank" rel="noopener">Financial-ETL-Datalake-Pipeline</a></h3>
           <p>End-to-end ETL pipeline with data-lake patterns and reporting outputs.</p>
           <div class="tags"><span class="tag">Data Engineering</span><span class="tag">Python</span><span class="tag">SQL</span></div>
         </article>
-
-        <!-- AI/ML -->
-        <article class="card">
-          <h3><a href="https://github.com/YSayaovong/AI-Chat-Bot" target="_blank" rel="noopener">AI-Chat-Bot</a></h3>
-          <p>Chatbot with simple NLP and API integration.</p>
-          <div class="tags"><span class="tag">AI/ML</span><span class="tag">Backend</span></div>
-        </article>
-      </div>
+      </template>
     </section>
 
     <section id="about" class="about">
@@ -159,12 +151,7 @@
       <div class="panel">
         <h2>Résumé</h2>
         <p class="section-sub">Open the PDF on GitHub in a new tab.</p>
-        <!-- Open only; no preview, no download -->
-        <p>
-          <a class="btn" href="https://github.com/YSayaovong/YSayaovong/blob/main/resume/Yengkong.Sayaovong.Resume.pdf" target="_blank" rel="noopener noreferrer">
-            Open Résumé in New Tab
-          </a>
-        </p>
+        <p><a class="btn" href="https://github.com/YSayaovong/YSayaovong/blob/main/resume/Yengkong.Sayaovong.Resume.pdf" target="_blank" rel="noopener noreferrer">Open Résumé in New Tab</a></p>
       </div>
     </section>
 
@@ -181,7 +168,156 @@
   </div>
 
   <script>
+    // Footer year
     document.getElementById('year').textContent = new Date().getFullYear();
+
+    // -------- Dynamic GitHub Projects --------
+    (async function initProjects() {
+      const USER = 'YSayaovong';
+      const PER_PAGE = 100;          // fetch up to 100 public repos
+      const PAGE_SIZE_UI = 9;        // initial render count, then "Load more"
+      const grid = document.getElementById('projectsGrid');
+      const loadMoreBtn = document.getElementById('loadMore');
+      let all = [];
+      let rendered = 0;
+
+      // Utility: create element with classes
+      const el = (tag, cls) => {
+        const e = document.createElement(tag);
+        if (cls) e.className = cls;
+        return e;
+      };
+
+      // Heuristic tags based on language/name/description
+      function inferTags(repo) {
+        const tags = new Set();
+        const lang = (repo.language || '').toLowerCase();
+        const txt = ((repo.name || '') + ' ' + (repo.description || '')).toLowerCase();
+
+        if (['javascript','typescript','html','css'].includes(lang)) tags.add('Frontend');
+        if (txt.includes('react')) tags.add('React');
+        if (txt.includes('streamlit')) tags.add('Streamlit');
+        if (['python'].includes(lang)) tags.add('Python');
+        if (['java','c#','go','rust'].includes(lang)) tags.add(lang.toUpperCase());
+        if (txt.includes('etl') || txt.includes('pipeline') || txt.includes('datalake')) tags.add('Data Eng');
+        if (txt.includes('scrap')) tags.add('Web Scraping');
+        if (txt.includes('sql') || txt.includes('postgres') || txt.includes('mysql')) tags.add('SQL');
+        if (repo.homepage) tags.add('Live Demo');
+        return Array.from(tags).slice(0, 3);
+      }
+
+      // Render one repo -> card
+      function renderCard(repo) {
+        const card = el('article', 'card');
+        const h3 = el('h3');
+        const a = el('a');
+        a.href = repo.html_url;
+        a.target = '_blank';
+        a.rel = 'noopener';
+        a.textContent = repo.name;
+        h3.appendChild(a);
+
+        const p = document.createElement('p');
+        p.textContent = repo.description || 'No description provided.';
+
+        const meta = el('div', 'meta');
+        const lang = repo.language ? `● ${repo.language}` : null;
+        const stars = `★ ${repo.stargazers_count}`;
+        const upd = `Updated ${new Date(repo.updated_at).toLocaleDateString()}`;
+        [lang, stars, upd].filter(Boolean).forEach(m => {
+          const span = document.createElement('span');
+          span.textContent = m;
+          meta.appendChild(span);
+        });
+
+        const tagsWrap = el('div', 'tags');
+        const tags = inferTags(repo);
+        tags.forEach(t => {
+          const tag = el('span', 'tag');
+          tag.textContent = t;
+          tagsWrap.appendChild(tag);
+        });
+
+        // Optional live demo button (repo.homepage field)
+        if (repo.homepage) {
+          const demo = el('a', 'btn');
+          demo.style.marginTop = '6px';
+          demo.href = repo.homepage;
+          demo.target = '_blank';
+          demo.rel = 'noopener';
+          demo.textContent = 'Open Live Demo';
+          card.append(h3, p, meta, tagsWrap, demo);
+        } else {
+          card.append(h3, p, meta, tagsWrap);
+        }
+
+        grid.appendChild(card);
+      }
+
+      function renderNext(batch = PAGE_SIZE_UI) {
+        const slice = all.slice(rendered, rendered + batch);
+        slice.forEach(renderCard);
+        rendered += slice.length;
+        loadMoreBtn.style.display = rendered < all.length ? 'inline-flex' : 'none';
+        grid.setAttribute('aria-busy', 'false');
+      }
+
+      function showFallback() {
+        grid.innerHTML = '';
+        const tpl = document.getElementById('fallbackProjects');
+        if (!tpl) return;
+        grid.append(...tpl.content.cloneNode(true).children);
+        grid.setAttribute('aria-busy', 'false');
+      }
+
+      try {
+        // Remove skeletons
+        grid.innerHTML = '';
+
+        // Fetch PUBLIC repos only (users/:user/repos returns only public for that user)
+        const resp = await fetch(`https://api.github.com/users/${USER}/repos?per_page=${PER_PAGE}&sort=updated`, {
+          headers: {
+            // Accept default v3; no auth so CORS-safe. Topics require a special header; we skip.
+            'Accept': 'application/vnd.github.v3+json'
+          }
+        });
+
+        if (!resp.ok) throw new Error('GitHub API error: ' + resp.status);
+
+        const repos = await resp.json();
+
+        // Filter: public only (API already returns public), exclude forks & archived by default
+        all = repos
+          .filter(r => !r.fork && !r.archived)
+          // Optional: surface frontend first using a light ranking
+          .sort((a, b) => {
+            const rank = (r) => {
+              const L = (r.language || '').toLowerCase();
+              const T = ((r.name || '') + ' ' + (r.description || '')).toLowerCase();
+              let score = 0;
+              if (['javascript','typescript','html','css'].includes(L)) score += 3;
+              if (T.includes('react')) score += 2;
+              if (T.includes('vite')) score += 1;
+              // recency secondary
+              return score * 1000000000 + new Date(r.updated_at).getTime();
+            };
+            return rank(b) - rank(a);
+          });
+
+        if (!all.length) {
+          showFallback();
+          return;
+        }
+
+        renderNext();
+
+        loadMoreBtn.addEventListener('click', () => renderNext(PAGE_SIZE_UI));
+
+      } catch (e) {
+        console.warn(e);
+        showFallback();
+      }
+    })();
   </script>
 </body>
 </html>
