@@ -1,7 +1,7 @@
 <!-- Profile Header -->
 <div align="center">
-  <h1>Wayengkong Sayaovong</h1>
-  <p><b>Financial & Mechanical Designer → Data Analytics</b></p>
+  <h1>Yengkong Sayaovong</h1>
+  <p><b>Data Engineer</b></p>
   <p>
     <a href="https://github.com/YSayaovong">GitHub</a> •
     <a href="https://www.linkedin.com/in/ysayaovong">LinkedIn</a> •
