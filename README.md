@@ -84,7 +84,7 @@ I design robust data pipelines and analytics systems end-to-end—ingesting, mod
 ---
 
 ### Quick Links
-- **Portfolio (GitHub Pages):** https://ysayaovong.github.io/YSayaovong/#featured-section  
-- **Resume:** (Add your PDF link)
+- **Portfolio (GitHub Pages):** <a href="https://ysayaovong.github.io/YSayaovong/#featured-section" target="_blank" rel="noopener">https://ysayaovong.github.io/YSayaovong/#featured-section</a>  
 
 <sub>Cards rely on public APIs and may occasionally rate-limit.</sub>
+
