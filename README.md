@@ -14,20 +14,46 @@ ETL • Data Modeling • SQL • Python • Airflow • Spark • AWS • Power
 ---
 
 ### About
-I design reliable data pipelines and analytics systems end-to-end—ingesting, modeling, and serving data for decision-makers. Current focus: Python + SQL on AWS with Airflow/Spark and dashboarding in Power BI.
+I design robust data pipelines and analytics systems end-to-end—ingesting, modeling, and serving data for decision-makers. Current focus: Python + SQL on AWS with Airflow/Spark and dashboarding in Power BI.
 
 ---
 
 ### Featured Projects
 <p>
-  <a href="https://github.com/YSayaovong/Financial-ETL-Datalake-Pipeline">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YSayaovong&repo=Financial-ETL-Datalake-Pipeline&theme=transparent" />
+  <a href="https://github.com/YSayaovong/E-Commerce-Book-Store">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YSayaovong&repo=E-Commerce-Book-Store&theme=transparent" />
   </a>
-  <a href="https://github.com/YSayaovong/Engineering-KPI-Dashboard-in-Excel">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YSayaovong&repo=Engineering-KPI-Dashboard-in-Excel&theme=transparent" />
+  <a href="https://github.com/YSayaovong/AI-Chat-Bot">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YSayaovong&repo=AI-Chat-Bot&theme=transparent" />
   </a>
 </p>
 
+<p>
+  <a href="https://github.com/YSayaovong/church_website">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YSayaovong&repo=church_website&theme=transparent" />
+  </a>
+  <a href="https://github.com/YSayaovong/Python-Creature-Simulation">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YSayaovong&repo=Python-Creature-Simulation&theme=transparent" />
+  </a>
+</p>
+
+<p>
+  <a href="https://github.com/YSayaovong/Treact">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YSayaovong&repo=Treact&theme=transparent" />
+  </a>
+  <a href="https://github.com/YSayaovong/Financial-ETL-Datalake-Pipeline">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YSayaovong&repo=Financial-ETL-Datalake-Pipeline&theme=transparent" />
+  </a>
+</p>
+
+<p>
+  <a href="https://github.com/YSayaovong/job-board-scraper">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YSayaovong&repo=job-board-scraper&theme=transparent" />
+  </a>
+  <a href="https://github.com/YSayaovong/Real-Estate-Financial-Analytics-Tool">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YSayaovong&repo=Real-Estate-Financial-Analytics-Tool&theme=transparent" />
+  </a>
+</p>
 
 ---
 
@@ -58,7 +84,7 @@ I design reliable data pipelines and analytics systems end-to-end—ingesting, m
 ---
 
 ### Quick Links
-- **Portfolio (GitHub Pages):** https://ysayaovong.github.io/YSayaovong/#projects  
-- **Resume:** Add your PDF link here
+- **Portfolio (GitHub Pages):** https://ysayaovong.github.io/YSayaovong/#featured-section  
+- **Resume:** (Add your PDF link)
 
-<sub>Cards above rely on public APIs and may occasionally rate-limit.</sub>
+<sub>Cards rely on public APIs and may occasionally rate-limit.</sub>
