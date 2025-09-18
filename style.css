@@ -36,6 +36,10 @@ body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Arial; backgroun
   background:var(--chip); border:1px solid var(--border); padding:8px 10px; border-radius:999px; box-shadow:var(--shadow);
 }
 
+/* Featured */
+#featured-section{padding:24px 20px}
+#featured-grid .card{border-color:#2b3a55}
+
 /* Projects */
 #projects-section{padding:24px 20px}
 .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
