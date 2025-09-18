@@ -27,14 +27,7 @@ I design reliable data pipelines and analytics systems end-to-end—ingesting, m
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=YSayaovong&repo=Engineering-KPI-Dashboard-in-Excel&theme=transparent" />
   </a>
 </p>
-<p>
-  <a href="https://github.com/YSayaovong/enterprise-financial-forecasting">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YSayaovong&repo=enterprise-financial-forecasting&theme=transparent" />
-  </a>
-  <a href="https://github.com/YSayaovong/Sales-Forecasting-KPI-Analysis">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YSayaovong&repo=Sales-Forecasting-KPI-Analysis&theme=transparent" />
-  </a>
-</p>
+
 
 ---
 
