@@ -1,5 +1,19 @@
-// Basic config
+// --- Settings ---
 const GH_USER = "YSayaovong";
+
+// Featured repos (exact repo names)
+const FEATURED = [
+  "E-Commerce-Book-Store",
+  "AI-Chat-Bot",
+  "church_website",
+  "Python-Creature-Simulation",
+  "Treact",
+  "Financial-ETL-Datalake-Pipeline",
+  "job-board-scraper",
+  "Real-Estate-Financial-Analytics-Tool",
+];
+
+// Category heuristics
 const CATEGORY_RULES = [
   { key: "data-eng", test: repo =>
       /etl|datalake|pipeline|airflow|spark|warehouse|postgres|dbt|orchestrat|ingest/i.test(repo.name + " " + (repo.description||"")) },
@@ -24,6 +38,8 @@ const els = {
   langBars: document.getElementById("lang-bars"),
   langNote: document.getElementById("lang-note"),
   topRepos: document.getElementById("top-repos"),
+  featuredGrid: document.getElementById("featured-grid"),
+  featuredSection: document.getElementById("featured-section"),
 };
 
 let allRepos = [];
@@ -41,7 +57,7 @@ async function loadProfile(){
 }
 
 async function loadRepos(){
-  // Get public repos (max couple of pages)
+  // Pull all public repos (paged)
   let page = 1, repos = [];
   while(true){
     const data = await fetchJSON(`https://api.github.com/users/${GH_USER}/repos?per_page=100&sort=updated&page=${page}`);
@@ -49,9 +65,10 @@ async function loadRepos(){
     if(data.length < 100) break;
     page++;
   }
-  // Hide archived/forks from gallery by default
+  // Hide archived/forks by default
   allRepos = repos.filter(r => !r.archived && !r.fork);
   render();
+  renderFeatured();
   buildTopRepos();
   computeLanguages(repos);
 }
@@ -114,7 +131,7 @@ function categoryLabel(k){
 function escapeHTML(s){ return s.replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
 
 async function computeLanguages(repos){
-  // Sum bytes by language using /languages endpoint for top ~10 repos to stay light
+  // Sum bytes by language using /languages endpoint for top ~12 repos to stay light
   const top = [...repos].sort((a,b)=>b.stargazers_count-a.stargazers_count).slice(0,12);
   const totals = {};
   for(const r of top){
@@ -147,6 +164,21 @@ function buildTopRepos(){
     </li>`).join("");
 }
 
+function renderFeatured(){
+  if(!els.featuredGrid) return;
+  const map = new Map(allRepos.map(r => [r.name.toLowerCase(), r]));
+  const items = FEATURED
+    .map(name => map.get(name.toLowerCase()))
+    .filter(Boolean);
+
+  if(items.length === 0){
+    if(els.featuredSection) els.featuredSection.style.display = "none";
+    return;
+  }
+  const rows = items.map(r => repoCard({...r, _cat: categoryOf(r)})).join("");
+  els.featuredGrid.innerHTML = rows;
+}
+
 // Events
 ["change","keyup"].forEach(evt=>{
   els.category.addEventListener(evt, render);
@@ -154,4 +186,5 @@ function buildTopRepos(){
   els.search.addEventListener(evt, render);
 });
 
+// Init
 loadProfile().then(loadRepos);
