@@ -1,323 +1,111 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Yengkong Sayaovong — Frontend Engineering Portfolio</title>
-  <meta name="description" content="Frontend Engineering portfolio for Yengkong Sayaovong — clean, accessible UIs with modern HTML/CSS/JavaScript and React; selected public projects and résumé link." />
-  <style>
-    :root{ --bg:#0b0f19; --panel:#111628; --ink:#e6e9f2; --muted:#9aa4b2; --line:#22304a; --accent:#58a6ff; --chip:#1a2440; }
-    *{box-sizing:border-box}
-    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,'Helvetica Neue',Arial,'Noto Sans',sans-serif;background:linear-gradient(180deg,#0b0f19 0%,#0d1324 60%,#0b0f19 100%);color:var(--ink)}
-    a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
-    .wrap{max-width:1120px;margin:0 auto;padding:24px}
-    header{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:18px 0;border-bottom:1px solid var(--line)}
-    .brand{display:flex;align-items:center;gap:14px}
-    .logo{width:44px;height:44px;border-radius:12px;background:conic-gradient(from 180deg at 50% 50%, #58a6ff, #7ee787, #d2a8ff);box-shadow:0 6px 28px rgba(88,166,255,.25)}
-    .name{font-weight:800;letter-spacing:.3px}
-    nav a{margin-left:16px;color:var(--muted)}
-
-    .hero{display:grid;grid-template-columns:1.2fr .8fr;gap:28px;align-items:center;padding:32px 0}
-    .h-title{font-size:40px;line-height:1.15;margin:0 0 8px}
-    .h-sub{color:var(--muted);margin:0 0 18px}
-    .badges{display:flex;flex-wrap:wrap;gap:10px;margin:16px 0}
-    .chip{background:var(--chip);border:1px solid var(--line);padding:8px 12px;border-radius:999px;color:#c9d4e5;font-size:13px}
-    .cta{display:flex;gap:12px;margin-top:10px}
-    .btn{display:inline-flex;align-items:center;gap:10px;padding:10px 14px;border-radius:10px;border:1px solid var(--line);background:#131b33;color:var(--ink);font-weight:600}
-    .btn.primary{background:#1b2647}
-
-    section{margin:22px 0 32px}
-    h2{font-size:22px;margin:0 0 10px}
-    p.section-sub{color:var(--muted);margin:0 0 18px}
-
-    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
-    .card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:10px;min-height:170px}
-    .card h3{margin:0;font-size:16px}
-    .meta{display:flex;gap:10px;flex-wrap:wrap;color:var(--muted);font-size:12px}
-    .tags{margin-top:auto;display:flex;gap:8px;flex-wrap:wrap}
-    .tag{background:#0f152a;border:1px solid var(--line);padding:4px 8px;border-radius:999px;color:#b9c5d8;font-size:11px}
-
-    .about{display:grid;grid-template-columns:1fr 1fr;gap:22px}
-    .panel{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px}
-
-    .center{display:flex;align-items:center;justify-content:center}
-    .muted{color:var(--muted)}
-    .skeleton{background:linear-gradient(90deg, rgba(255,255,255,.06), rgba(255,255,255,.12), rgba(255,255,255,.06));background-size:200% 100%;animation:s 1.2s linear infinite}
-    @keyframes s{0%{background-position:200% 0}100%{background-position:-200% 0}}
-
-    footer{border-top:1px solid var(--line);padding:22px 0;color:var(--muted)}
-    @media (max-width: 920px){.hero{grid-template-columns:1fr}.grid{grid-template-columns:1fr 1fr}.about{grid-template-columns:1fr}}
-    @media (max-width: 640px){.grid{grid-template-columns:1fr}.h-title{font-size:32px}}
-  </style>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Yengkong Sayaovong — Data Engineer</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="color-scheme" content="light dark" />
 </head>
 <body>
-  <div class="wrap">
-    <header>
+  <!-- Top Bar -->
+  <header class="topbar">
+    <div class="wrap">
       <div class="brand">
-        <div class="logo" aria-hidden="true"></div>
+        <img id="avatar" class="avatar" alt="GitHub avatar" />
         <div>
-          <div class="name">Yengkong Sayaovong</div>
-          <div style="color:var(--muted);font-size:13px">Frontend Engineering Portfolio</div>
+          <h1 class="title">Yengkong Sayaovong</h1>
+          <p class="subtitle">Data Engineer</p>
         </div>
       </div>
-      <nav>
+      <nav class="links">
         <a href="#projects">Projects</a>
-        <a href="#about">About</a>
-        <a href="#resume">Résumé</a>
-        <a href="#contact">Contact</a>
+        <a href="#stats">GitHub Stats</a>
+        <a href="https://github.com/YSayaovong" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/ysayaovong" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://youtube.com/@cloudcodemaestro" target="_blank" rel="noopener">YouTube</a>
       </nav>
-    </header>
+    </div>
+  </header>
 
-    <section class="hero">
-      <div>
-        <h1 class="h-title">Frontend Engineering Portfolio</h1>
-        <p class="h-sub">Clean, accessible interfaces with modern HTML/CSS/JavaScript and React. Selected work emphasizing performance, clarity, and maintainability.</p>
-        <div class="badges">
-          <span class="chip">Frontend (React, HTML/CSS/JS)</span>
-          <span class="chip">Backend (Node/Python APIs)</span>
-          <span class="chip">Data (SQL, ETL, BI)</span>
-        </div>
-        <div class="cta">
-          <a class="btn primary" href="#projects">Browse Projects</a>
-          <a class="btn" href="#resume">View Résumé</a>
-          <a class="btn" href="https://github.com/YSayaovong/YSayaovong/blob/main/resume/Yengkong.Sayaovong.Resume.pdf" target="_blank" rel="noopener noreferrer">Open Résumé</a>
-        </div>
+  <!-- Hero / Controls -->
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-text">
+        <h2>Building reliable data systems end-to-end.</h2>
+        <p class="muted">
+          ETL • Data Modeling • SQL • Python • Airflow • Spark • AWS • Power BI
+        </p>
       </div>
-      <div class="panel">
-        <h2 style="margin-top:0">Brand Focus</h2>
-        <ul style="margin:8px 0 0 18px;line-height:1.6">
-          <li>Accessible UI and semantic HTML</li>
-          <li>Responsive, component-based CSS (Flexbox/Grid)</li>
-          <li>Performance: minimal JS, lazy loading, Lighthouse goals</li>
-          <li>Quality: clear state management and basic testing</li>
-        </ul>
+      <div class="controls">
+        <label>
+          <span>Category</span>
+          <select id="category">
+            <option value="all">All</option>
+            <option value="data-eng">Data Engineering</option>
+            <option value="analytics">Analytics / BI</option>
+            <option value="backend">Backend</option>
+            <option value="ai-ml">AI / ML</option>
+            <option value="frontend">Frontend</option>
+          </select>
+        </label>
+        <label>
+          <span>Sort</span>
+          <select id="sort">
+            <option value="updated">Recently Updated</option>
+            <option value="stars">Stars</option>
+            <option value="name">A–Z</option>
+          </select>
+        </label>
+        <input id="search" class="search" type="search" placeholder="Search projects…" />
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Projects (auto-populated from GitHub) -->
-    <section id="projects">
-      <h2>Projects</h2>
-      <p class="section-sub">Public repositories pulled live from <strong>@YSayaovong</strong>. Forks and archived repos are hidden.</p>
-
-      <div id="projectsGrid" class="grid" aria-live="polite" aria-busy="true">
-        <!-- Skeleton placeholders while loading -->
-        <article class="card skeleton" aria-hidden="true" style="height:170px"></article>
-        <article class="card skeleton" aria-hidden="true" style="height:170px"></article>
-        <article class="card skeleton" aria-hidden="true" style="height:170px"></article>
+  <!-- Tech Stack chips -->
+  <section class="stack">
+    <div class="wrap">
+      <h3>Tech Stack</h3>
+      <div class="chips" id="tech-badges">
+        <span>Python</span><span>SQL</span><span>PostgreSQL</span><span>Airflow</span>
+        <span>Spark</span><span>AWS</span><span>Docker</span><span>GitHub Actions</span>
+        <span>Power BI</span><span>Linux</span>
       </div>
+    </div>
+  </section>
 
-      <div class="center" style="margin-top:16px;">
-        <button id="loadMore" class="btn" style="display:none">Load more</button>
-      </div>
+  <!-- Projects grid -->
+  <main class="wrap" id="projects-section">
+    <h3 id="projects">Projects</h3>
+    <div id="projects-grid" class="grid"></div>
+    <div id="empty" class="empty muted" hidden>No projects match your filters.</div>
+  </main>
 
-      <!-- Fallback (shown only if API fails) -->
-      <template id="fallbackProjects">
+  <!-- Stats cards -->
+  <section class="stats" id="stats">
+    <div class="wrap">
+      <h3>GitHub Stats</h3>
+      <div class="cards">
         <article class="card">
-          <h3><a href="https://github.com/YSayaovong/E-Commerce-Book-Store" target="_blank" rel="noopener">E-Commerce-Book-Store</a></h3>
-          <p>Frontend-first store with product views and cart flows; showcases component design and UI state.</p>
-          <div class="tags"><span class="tag">Frontend</span><span class="tag">React</span></div>
+          <h4>Most Used Languages</h4>
+          <div id="lang-bars" class="lang-bars"></div>
+          <p id="lang-note" class="muted small"></p>
         </article>
         <article class="card">
-          <h3><a href="https://github.com/YSayaovong/Treact" target="_blank" rel="noopener">Treact</a></h3>
-          <p>Responsive landing pages and UI patterns in React; typography, spacing, and layout practice.</p>
-          <div class="tags"><span class="tag">Frontend</span><span class="tag">React</span></div>
+          <h4>Top Repositories</h4>
+          <ul id="top-repos" class="list"></ul>
+          <p class="muted small">Public repos sorted by stars.</p>
         </article>
-        <article class="card">
-          <h3><a href="https://github.com/YSayaovong/Financial-ETL-Datalake-Pipeline" target="_blank" rel="noopener">Financial-ETL-Datalake-Pipeline</a></h3>
-          <p>End-to-end ETL pipeline with data-lake patterns and reporting outputs.</p>
-          <div class="tags"><span class="tag">Data Engineering</span><span class="tag">Python</span><span class="tag">SQL</span></div>
-        </article>
-      </template>
-    </section>
-
-    <section id="about" class="about">
-      <div class="panel">
-        <h2>About</h2>
-        <p>I’m <strong>Yengkong Sayaovong</strong>, currently focused on <strong>Frontend Engineering</strong>. I build clean, performant interfaces with modern web standards and pragmatic React patterns.</p>
       </div>
-      <div class="panel">
-        <h2>Tools</h2>
-        <p class="section-sub">Primary frontend stack:</p>
-        <ul style="margin:8px 0 0 18px;line-height:1.6">
-          <li>HTML5, CSS3 (Flexbox/Grid), Accessibility</li>
-          <li>JavaScript (ES6+), React</li>
-          <li>Vite / simple static builds, GitHub Pages</li>
-          <li>Basic testing (Playwright/Jest as applicable)</li>
-        </ul>
-      </div>
-    </section>
+    </div>
+  </section>
 
-    <section id="resume">
-      <div class="panel">
-        <h2>Résumé</h2>
-        <p class="section-sub">Open the PDF on GitHub in a new tab.</p>
-        <p><a class="btn" href="https://github.com/YSayaovong/YSayaovong/blob/main/resume/Yengkong.Sayaovong.Resume.pdf" target="_blank" rel="noopener noreferrer">Open Résumé in New Tab</a></p>
-      </div>
-    </section>
+  <footer class="footer">
+    <div class="wrap">
+      <p class="muted small">Auto-populated via GitHub API • Last refreshed <span id="refreshed">now</span></p>
+    </div>
+  </footer>
 
-    <section id="contact">
-      <div class="panel">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:ysayaovong@gmail.com">ysayaovong@gmail.com</a> · GitHub: <a href="https://github.com/YSayaovong" target="_blank" rel="noopener">@YSayaovong</a></p>
-      </div>
-    </section>
-
-    <footer>
-      <div>© <span id="year"></span> Yengkong Sayaovong</div>
-    </footer>
-  </div>
-
-  <script>
-    // Footer year
-    document.getElementById('year').textContent = new Date().getFullYear();
-
-    // -------- Dynamic GitHub Projects --------
-    (async function initProjects() {
-      const USER = 'YSayaovong';
-      const PER_PAGE = 100;          // fetch up to 100 public repos
-      const PAGE_SIZE_UI = 9;        // initial render count, then "Load more"
-      const grid = document.getElementById('projectsGrid');
-      const loadMoreBtn = document.getElementById('loadMore');
-      let all = [];
-      let rendered = 0;
-
-      // Utility: create element with classes
-      const el = (tag, cls) => {
-        const e = document.createElement(tag);
-        if (cls) e.className = cls;
-        return e;
-      };
-
-      // Heuristic tags based on language/name/description
-      function inferTags(repo) {
-        const tags = new Set();
-        const lang = (repo.language || '').toLowerCase();
-        const txt = ((repo.name || '') + ' ' + (repo.description || '')).toLowerCase();
-
-        if (['javascript','typescript','html','css'].includes(lang)) tags.add('Frontend');
-        if (txt.includes('react')) tags.add('React');
-        if (txt.includes('streamlit')) tags.add('Streamlit');
-        if (['python'].includes(lang)) tags.add('Python');
-        if (['java','c#','go','rust'].includes(lang)) tags.add(lang.toUpperCase());
-        if (txt.includes('etl') || txt.includes('pipeline') || txt.includes('datalake')) tags.add('Data Eng');
-        if (txt.includes('scrap')) tags.add('Web Scraping');
-        if (txt.includes('sql') || txt.includes('postgres') || txt.includes('mysql')) tags.add('SQL');
-        if (repo.homepage) tags.add('Live Demo');
-        return Array.from(tags).slice(0, 3);
-      }
-
-      // Render one repo -> card
-      function renderCard(repo) {
-        const card = el('article', 'card');
-        const h3 = el('h3');
-        const a = el('a');
-        a.href = repo.html_url;
-        a.target = '_blank';
-        a.rel = 'noopener';
-        a.textContent = repo.name;
-        h3.appendChild(a);
-
-        const p = document.createElement('p');
-        p.textContent = repo.description || 'No description provided.';
-
-        const meta = el('div', 'meta');
-        const lang = repo.language ? `● ${repo.language}` : null;
-        const stars = `★ ${repo.stargazers_count}`;
-        const upd = `Updated ${new Date(repo.updated_at).toLocaleDateString()}`;
-        [lang, stars, upd].filter(Boolean).forEach(m => {
-          const span = document.createElement('span');
-          span.textContent = m;
-          meta.appendChild(span);
-        });
-
-        const tagsWrap = el('div', 'tags');
-        const tags = inferTags(repo);
-        tags.forEach(t => {
-          const tag = el('span', 'tag');
-          tag.textContent = t;
-          tagsWrap.appendChild(tag);
-        });
-
-        // Optional live demo button (repo.homepage field)
-        if (repo.homepage) {
-          const demo = el('a', 'btn');
-          demo.style.marginTop = '6px';
-          demo.href = repo.homepage;
-          demo.target = '_blank';
-          demo.rel = 'noopener';
-          demo.textContent = 'Open Live Demo';
-          card.append(h3, p, meta, tagsWrap, demo);
-        } else {
-          card.append(h3, p, meta, tagsWrap);
-        }
-
-        grid.appendChild(card);
-      }
-
-      function renderNext(batch = PAGE_SIZE_UI) {
-        const slice = all.slice(rendered, rendered + batch);
-        slice.forEach(renderCard);
-        rendered += slice.length;
-        loadMoreBtn.style.display = rendered < all.length ? 'inline-flex' : 'none';
-        grid.setAttribute('aria-busy', 'false');
-      }
-
-      function showFallback() {
-        grid.innerHTML = '';
-        const tpl = document.getElementById('fallbackProjects');
-        if (!tpl) return;
-        grid.append(...tpl.content.cloneNode(true).children);
-        grid.setAttribute('aria-busy', 'false');
-      }
-
-      try {
-        // Remove skeletons
-        grid.innerHTML = '';
-
-        // Fetch PUBLIC repos only (users/:user/repos returns only public for that user)
-        const resp = await fetch(`https://api.github.com/users/${USER}/repos?per_page=${PER_PAGE}&sort=updated`, {
-          headers: {
-            // Accept default v3; no auth so CORS-safe. Topics require a special header; we skip.
-            'Accept': 'application/vnd.github.v3+json'
-          }
-        });
-
-        if (!resp.ok) throw new Error('GitHub API error: ' + resp.status);
-
-        const repos = await resp.json();
-
-        // Filter: public only (API already returns public), exclude forks & archived by default
-        all = repos
-          .filter(r => !r.fork && !r.archived)
-          // Optional: surface frontend first using a light ranking
-          .sort((a, b) => {
-            const rank = (r) => {
-              const L = (r.language || '').toLowerCase();
-              const T = ((r.name || '') + ' ' + (r.description || '')).toLowerCase();
-              let score = 0;
-              if (['javascript','typescript','html','css'].includes(L)) score += 3;
-              if (T.includes('react')) score += 2;
-              if (T.includes('vite')) score += 1;
-              // recency secondary
-              return score * 1000000000 + new Date(r.updated_at).getTime();
-            };
-            return rank(b) - rank(a);
-          });
-
-        if (!all.length) {
-          showFallback();
-          return;
-        }
-
-        renderNext();
-
-        loadMoreBtn.addEventListener('click', () => renderNext(PAGE_SIZE_UI));
-
-      } catch (e) {
-        console.warn(e);
-        showFallback();
-      }
-    })();
-  </script>
+  <script src="script.js" defer></script>
 </body>
 </html>
