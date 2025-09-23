@@ -29,29 +29,20 @@ I design robust data pipelines and analytics systems end-to-end—ingesting, mod
 </p>
 
 <p>
-  <a href="https://github.com/YSayaovong/church_website">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YSayaovong&repo=church_website&theme=transparent" />
-  </a>
-  <a href="https://github.com/YSayaovong/Python-Creature-Simulation">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YSayaovong&repo=Python-Creature-Simulation&theme=transparent" />
-  </a>
-</p>
-
-<p>
-  <a href="https://github.com/YSayaovong/Treact">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YSayaovong&repo=Treact&theme=transparent" />
-  </a>
   <a href="https://github.com/YSayaovong/Financial-ETL-Datalake-Pipeline">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=YSayaovong&repo=Financial-ETL-Datalake-Pipeline&theme=transparent" />
   </a>
-</p>
-
-<p>
   <a href="https://github.com/YSayaovong/job-board-scraper">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=YSayaovong&repo=job-board-scraper&theme=transparent" />
   </a>
+</p>
+
+<p>
   <a href="https://github.com/YSayaovong/Real-Estate-Financial-Analytics-Tool">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=YSayaovong&repo=Real-Estate-Financial-Analytics-Tool&theme=transparent" />
+  </a>
+  <a href="https://github.com/YSayaovong/Finance-Dashboard-Data-Visualization">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YSayaovong&repo=Finance-Dashboard-Data-Visualization&theme=transparent" />
   </a>
 </p>
 
@@ -87,4 +78,3 @@ I design robust data pipelines and analytics systems end-to-end—ingesting, mod
 - **Portfolio (GitHub Pages):** <a href="https://ysayaovong.github.io/YSayaovong/#featured-section" target="_blank" rel="noopener">https://ysayaovong.github.io/YSayaovong/#featured-section</a>  
 
 <sub>Cards rely on public APIs and may occasionally rate-limit.</sub>
-
