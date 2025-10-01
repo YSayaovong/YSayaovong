@@ -20,20 +20,11 @@ I design robust data pipelines and analytics systems end-to-end—ingesting, mod
 
 ### Featured Projects
 <p>
-  <a href="https://github.com/YSayaovong/E-Commerce-Book-Store">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YSayaovong&repo=E-Commerce-Book-Store&theme=transparent" />
-  </a>
-  <a href="https://github.com/YSayaovong/AI-Chat-Bot">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YSayaovong&repo=AI-Chat-Bot&theme=transparent" />
-  </a>
-</p>
-
-<p>
   <a href="https://github.com/YSayaovong/Financial-ETL-Datalake-Pipeline">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=YSayaovong&repo=Financial-ETL-Datalake-Pipeline&theme=transparent" />
   </a>
-  <a href="https://github.com/YSayaovong/job-board-scraper">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YSayaovong&repo=job-board-scraper&theme=transparent" />
+  <a href="https://github.com/YSayaovong/Engineering-KPI-Dashboard-in-Excel">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YSayaovong&repo=Engineering-KPI-Dashboard-in-Excel&theme=transparent" />
   </a>
 </p>
 
@@ -45,6 +36,16 @@ I design robust data pipelines and analytics systems end-to-end—ingesting, mod
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=YSayaovong&repo=Finance-Dashboard-Data-Visualization&theme=transparent" />
   </a>
 </p>
+
+<p>
+  <a href="https://github.com/YSayaovong/HFBC_API">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YSayaovong&repo=HFBC_API&theme=transparent" />
+  </a>
+  <a href="https://github.com/YSayaovong/HFBC_Praise_Worship">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YSayaovong&repo=HFBC_Praise_Worship&theme=transparent" />
+  </a>
+</p>
+
 
 ---
 
