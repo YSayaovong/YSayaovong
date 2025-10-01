@@ -37,14 +37,6 @@ I design robust data pipelines and analytics systems end-to-end—ingesting, mod
   </a>
 </p>
 
-<p>
-  <a href="https://github.com/YSayaovong/HFBC_API">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YSayaovong&repo=HFBC_API&theme=transparent" />
-  </a>
-  <a href="https://github.com/YSayaovong/HFBC_Praise_Worship">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YSayaovong&repo=HFBC_Praise_Worship&theme=transparent" />
-  </a>
-</p>
 
 
 ---
