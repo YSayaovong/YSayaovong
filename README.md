@@ -20,15 +20,6 @@ I analyze data end-to-end—cleaning, modeling, and visualizing datasets to driv
 
 ### Featured Projects
 <p>
-  <a href="https://github.com/YSayaovong/Financial-ETL-Datalake-Pipeline">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YSayaovong&repo=Financial-ETL-Datalake-Pipeline&theme=transparent" />
-  </a>
-  <a href="https://github.com/YSayaovong/Engineering-KPI-Dashboard-in-Excel">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YSayaovong&repo=Engineering-KPI-Dashboard-in-Excel&theme=transparent" />
-  </a>
-</p>
-
-<p>
   <a href="https://github.com/YSayaovong/Real-Estate-Financial-Analytics-Tool">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=YSayaovong&repo=Real-Estate-Financial-Analytics-Tool&theme=transparent" />
   </a>
