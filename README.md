@@ -1,9 +1,9 @@
 <div align="center">
 
 # Yengkong Sayaovong  
-**Data Engineer**
+**Data Analyst**
 
-ETL • Data Modeling • SQL • Python • Airflow • Spark • AWS • Power BI
+ETL • Data Modeling • SQL • Python • Power BI • Excel • Sports Analytics
 
 [GitHub](https://github.com/YSayaovong) •
 [LinkedIn](https://www.linkedin.com/in/ysayaovong) •
@@ -14,7 +14,7 @@ ETL • Data Modeling • SQL • Python • Airflow • Spark • AWS • Power
 ---
 
 ### About
-I design robust data pipelines and analytics systems end-to-end—ingesting, modeling, and serving data for decision-makers. Current focus: Python + SQL on AWS with Airflow/Spark and dashboarding in Power BI.
+I analyze data end-to-end—cleaning, modeling, and visualizing datasets to drive actionable insights for business and sports decision-makers. My projects span finance, operations, and sports analytics, showcasing how SQL, Python, and dashboarding tools transform raw data into clear strategy.
 
 ---
 
@@ -32,12 +32,10 @@ I design robust data pipelines and analytics systems end-to-end—ingesting, mod
   <a href="https://github.com/YSayaovong/Real-Estate-Financial-Analytics-Tool">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=YSayaovong&repo=Real-Estate-Financial-Analytics-Tool&theme=transparent" />
   </a>
-  <a href="https://github.com/YSayaovong/Finance-Dashboard-Data-Visualization">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YSayaovong&repo=Finance-Dashboard-Data-Visualization&theme=transparent" />
+  <a href="https://github.com/YSayaovong/NBA-Game-Performance-Analytics">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YSayaovong&repo=NBA-Game-Performance-Analytics&theme=transparent" />
   </a>
 </p>
-
-
 
 ---
 
@@ -45,13 +43,11 @@ I design robust data pipelines and analytics systems end-to-end—ingesting, mod
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/SQL-025E8C?logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Airflow-017CEE?logo=apacheairflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/Apache%20Spark-E25A1C?logo=apachespark&logoColor=white" />
-  <img src="https://img.shields.io/badge/AWS-232F3E?logo=amazon-aws&logoColor=white" />
+  <img src="https://img.shields.io/badge/Excel-217346?logo=microsoft-excel&logoColor=white" />
   <img src="https://img.shields.io/badge/Power%20BI-F2C811?logo=powerbi&logoColor=000" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=githubactions&logoColor=white" />
+  <img src="https://img.shields.io/badge/Data%20Visualization-4E79A7?logo=tableau&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/Matplotlib-11557c?logo=python&logoColor=white" />
 </p>
 
 ---
@@ -70,4 +66,10 @@ I design robust data pipelines and analytics systems end-to-end—ingesting, mod
 ### Quick Links
 - **Portfolio (GitHub Pages):** <a href="https://ysayaovong.github.io/YSayaovong/#featured-section" target="_blank" rel="noopener">https://ysayaovong.github.io/YSayaovong/#featured-section</a>  
 
-<sub>Cards rely on public APIs and may occasionally rate-limit.</sub>
+---
+
+### How NBA Analytics Fits Your Data Analyst Story
+- **Data Cleaning:** Processed NBA box scores into structured analytics datasets.  
+- **Feature Engineering:** Built advanced metrics (TS%, eFG%, rolling averages, Game Score).  
+- **Visualization:** Created trend charts & dashboards to show player performance over time.  
+- **Business Value:** Demonstrated how sports data can be transformed into actionable insights for decision-makers—mirroring the work Data Analysts do in finance, ops, or marketing.  
