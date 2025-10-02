@@ -1,1 +1,147 @@
-/* CSS content omitted here for brevity in code block (use the CSS from previous message) */
+:root {
+  --bg: #f7f9fb;            /* light background */
+  --panel: #ffffff;          /* white panels */
+  --ink: #1a1a1a;            /* dark text */
+  --muted: #5f6c7b;          /* gray text */
+  --brand: #0b9444;          /* green (field/sports tone) */
+  --accent: #ffd600;         /* gold/yellow highlight */
+  --border: #d9e2ec;         /* light border */
+}
+
+* { box-sizing: border-box; }
+html, body {
+  margin: 0; padding: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: Inter, system-ui, Segoe UI, Roboto, Arial, sans-serif;
+}
+img { max-width: 100%; display: block; }
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* HEADER */
+.site-header {
+  background: linear-gradient(135deg, var(--brand) 0%, #0a6c32 100%);
+  color: white;
+}
+.nav {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 18px 0;
+}
+.brand { display: flex; gap: 12px; align-items: center; text-decoration: none; color: white; }
+.brand-mark {
+  width: 44px; height: 44px; border-radius: 12px;
+  display: grid; place-items: center;
+  background: white; color: var(--brand);
+  font-weight: 800;
+}
+.brand h1 { margin: 0; font-size: 18px; }
+.brand p { margin: 0; color: #e0ffe9; font-size: 12px; }
+
+.topnav a {
+  color: white; text-decoration: none;
+  margin-left: 16px; padding: 8px 10px; border-radius: 6px;
+}
+.topnav a:hover { background: rgba(255,255,255,0.15); }
+
+/* HERO */
+.hero { padding: 36px 0 42px; }
+.hero-copy h2 { font-size: 36px; margin: 0 0 8px; }
+.hero-copy p { color: #e6ffe6; max-width: 720px; margin: 0 0 18px; }
+.hero-actions { display: flex; gap: 12px; margin-bottom: 12px; }
+.btn {
+  background: var(--accent);
+  color: #1a1a1a;
+  text-decoration: none;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-weight: 700;
+}
+.btn-ghost {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+/* SECTION */
+.section { padding: 32px 0; }
+.section-head h3 { margin: 0 0 6px; color: var(--brand); }
+.section-head p { margin: 0 0 18px; color: var(--muted); }
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 16px;
+}
+@media (max-width:960px) { .grid { grid-template-columns: repeat(2,1fr); } }
+@media (max-width:640px) { .grid { grid-template-columns: 1fr; } }
+
+.card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+.card-header {
+  padding: 16px;
+  border-bottom: 1px solid var(--border);
+  background: #f1fdf6;
+}
+.card-header h4 { margin: 0 0 6px; color: var(--brand); }
+.sub { color: var(--muted); margin: 0; font-size: 13px; }
+.card-body { padding: 16px; }
+.card-body p { margin: 0; color: var(--ink); line-height: 1.5; }
+.card-footer {
+  padding: 12px 16px;
+  border-top: 1px solid var(--border);
+  display: flex; gap: 8px;
+}
+.action {
+  flex: 1;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid var(--border);
+  padding: 9px 10px;
+  border-radius: 8px;
+  color: var(--ink);
+}
+.action.primary {
+  background: var(--brand);
+  color: white;
+  border: none;
+}
+.action[disabled] {
+  opacity: .5; pointer-events: none;
+}
+
+/* ABOUT + CONTACT */
+.about-wrap { display: grid; gap: 18px; }
+.about-bullets { margin: 0; padding-left: 18px; color: var(--muted); }
+.about-bullets li { margin: 6px 0; }
+
+.contact-card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+}
+.contact-card a { color: var(--brand); text-decoration: none; }
+
+/* FOOTER */
+.site-footer {
+  border-top: 1px solid var(--border);
+  padding: 22px 0;
+  margin-top: 28px;
+  background: #f1fdf6;
+}
+.foot-wrap { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.foot-links a { color: var(--brand); text-decoration: none; margin-left: 12px; }
+.foot-links a:hover { text-decoration: underline; }
