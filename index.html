@@ -1,118 +1,137 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Yengkong Sayaovong — Data Engineer</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Yengkong Sayaovong • Sports Data Analyst</title>
+  <meta name="description" content="Sports Data Analyst portfolio for Yengkong Sayaovong — scouting metrics, performance analytics, and BI dashboards.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
-  <meta name="color-scheme" content="light dark" />
 </head>
 <body>
-  <!-- Top Bar -->
-  <header class="topbar">
-    <div class="wrap">
+  <header class="site-header">
+    <nav class="nav container">
       <div class="brand">
-        <img id="avatar" class="avatar" alt="GitHub avatar" />
-        <div>
-          <h1 class="title">Yengkong Sayaovong</h1>
-          <p class="subtitle">Data Engineer</p>
+        <span class="badge">YS</span>
+        <span class="brand-text">Yengkong Sayaovong</span>
+      </div>
+      <div class="links">
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+        <a class="resume" href="Yengkong.Sayaovong.Resume.pdf" target="_blank" rel="noopener">Resume</a>
+      </div>
+    </nav>
+    <section class="hero container">
+      <div class="hero-copy">
+        <h1>Sports Data Analyst</h1>
+        <p class="tagline">Turning <strong>game data</strong> into <strong>scouting insights</strong>, forecasts, and dashboards that give teams a competitive edge.</p>
+        <p class="subtag">Currently taking <strong>Football GM &amp; Scouting</strong> at SMWW • ZTM Data Analyst Bootcamp (completed) • 5+ years Mechanical Design</p>
+        <div class="cta-row">
+          <a class="btn primary" href="#projects">See Projects</a>
+          <a class="btn ghost" href="https://www.linkedin.com/in/ysayaovong" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn ghost" href="https://github.com/YSayaovong" target="_blank" rel="noopener">GitHub</a>
         </div>
       </div>
-      <nav class="links">
-        <a href="#featured-section">Featured</a>
-        <a href="#projects">Projects</a>
-        <a href="#stats">GitHub Stats</a>
-        <a href="https://github.com/YSayaovong" target="_blank" rel="noopener">GitHub</a>
-        <a href="https://www.linkedin.com/in/ysayaovong" target="_blank" rel="noopener">LinkedIn</a>
-        <a href="https://youtube.com/@cloudcodemaestro" target="_blank" rel="noopener">YouTube</a>
-      </nav>
-    </div>
+      <div class="hero-card">
+        <div class="hero-metrics">
+          <div>
+            <span class="metric">TS%</span>
+            <span class="metric-sub">eFG%</span>
+          </div>
+          <div>
+            <span class="metric">Game Score</span>
+            <span class="metric-sub">+/- Trends</span>
+          </div>
+          <div>
+            <span class="metric">Contract ROI</span>
+            <span class="metric-sub">Cap Hits</span>
+          </div>
+        </div>
+      </div>
+    </section>
   </header>
 
-  <!-- Hero / Controls -->
-  <section class="hero">
-    <div class="wrap">
-      <div class="hero-text">
-        <h2>Building reliable data systems end-to-end.</h2>
-        <p class="muted">
-          ETL • Data Modeling • SQL • Python • Airflow • Spark • AWS • Power BI
-        </p>
-      </div>
-      <div class="controls">
-        <label>
-          <span>Category</span>
-          <select id="category">
-            <option value="all">All</option>
-            <option value="data-eng">Data Engineering</option>
-            <option value="analytics">Analytics / BI</option>
-            <option value="backend">Backend</option>
-            <option value="ai-ml">AI / ML</option>
-            <option value="frontend">Frontend</option>
-          </select>
-        </label>
-        <label>
-          <span>Sort</span>
-          <select id="sort">
-            <option value="updated">Recently Updated</option>
-            <option value="stars">Stars</option>
-            <option value="name">A–Z</option>
-          </select>
-        </label>
-        <input id="search" class="search" type="search" placeholder="Search projects…" />
-      </div>
-    </div>
-  </section>
+  <main>
+    <section class="skills container" id="skills">
+      <h2>Core Skills</h2>
+      <ul class="skillchips">
+        <li>Python (pandas, matplotlib)</li>
+        <li>SQL</li>
+        <li>Data Modeling</li>
+        <li>ETL</li>
+        <li>Power BI &amp; Excel</li>
+        <li>Sports Analytics &amp; Scouting</li>
+      </ul>
+    </section>
 
-  <!-- Tech Stack chips -->
-  <section class="stack">
-    <div class="wrap">
-      <h3>Tech Stack</h3>
-      <div class="chips" id="tech-badges">
-        <span>Python</span><span>SQL</span><span>PostgreSQL</span><span>Airflow</span>
-        <span>Spark</span><span>AWS</span><span>Docker</span><span>GitHub Actions</span>
-        <span>Power BI</span><span>Linux</span>
+    <section class="projects container" id="projects">
+      <div class="section-head">
+        <h2>Featured Projects</h2>
+        <p class="section-sub">Data cleaning → feature engineering → visualization → decision support.</p>
       </div>
-    </div>
-  </section>
+      <div id="project-grid" class="grid"></div>
+    </section>
 
-  <!-- Featured Projects -->
-  <section class="wrap" id="featured-section">
-    <h3>Featured Projects</h3>
-    <div id="featured-grid" class="grid"></div>
-  </section>
+    <section class="experience container" id="experience">
+      <h2>Experience Highlights</h2>
+      <div class="timeline">
+        <article class="card">
+          <h3>Sports Analytics Projects • Independent</h3>
+          <p class="meta">2024–Present • Phoenix, AZ</p>
+          <ul>
+            <li>Built NBA game analytics pipeline to compute TS%, eFG%, Game Score, and rolling trends; automated top-player tables and player trend visuals.</li>
+            <li>Developed dashboards for worship/operations and real estate KPIs—demonstrating cross-domain BI that carries over to team operations.</li>
+          </ul>
+        </article>
 
-  <!-- Projects grid -->
-  <main class="wrap" id="projects-section">
-    <h3 id="projects">Projects</h3>
-    <div id="projects-grid" class="grid"></div>
-    <div id="empty" class="empty muted" hidden>No projects match your filters.</div>
+        <article class="card">
+          <h3>Mechanical Designer</h3>
+          <p class="meta">5+ years</p>
+          <ul>
+            <li>Applied data-driven problem solving to improve product and process quality; collaborated with cross‑functional stakeholders and delivered on deadlines.</li>
+            <li>Transferred analytical rigor and documentation discipline to sports data workflows (source control, testing, reproducibility).</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="education container" id="education">
+      <h2>Education & Training</h2>
+      <div class="edu-grid">
+        <div class="edu-card">
+          <h3>Sports Management Worldwide (SMWW)</h3>
+          <p class="meta">Football GM &amp; Scouting — <em>In Progress</em></p>
+          <p>Film-based evaluation, roster building, cap strategy, and report portfolio reviewed by veteran scouts.</p>
+        </div>
+        <div class="edu-card">
+          <h3>Zero To Mastery (ZTM)</h3>
+          <p class="meta">Data Analyst Bootcamp — <em>Completed</em></p>
+          <p>SQL, Python, visualization, and case-study analytics projects.</p>
+        </div>
+        <div class="edu-card">
+          <h3>Arizona State University (ASU)</h3>
+          <p class="meta">Ongoing Studies</p>
+          <p>Foundation in engineering and analytics; focus on applying quantitative methods to real problems.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact container" id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:ysayaovong@gmail.com">ysayaovong@gmail.com</a></p>
+      <p>Open to sports analytics, scouting analytics, and football operations analyst roles.</p>
+    </section>
   </main>
 
-  <!-- Stats cards -->
-  <section class="stats" id="stats">
-    <div class="wrap">
-      <h3>GitHub Stats</h3>
-      <div class="cards">
-        <article class="card">
-          <h4>Most Used Languages</h4>
-          <div id="lang-bars" class="lang-bars"></div>
-          <p id="lang-note" class="muted small"></p>
-        </article>
-        <article class="card">
-          <h4>Top Repositories</h4>
-          <ul id="top-repos" class="list"></ul>
-          <p class="muted small">Public repos sorted by stars.</p>
-        </article>
-      </div>
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Yengkong Sayaovong — Sports Data Analyst</p>
     </div>
-  </section>
-
-  <footer class="footer">
-    <div class="wrap">
-      <p class="muted small">Auto-populated via GitHub API • Last refreshed <span id="refreshed">now</span></p>
-    </div>
+    <script src="script.js"></script>
   </footer>
-
-  <script src="script.js" defer></script>
 </body>
 </html>
