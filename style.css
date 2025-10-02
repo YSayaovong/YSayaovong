@@ -1,11 +1,11 @@
 :root {
-  --bg: #f7f9fb;            /* light background */
-  --panel: #ffffff;          /* white panels */
-  --ink: #1a1a1a;            /* dark text */
-  --muted: #5f6c7b;          /* gray text */
-  --brand: #0b9444;          /* green (field/sports tone) */
-  --accent: #ffd600;         /* gold/yellow highlight */
-  --border: #d9e2ec;         /* light border */
+  --bg: #faf9f7;            /* light background */
+  --panel: #ffffff;          /* card background */
+  --ink: #1a1a1a;            /* text color */
+  --muted: #555555;          /* muted text */
+  --brand: #aa0000;          /* 49ers scarlet */
+  --accent: #b3995d;         /* 49ers gold */
+  --border: #e0dcd7;         /* light gray border */
 }
 
 * { box-sizing: border-box; }
@@ -25,8 +25,9 @@ img { max-width: 100%; display: block; }
 
 /* HEADER */
 .site-header {
-  background: linear-gradient(135deg, var(--brand) 0%, #0a6c32 100%);
+  background: linear-gradient(135deg, var(--brand) 0%, #7a0000 100%);
   color: white;
+  border-bottom: 2px solid var(--accent);
 }
 .nav {
   display: flex; align-items: center; justify-content: space-between;
@@ -36,11 +37,11 @@ img { max-width: 100%; display: block; }
 .brand-mark {
   width: 44px; height: 44px; border-radius: 12px;
   display: grid; place-items: center;
-  background: white; color: var(--brand);
+  background: var(--accent); color: white;
   font-weight: 800;
 }
 .brand h1 { margin: 0; font-size: 18px; }
-.brand p { margin: 0; color: #e0ffe9; font-size: 12px; }
+.brand p { margin: 0; color: #ffe9bf; font-size: 12px; }
 
 .topnav a {
   color: white; text-decoration: none;
@@ -51,11 +52,11 @@ img { max-width: 100%; display: block; }
 /* HERO */
 .hero { padding: 36px 0 42px; }
 .hero-copy h2 { font-size: 36px; margin: 0 0 8px; }
-.hero-copy p { color: #e6ffe6; max-width: 720px; margin: 0 0 18px; }
+.hero-copy p { color: #ffefe0; max-width: 720px; margin: 0 0 18px; }
 .hero-actions { display: flex; gap: 12px; margin-bottom: 12px; }
 .btn {
   background: var(--accent);
-  color: #1a1a1a;
+  color: white;
   text-decoration: none;
   padding: 10px 14px;
   border-radius: 8px;
@@ -93,12 +94,13 @@ img { max-width: 100%; display: block; }
 .card-header {
   padding: 16px;
   border-bottom: 1px solid var(--border);
-  background: #f1fdf6;
+  background: #fff4f4; /* subtle scarlet tint */
 }
 .card-header h4 { margin: 0 0 6px; color: var(--brand); }
 .sub { color: var(--muted); margin: 0; font-size: 13px; }
 .card-body { padding: 16px; }
 .card-body p { margin: 0; color: var(--ink); line-height: 1.5; }
+
 .card-footer {
   padding: 12px 16px;
   border-top: 1px solid var(--border);
@@ -112,15 +114,15 @@ img { max-width: 100%; display: block; }
   padding: 9px 10px;
   border-radius: 8px;
   color: var(--ink);
+  transition: transform .05s ease-in-out;
 }
 .action.primary {
   background: var(--brand);
   color: white;
   border: none;
 }
-.action[disabled] {
-  opacity: .5; pointer-events: none;
-}
+.action:hover { transform: translateY(-1px); }
+.action[disabled] { opacity: .5; pointer-events: none; }
 
 /* ABOUT + CONTACT */
 .about-wrap { display: grid; gap: 18px; }
@@ -137,11 +139,25 @@ img { max-width: 100%; display: block; }
 
 /* FOOTER */
 .site-footer {
-  border-top: 1px solid var(--border);
+  border-top: 2px solid var(--brand);
   padding: 22px 0;
   margin-top: 28px;
-  background: #f1fdf6;
+  background: #fff8f0; /* soft gold tint */
 }
 .foot-wrap { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
 .foot-links a { color: var(--brand); text-decoration: none; margin-left: 12px; }
 .foot-links a:hover { text-decoration: underline; }
+
+/* Small skill chips (hero) */
+.skills {
+  display: flex; gap: 8px; flex-wrap: wrap;
+  padding: 0; margin: 8px 0 0; list-style: none;
+}
+.skills li {
+  background: #fff0e3;
+  border: 1px solid var(--border);
+  color: var(--ink);
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+}
