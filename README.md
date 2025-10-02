@@ -65,11 +65,3 @@ I analyze data end-to-end—cleaning, modeling, and visualizing datasets to driv
 
 ### Quick Links
 - **Portfolio (GitHub Pages):** <a href="https://ysayaovong.github.io/YSayaovong/#featured-section" target="_blank" rel="noopener">https://ysayaovong.github.io/YSayaovong/#featured-section</a>  
-
----
-
-### How NBA Analytics Fits Your Data Analyst Story
-- **Data Cleaning:** Processed NBA box scores into structured analytics datasets.  
-- **Feature Engineering:** Built advanced metrics (TS%, eFG%, rolling averages, Game Score).  
-- **Visualization:** Created trend charts & dashboards to show player performance over time.  
-- **Business Value:** Demonstrated how sports data can be transformed into actionable insights for decision-makers—mirroring the work Data Analysts do in finance, ops, or marketing.  
