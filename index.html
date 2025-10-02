@@ -4,58 +4,62 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Yengkong Sayaovong • Sports Data Analyst</title>
-  <meta name="description" content="Sports Data Analyst portfolio for Yengkong Sayaovong — scouting metrics, performance analytics, and BI dashboards.">
+  <meta name="description" content="Sports Data Analyst portfolio — scouting metrics, performance analytics, BI dashboards.">
+  <meta property="og:title" content="Yengkong Sayaovong • Sports Data Analyst">
+  <meta property="og:description" content="Turning game data into scouting insights, forecasts, and dashboards.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#0A0F1F">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Orbitron:wght@600;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="site-header">
-    <nav class="nav container">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" role="banner">
+    <nav class="nav container" aria-label="Main">
+      <button class="menu-btn" aria-label="Toggle menu" aria-expanded="false">☰</button>
       <div class="brand">
-        <span class="badge">YS</span>
+        <span class="badge" aria-hidden="true">YS</span>
         <span class="brand-text">Yengkong Sayaovong</span>
       </div>
-      <div class="links">
-        <a href="#projects">Projects</a>
-        <a href="#experience">Experience</a>
-        <a href="#education">Education</a>
-        <a href="#contact">Contact</a>
-        <a class="resume" href="Yengkong.Sayaovong.Resume.pdf" target="_blank" rel="noopener">Resume</a>
-      </div>
+      <ul class="links" role="menubar">
+        <li role="none"><a role="menuitem" href="#projects">Projects</a></li>
+        <li role="none"><a role="menuitem" href="#experience">Experience</a></li>
+        <li role="none"><a role="menuitem" href="#education">Education</a></li>
+        <li role="none"><a role="menuitem" href="#contact">Contact</a></li>
+        
+      </ul>
     </nav>
     <section class="hero container">
       <div class="hero-copy">
-        <h1>Sports Data Analyst</h1>
+        <h1><span class="outline">Sports</span> Data Analyst</h1>
         <p class="tagline">Turning <strong>game data</strong> into <strong>scouting insights</strong>, forecasts, and dashboards that give teams a competitive edge.</p>
-        <p class="subtag">Currently taking <strong>Football GM &amp; Scouting</strong> at SMWW • ZTM Data Analyst Bootcamp (completed) • 5+ years Mechanical Design</p>
+        <p class="subtag">Football GM &amp; Scouting (SMWW) — <em>In Progress</em> • ZTM Data Analyst Bootcamp — <em>Completed</em> • 5+ years Mechanical Design</p>
         <div class="cta-row">
           <a class="btn primary" href="#projects">See Projects</a>
           <a class="btn ghost" href="https://www.linkedin.com/in/ysayaovong" target="_blank" rel="noopener">LinkedIn</a>
           <a class="btn ghost" href="https://github.com/YSayaovong" target="_blank" rel="noopener">GitHub</a>
         </div>
       </div>
-      <div class="hero-card">
+      <div class="hero-card" aria-hidden="true">
+        <svg class="court" viewBox="0 0 300 200" role="img" aria-label="Basketball court motif">
+          <rect x="2" y="2" width="296" height="196" rx="14" class="court-rect"/>
+          <line x1="150" y1="2" x2="150" y2="198" class="court-line"/>
+          <circle cx="150" cy="100" r="18" class="court-circle"/>
+          <rect x="2" y="50" width="60" height="100" class="court-key"/>
+          <rect x="238" y="50" width="60" height="100" class="court-key"/>
+        </svg>
         <div class="hero-metrics">
-          <div>
-            <span class="metric">TS%</span>
-            <span class="metric-sub">eFG%</span>
-          </div>
-          <div>
-            <span class="metric">Game Score</span>
-            <span class="metric-sub">+/- Trends</span>
-          </div>
-          <div>
-            <span class="metric">Contract ROI</span>
-            <span class="metric-sub">Cap Hits</span>
-          </div>
+          <div><span class="metric">TS%</span><span class="metric-sub">eFG%</span></div>
+          <div><span class="metric">Game Score</span><span class="metric-sub">+/- Trends</span></div>
+          <div><span class="metric">Contract ROI</span><span class="metric-sub">Cap Hits</span></div>
         </div>
       </div>
     </section>
   </header>
 
-  <main>
+  <main id="main">
     <section class="skills container" id="skills">
       <h2>Core Skills</h2>
       <ul class="skillchips">
@@ -73,22 +77,22 @@
         <h2>Featured Projects</h2>
         <p class="section-sub">Data cleaning → feature engineering → visualization → decision support.</p>
       </div>
-      <div id="project-grid" class="grid"></div>
+      <div id="project-grid" class="grid" aria-live="polite"></div>
     </section>
 
     <section class="experience container" id="experience">
       <h2>Experience Highlights</h2>
       <div class="timeline">
-        <article class="card">
+        <article class="card reveal">
           <h3>Sports Analytics Projects • Independent</h3>
           <p class="meta">2024–Present • Phoenix, AZ</p>
           <ul>
             <li>Built NBA game analytics pipeline to compute TS%, eFG%, Game Score, and rolling trends; automated top-player tables and player trend visuals.</li>
-            <li>Developed dashboards for worship/operations and real estate KPIs—demonstrating cross-domain BI that carries over to team operations.</li>
+            <li>Developed dashboards for worship/operations and real estate KPIs—demonstrating cross-domain BI relevant to team operations.</li>
           </ul>
         </article>
 
-        <article class="card">
+        <article class="card reveal">
           <h3>Mechanical Designer</h3>
           <p class="meta">5+ years</p>
           <ul>
@@ -102,20 +106,20 @@
     <section class="education container" id="education">
       <h2>Education & Training</h2>
       <div class="edu-grid">
-        <div class="edu-card">
+        <div class="edu-card reveal">
           <h3>Sports Management Worldwide (SMWW)</h3>
           <p class="meta">Football GM &amp; Scouting — <em>In Progress</em></p>
-          <p>Film-based evaluation, roster building, cap strategy, and report portfolio reviewed by veteran scouts.</p>
+          <p>Film evaluation, roster building, cap strategy, and report portfolio reviewed by veteran scouts.</p>
         </div>
-        <div class="edu-card">
+        <div class="edu-card reveal">
           <h3>Zero To Mastery (ZTM)</h3>
           <p class="meta">Data Analyst Bootcamp — <em>Completed</em></p>
           <p>SQL, Python, visualization, and case-study analytics projects.</p>
         </div>
-        <div class="edu-card">
+        <div class="edu-card reveal">
           <h3>Arizona State University (ASU)</h3>
           <p class="meta">Ongoing Studies</p>
-          <p>Foundation in engineering and analytics; focus on applying quantitative methods to real problems.</p>
+          <p>Engineering foundation with focus on quantitative problem solving.</p>
         </div>
       </div>
     </section>
