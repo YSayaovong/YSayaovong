@@ -1,86 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Wayengkong — Sports Analytics Portfolio</title>
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Wayengkong Sayaovong — Sports & Analytics Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header class="site-header">
     <div class="container nav">
-      <div class="brand">
+      <a class="brand" href="#">
         <span class="brand-mark">WS</span>
-        <div class="brand-copy">
+        <div>
           <h1>Wayengkong Sayaovong</h1>
-          <p>Sports Analytics & Portfolio</p>
+          <p>Sports Analytics · Data Visualization · SQL</p>
         </div>
-      </div>
+      </a>
       <nav class="topnav">
-        <a href="#analyst">Data Analyst</a>
-        <a href="#engineer">Data Engineer</a>
-        <a href="#scout">Scout / GM</a>
-        <a id="resumeLink" target="_blank" rel="noopener">Resume</a>
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
         <a id="linkedinLink" target="_blank" rel="noopener">LinkedIn</a>
       </nav>
     </div>
+
     <div class="container hero">
-      <h2>Sports Portfolio</h2>
-      <p>
-        End-to-end projects demonstrating SQL, Python, dashboards, ETL pipelines,
-        and decision support for NFL, NBA, and MLB use cases.
-      </p>
-      <div class="hero-actions">
-        <a href="#analyst" class="btn">View Projects</a>
-        <a href="https://github.com/YSayaovong" class="btn btn-ghost" target="_blank" rel="noopener">GitHub Profile</a>
+      <div class="hero-copy">
+        <h2>Sports & Data Analytics Portfolio</h2>
+        <p>
+          I design actionable dashboards and analytics that tie performance to outcomes—
+          from worship team KPIs to NBA game analysis and real estate financials.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn">View Projects</a>
+          <a href="mailto:ysayaovong@gmail.com" class="btn btn-ghost">Email Me</a>
+        </div>
+        <ul class="skills">
+          <li>SQL</li><li>Python</li><li>Excel</li><li>Power BI</li><li>PostgreSQL</li>
+        </ul>
       </div>
     </div>
   </header>
 
-  <main class="container">
-    <!-- Filters -->
-    <section class="filters">
-      <input id="searchInput" type="search" placeholder="Search projects, tools, or leagues…" />
-      <div class="chips" id="chipBar">
-        <!-- chips populated by JS -->
+  <main>
+    <section id="projects" class="container section">
+      <div class="section-head">
+        <h3>Featured Projects</h3>
+        <p>Focused, outcome-driven case studies with code and (where available) live demos.</p>
+      </div>
+      <div id="projectGrid" class="grid"></div>
+    </section>
+
+    <section id="about" class="container section">
+      <div class="section-head">
+        <h3>About</h3>
+      </div>
+      <div class="about-wrap">
+        <p>
+          I’m a data analyst who builds clean,
+          decision-ready dashboards and analytics. This portfolio highlights work in
+          sports and operations, with clear metrics and business context.
+        </p>
+        <ul class="about-bullets">
+          <li><strong>What I deliver:</strong> clear KPIs, reproducible SQL/Python, and concise narratives.</li>
+          <li><strong>Value focus:</strong> actionable insights (attendance, engagement, game metrics, ROI).</li>
+          <li><strong>Tooling:</strong> PostgreSQL, Python, Excel/Power BI, GitHub Pages.</li>
+        </ul>
       </div>
     </section>
 
-    <!-- Sections -->
-    <section id="analyst" class="section">
+    <section id="contact" class="container section">
       <div class="section-head">
-        <h3>Data Analyst Projects</h3>
-        <p>Dashboards, KPIs, and ROI analysis.</p>
+        <h3>Contact</h3>
       </div>
-      <div id="analystGrid" class="grid"></div>
-    </section>
-
-    <section id="engineer" class="section">
-      <div class="section-head">
-        <h3>Data Engineer Projects</h3>
-        <p>ETL, orchestration, and scalable data products.</p>
+      <div class="contact-card">
+        <p><strong>Email:</strong> <a href="mailto:ysayaovong@gmail.com">ysayaovong@gmail.com</a></p>
+        <p><strong>LinkedIn:</strong> <a id="linkedinLink2" target="_blank" rel="noopener">linkedin.com/in/yengkongsayaovong</a></p>
       </div>
-      <div id="engineerGrid" class="grid"></div>
-    </section>
-
-    <section id="scout" class="section">
-      <div class="section-head">
-        <h3>Scout / GM Analyst Projects</h3>
-        <p>Draft models, roster optimization, and player valuation.</p>
-      </div>
-      <div id="scoutGrid" class="grid"></div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="container foot-wrap">
-      <p>&copy; <span id="year"></span> Wayengkong Sayaovong · Built with HTML/CSS/JS</p>
+      <p>&copy; <span id="year"></span> Wayengkong Sayaovong</p>
       <div class="foot-links">
-        <a href="mailto:ysayaovong@example.com">Email</a>
+        <a href="mailto:ysayaovong@gmail.com">Email</a>
+        <a id="linkedinLink3" target="_blank" rel="noopener">LinkedIn</a>
         <a href="https://github.com/YSayaovong" target="_blank" rel="noopener">GitHub</a>
-        <a id="linkedinLinkFoot" target="_blank" rel="noopener">LinkedIn</a>
       </div>
     </div>
   </footer>
