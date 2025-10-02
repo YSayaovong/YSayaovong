@@ -1,55 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Yengkong Sayaovong | Sports Data Analyst</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Wayengkong — Sports Analytics Portfolio</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <nav>
-      <h1>Yengkong Sayaovong</h1>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="nba-project.html">NBA Analytics</a></li>
-        <li><a href="worship-project.html">Worship Dashboard</a></li>
-        <li><a href="#powerbi">Power BI</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="Yengkong.Sayaovong.Resume.pdf" target="_blank">Resume</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <section class="hero">
-    <h2>Sports Data Analyst</h2>
-    <p>Transforming game data into scouting insights, forecasts, and dashboards.</p>
-  </section>
-
-  <section class="projects">
-    <h2>Featured Projects</h2>
-    <div class="project-cards">
-      <div class="card">
-        <h3>NBA Game Performance Analytics</h3>
-        <p>Python-based analytics pipeline: advanced metrics (TS%, eFG%, Game Score, rolling averages).</p>
-        <a href="nba-project.html" class="btn">View Details</a>
+  <header class="site-header">
+    <div class="container nav">
+      <div class="brand">
+        <span class="brand-mark">WS</span>
+        <div class="brand-copy">
+          <h1>Wayengkong Sayaovong</h1>
+          <p>Sports Analytics & Portfolio</p>
+        </div>
       </div>
-      <div class="card">
-        <h3>Worship Analytics Dashboard</h3>
-        <p>BI dashboard for song usage & KPIs with live deployment.</p>
-        <a href="worship-project.html" class="btn">View Details</a>
+      <nav class="topnav">
+        <a href="#analyst">Data Analyst</a>
+        <a href="#engineer">Data Engineer</a>
+        <a href="#scout">Scout / GM</a>
+        <a id="resumeLink" target="_blank" rel="noopener">Resume</a>
+        <a id="linkedinLink" target="_blank" rel="noopener">LinkedIn</a>
+      </nav>
+    </div>
+    <div class="container hero">
+      <h2>Sports Portfolio</h2>
+      <p>
+        End-to-end projects demonstrating SQL, Python, dashboards, ETL pipelines,
+        and decision support for NFL, NBA, and MLB use cases.
+      </p>
+      <div class="hero-actions">
+        <a href="#analyst" class="btn">View Projects</a>
+        <a href="https://github.com/YSayaovong" class="btn btn-ghost" target="_blank" rel="noopener">GitHub Profile</a>
       </div>
     </div>
-  </section>
+  </header>
 
-  <section id="powerbi">
-    <h2>Power BI Reports</h2>
-    <p>Interactive dashboards for scouting and performance analytics.</p>
-    <iframe width="600" height="373" src="https://app.powerbi.com/" frameborder="0" allowFullScreen="true"></iframe>
-  </section>
+  <main class="container">
+    <!-- Filters -->
+    <section class="filters">
+      <input id="searchInput" type="search" placeholder="Search projects, tools, or leagues…" />
+      <div class="chips" id="chipBar">
+        <!-- chips populated by JS -->
+      </div>
+    </section>
 
-  <footer>
-    <p>© 2025 Yengkong Sayaovong</p>
+    <!-- Sections -->
+    <section id="analyst" class="section">
+      <div class="section-head">
+        <h3>Data Analyst Projects</h3>
+        <p>Dashboards, KPIs, and ROI analysis.</p>
+      </div>
+      <div id="analystGrid" class="grid"></div>
+    </section>
+
+    <section id="engineer" class="section">
+      <div class="section-head">
+        <h3>Data Engineer Projects</h3>
+        <p>ETL, orchestration, and scalable data products.</p>
+      </div>
+      <div id="engineerGrid" class="grid"></div>
+    </section>
+
+    <section id="scout" class="section">
+      <div class="section-head">
+        <h3>Scout / GM Analyst Projects</h3>
+        <p>Draft models, roster optimization, and player valuation.</p>
+      </div>
+      <div id="scoutGrid" class="grid"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container foot-wrap">
+      <p>&copy; <span id="year"></span> Wayengkong Sayaovong · Built with HTML/CSS/JS</p>
+      <div class="foot-links">
+        <a href="mailto:ysayaovong@example.com">Email</a>
+        <a href="https://github.com/YSayaovong" target="_blank" rel="noopener">GitHub</a>
+        <a id="linkedinLinkFoot" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
