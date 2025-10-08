@@ -2,98 +2,86 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Yengkong Sayaovong — Sports Analytics Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
-  <!-- cache-bust -->
-  <link rel="stylesheet" href="style.css?v=49ers" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Yengkong Sayaovong • Frontend Designer</title>
+  <meta name="description" content="Frontend Designer portfolio — modern UI, responsive design, and delightful interactions.">
+  <meta name="theme-color" content="#0A0F1F" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="site-header">
-    <div class="container nav">
-      <a class="brand" href="#">
-        <span class="brand-mark">YVS</span>
-        <div>
-          <h1>Yengkong Sayaovong</h1>
-          <p>Sports Analytics · Data Visualization · SQL</p>
-        </div>
-      </a>
-      <nav class="topnav">
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-        <a id="linkedinLink" target="_blank" rel="noopener">LinkedIn</a>
-      </nav>
-    </div>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-    <div class="container hero">
-      <div class="hero-copy">
-        <h2>Sports Analytics Portfolio</h2>
-        <p>
-          I design actionable sports analytics dashboards and models that connect on-field performance to outcomes—covering NBA game insights, NFL player analysis, and baseball performance trends.
-        </p>
-        <div class="hero-actions">
-          <a href="#about" class="btn">About Me</a>
-          <a href="mailto:ysayaovong@gmail.com" class="btn btn-ghost">Email Me</a>
-        </div>
-        <ul class="skills">
-          <li>SQL</li><li>Python</li><li>Excel</li><li>Power BI</li><li>PostgreSQL</li>
-        </ul>
+  <header class="site-header" role="banner">
+    <nav class="nav container" aria-label="Main">
+      <button class="menu-btn" aria-label="Toggle menu" aria-expanded="false">☰</button>
+      <div class="brand">
+        <span class="badge" aria-hidden="true">YS</span>
+        <span class="brand-text">Yengkong Sayaovong</span>
       </div>
-    </div>
+      <ul class="links" role="menubar">
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a class="resume" href="Yengkong.Sayaovong.Resume.pdf" target="_blank" rel="noopener">Resume</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero container">
+      <div class="hero-copy">
+        <h1><span class="outline">Frontend</span> Designer</h1>
+        <p class="tagline">Crafting <strong>modern, responsive, and accessible</strong> web experiences with clean UI systems and micro-interactions.</p>
+        <div class="cta-row">
+          <a class="btn primary" href="#projects">See Projects</a>
+          <a class="btn ghost" href="https://github.com/YSayaovong" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn ghost" href="https://www.linkedin.com/in/ysayaovong" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </section>
   </header>
 
-  <main>
-    <!-- About first -->
-    <section id="about" class="container section">
-      <div class="section-head">
-        <h3>About</h3>
-      </div>
-      <div class="about-wrap">
-        <p>
-          I’m a data analyst specializing in sports analytics. My work highlights game performance insights, player evaluation, and financial modeling for sports operations.
-        </p>
-        <ul class="about-bullets">
-          <li><strong>What I deliver:</strong> clear KPIs, reproducible SQL/Python, and dashboards tailored to sports performance.</li>
-          <li><strong>Value focus:</strong> actionable insights such as efficiency metrics, roster optimization, and return on investment.</li>
-          <li><strong>Tooling:</strong> PostgreSQL, Python, Excel/Power BI, GitHub Pages.</li>
-        </ul>
-      </div>
+  <main id="main">
+    <section class="skills container" id="skills">
+      <h2>Core Skills</h2>
+      <ul class="skillchips">
+        <li>HTML5 • CSS3 • JavaScript (ES6+)</li>
+        <li>React • Tailwind • Vite</li>
+        <li>Responsive & Accessible Design</li>
+        <li>Figma • Prototyping • Design Systems</li>
+        <li>Web Animations • Micro-interactions</li>
+        <li>Git/GitHub • CI/CD</li>
+      </ul>
     </section>
 
-    <!-- Projects -->
-    <section id="projects" class="container section">
+    <section class="projects container" id="projects">
       <div class="section-head">
-        <h3>Featured Projects</h3>
-        <p>Sports-focused case studies automatically pulled from my public GitHub repositories.</p>
+        <h2>Projects</h2>
+        <p class="section-sub">Pulled automatically from my public GitHub repositories.</p>
       </div>
-      <div id="projectGrid" class="grid"></div>
+      <div id="project-grid" class="grid" aria-live="polite"></div>
+      <p id="empty" class="empty" hidden>No repositories found.</p>
     </section>
 
-    <!-- Contact -->
-    <section id="contact" class="container section">
-      <div class="section-head">
-        <h3>Contact</h3>
-      </div>
-      <div class="contact-card">
-        <p><strong>Email:</strong> <a href="mailto:ysayaovong@gmail.com">ysayaovong@gmail.com</a></p>
-        <p><strong>LinkedIn:</strong> <a id="linkedinLink2" target="_blank" rel="noopener">linkedin.com/in/yengkongsayaovong</a></p>
-      </div>
+    <section class="about container" id="about">
+      <h2>About</h2>
+      <p>I translate ideas into elegant, performant frontends. My process: clarify goals → wireframe & prototype → build accessible, responsive UI → refine with micro-interactions and systemized styles.</p>
+    </section>
+
+    <section class="contact container" id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:ysayaovong@gmail.com">ysayaovong@gmail.com</a></p>
+      <p>Open to Frontend Designer, Frontend Developer, and UI Engineer roles.</p>
     </section>
   </main>
 
   <footer class="site-footer">
-    <div class="container foot-wrap">
-      <p>&copy; <span id="year"></span> Yengkong Sayaovong</p>
-      <div class="foot-links">
-        <a href="mailto:ysayaovong@gmail.com">Email</a>
-        <a id="linkedinLink3" target="_blank" rel="noopener">LinkedIn</a>
-        <a href="https://github.com/YSayaovong" target="_blank" rel="noopener">GitHub</a>
-      </div>
+    <div class="container">
+      <p>© <span id="year"></span> Yengkong Sayaovong — Frontend Designer</p>
     </div>
+    <script src="script.js"></script>
   </footer>
-
-  <!-- cache-bust -->
-  <script src="script.js?v=49ers" defer></script>
 </body>
 </html>
