@@ -2,7 +2,8 @@ Yengkong V. Sayaovong
 
 Data Analyst — SQL | Python | Power BI | Excel
 
-Milwaukee, WI • Open to Remote & Relocation
+Milwaukee, WI • Open to Remote & Relocation to Georgia
+
 LinkedIn: https://www.linkedin.com/in/yengkongsayaovong
 
 GitHub: https://github.com/YSayaovong
