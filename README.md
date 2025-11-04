@@ -1,93 +1,100 @@
-# Yengkong V. Sayaovong  
-**Frontend Developer — React | JavaScript | HTML | CSS**
+Yengkong V. Sayaovong
 
-Milwaukee, WI • Open to Remote & Relocation  
-**LinkedIn:** https://www.linkedin.com/in/yengkongsayaovong  
-**GitHub:** https://github.com/YSayaovong  
-**Email:** YSayaovong@gmail.com  
+Data Analyst — SQL | Python | Power BI | Excel
 
----
+Milwaukee, WI • Open to Remote & Relocation
+LinkedIn: https://www.linkedin.com/in/yengkongsayaovong
 
-## 👋 About Me  
-I’m a Frontend Developer transitioning from a strong mechanical design background into building clean, responsive, and fast user interfaces. I focus on React, JavaScript, HTML, and CSS—bringing 5+ years of technical problem‑solving and precise engineering habits into every project.
+GitHub: https://github.com/YSayaovong
 
-My work centers on turning complex requirements into smooth, intuitive user experiences with a clear visual hierarchy, component‑based structure, and accessibility‑ready design.
+Email: YSayaovong@gmail.com
 
----
+👋 About Me
 
-## 🧰 Technical Skills  
-**Frontend:** React, JavaScript (ES6+), HTML5, CSS3, Responsive Design, Fetch/API Integration  
-**UI/UX:** Wireframing, Component Architecture, Animations, Accessibility Standards  
-**Tools:** Git, GitHub, VS Code, Bootstrap, Tailwind, Netlify, Vite, NPM  
-**Backend Basics:** Node.js, REST APIs  
-**Also Skilled In:** Python, SQL, Power BI, Excel  
+I’m a Data Analyst with a mechanical design background, trained to think in systems, spot errors fast, and work with precision. I turn raw data into dashboards, forecasts, automated reports, and clear insights that support real decisions.
 
----
+My focus is SQL, Python, Power BI, and Excel—building models, pipelines, and visualizations that simplify complex information and show what really matters.
 
-## 📂 Featured Projects with Screenshots  
+🧰 Technical Skills
 
-### ✅ Responsive Frontend API Dashboard  
-GitHub: https://github.com/YSayaovong/responsive-frontend-api-dashboard  
+Analytics: SQL, Python (pandas, NumPy), Power BI, Excel (Power Query, automation), DAX
+Data Workflows: ETL/ELT, data cleaning, feature engineering, KPI modeling
+Visualization: Power BI dashboards, Excel dashboards, storytelling with charts
+Tools: PostgreSQL, Jupyter, Git/GitHub, VS Code, Anaconda
+Additional Skills: REST API integration, basic web scraping, basic data engineering concepts
 
-![Responsive Dashboard](https://github.com/YSayaovong/responsive-frontend-api-dashboard/blob/main/assets/Blinker.PNG)
+📂 Featured Projects with Screenshots
+✅ Financial ETL Datalake Pipeline
 
-A fully responsive dashboard that consumes live API data.  
-- Dynamic cards, charts, and loading states built with JavaScript  
-- Smooth animations and clean component structure  
-- Mobile-first performance-focused layout  
+GitHub: https://github.com/YSayaovong/Financial-ETL-Datalake-Pipeline
 
+Built an end-to-end ETL pipeline pulling financial data into a query-ready structure.
 
-### ✅ E-Commerce Book Store  
-GitHub: https://github.com/YSayaovong/E-Commerce-Book-Store  
+Automated ingestion + cleaning with Python
 
-![E-Commerce Screenshot](https://github.com/YSayaovong/E-Commerce-Book-Store/blob/main/assets/E-Commerce.PNG)
+Star-schema tables for reporting
 
-A complete multi-page storefront built with HTML, CSS, and JavaScript.  
-- Interactive product pages, cart functionality, and UI updates  
-- Clean, intuitive layouts with a focus on user experience  
+Power BI KPI dashboard
 
+✅ Sales Forecasting & KPI Analysis
 
-### ✅ Treact UI Components (Frontend Practice)  
-GitHub: https://github.com/YSayaovong/Treact  
+GitHub: https://github.com/YSayaovong/Sales-Forecasting-KPI-Analysis
 
-![Treact Screenshot](https://github.com/YSayaovong/Treact/blob/main/assets/Treact.PNG)
+Advanced sales analytics using SQL, Python, and Power BI.
 
-Recreated Treact components to practice layout structure and UI patterns.  
-- Strengthened responsive CSS design  
-- Improved reusable UI component skills  
+Time-series forecasting
 
----
+KPI modeling
 
-## 💼 Professional Experience  
+Inventory + revenue trend insights
 
-**Mechanical Designer — Prolec‑GE Waukesha**  
-*Oct 2020 – Present*  
-- Designed transformer components and engineering documentation  
-- Built Excel-based trackers and dashboards to improve workflows  
-- Applied precision and quality control across projects  
+✅ Enterprise Financial Forecasting
 
-**Treasurer (Part‑Time) — RWPWA**  
-*Mar 2025 – Jul 2025*  
-- Built financial KPI dashboards and forecasts  
-- Created SQL‑based reporting systems  
+GitHub: https://github.com/YSayaovong/enterprise-financial-forecasting
 
-**Python Developer (Volunteer) — FIND**  
-*2025*  
-- Automated API/UI health checks  
+End-to-end forecasting model built around enterprise-level financial data.
 
----
+Multi-scenario projections
 
-## 🎓 Education & Training  
-- B.S. Information Technology — *Arizona State University (In Progress)*  
-- Frontend Simplified Bootcamp — *In Progress*  
-- Zero to Mastery — *Frontend Bootcamp (Completed Feb 2025)*  
-- Mechanical Design Technology — *MATC (2021)*  
+Automated Excel + Power BI visualizations
 
----
+Forecast accuracy checks
 
-## 🌐 Portfolio Purpose  
-This portfolio highlights my transition into frontend engineering through clean UI work, responsive layouts, API-driven dashboards, and real‑world interactive components.
+💼 Professional Experience
 
-More projects will continue to be added as I complete additional builds in React and strengthen my UI engineering skill set.
+Mechanical Designer — Prolec-GE Waukesha
+Oct 2020 – Present
 
----
+Built automated Excel trackers and reporting pipelines used across 200+ transformer projects
+
+Validated 1,000+ engineering data points through SAP/TDMS audits
+
+Applied structured problem-solving to reduce documentation errors
+
+Treasurer (Part-Time) — RWPWA
+Mar 2025 – Jul 2025
+
+Produced monthly KPI dashboards and variance reports
+
+Built SQL-driven financial summaries and forecasting models
+
+Data Analyst (Volunteer) — FIND / Red Cross
+2025
+
+Automated API checks and reporting scripts
+
+Built prototypes for operational dashboards
+
+🎓 Education & Training
+
+B.S. Information Technology — Arizona State University (In Progress)
+
+Zero to Mastery — Data Analyst, Data Science, Excel, BI Analyst Paths Completed
+
+Excel Expert Bootcamp — Completed
+
+Mechanical Design Technology — MATC (2021)
+
+🌐 Portfolio Purpose
+
+This portfolio highlights my work in analytics—ETL pipelines, forecasting models, KPI dashboards, and automated reporting. Every project reflects real analytical workflows used by employers and focuses on accuracy, clarity, and decision-ready insights.
