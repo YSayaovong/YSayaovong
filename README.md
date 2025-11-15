@@ -22,8 +22,8 @@ I build data-driven applications—everything from the analytics and ETL pipelin
   Modern UI dashboard with charts, components, and API integration.  
 - **Blinker-Style Frontend API Dashboard**  
   Responsive UI pulling data from public APIs.  
-- **Netflix-Style Clone**  
-  Fully responsive layout with multi-row content display and API fetching.  
+- **YouTube-Style Clone**  
+  Fully responsive video browsing interface using public APIs and dynamic content rows.  
 
 ## 🔹 Tools & Technologies
 **SQL • Python • Power BI • Excel • React • JavaScript • HTML/CSS • APIs • Git • PostgreSQL**
