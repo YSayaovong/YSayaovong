@@ -1,31 +1,32 @@
-# Yengkong V. Sayaovong
+# Hi, I'm Yengkong 👋  
 
-Data Analyst — SQL | Python | Power BI | Excel
+I build data-driven applications—everything from the analytics and ETL pipelines to the dashboards and frontend UIs that deliver insights.
 
-Milwaukee, WI
+## 🔹 What I Work On
+- **Data Analytics & BI**: SQL, Python, Power BI dashboards, forecasting models, ETL pipelines  
+- **Frontend Development**: React dashboards, API-powered apps, responsive UI design  
+- **Financial & Real-Estate Analytics**: KPI dashboards, modeling, revenue forecasting  
 
-Open to Remote & Relocation to Georgia
+## 🔹 Featured Projects
 
-LinkedIn: https://www.linkedin.com/in/yengkongsayaovong
+### 📊 Data Analytics & BI  
+- **Financial ETL Datalake Pipeline**  
+  End-to-end data ingestion, cleaning, and reporting workflow.  
+- **Sales Forecasting & KPI Dashboard**  
+  Time-series forecasting and executive-level KPI reporting.  
+- **Real Estate Financial Analytics Tool**  
+  KPI breakdowns, ROI analysis, and trend visualizations.  
 
-GitHub: https://github.com/YSayaovong
+### 💻 Frontend Development  
+- **SaaS Dashboard (React)**  
+  Modern UI dashboard with charts, components, and API integration.  
+- **Blinker-Style Frontend API Dashboard**  
+  Responsive UI pulling data from public APIs.  
+- **Netflix-Style Clone**  
+  Fully responsive layout with multi-row content display and API fetching.  
 
-Email: YSayaovong@gmail.com
+## 🔹 Tools & Technologies
+**SQL • Python • Power BI • Excel • React • JavaScript • HTML/CSS • APIs • Git • PostgreSQL**
 
-## 👋 About Me
-
-I’m a Data Analyst with a mechanical design background, trained to think in systems, spot errors fast, and work with precision. I turn raw data into dashboards, forecasts, automated reports, and clear insights that support real decisions.
-
-My focus is SQL, Python, Power BI, and Excel—building models, pipelines, and visualizations that simplify complex information and show what really matters.
-
-## 🧰 Technical Skills
-
-Analytics:  SQL, Python (pandas, NumPy), Power BI, Excel (Power Query, automation), DAX
-Data Workflows: ETL/ELT, data cleaning, feature engineering, KPI modeling
-Visualization: Power BI dashboards, Excel dashboards, storytelling with charts
-Tools: PostgreSQL, Jupyter, Git/GitHub, VS Code, Anaconda
-Additional Skills: REST API integration, basic web scraping, basic data engineering concepts
-
-🌐 Portfolio Purpose
-
-This portfolio highlights my work in analytics—ETL pipelines, forecasting models, KPI dashboards, and automated reporting. Every project reflects real analytical workflows used by employers and focuses on accuracy, clarity, and decision-ready insights.
+## 🔹 My Focus  
+I turn raw data into insights—and build the interfaces that make those insights accessible.
