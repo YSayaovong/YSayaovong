@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% block content %}
+
+<section class="hero">
+  <div class="hero-container">
+
+    <img src="{{ url_for('static', filename='img/profile.png') }}"
+         alt="Profile photo"
+         class="profile">
+
+    <div class="hero-text">
+      <h1>Frontend Developer for SaaS & Internal Tools</h1>
+      <p>
+        I build clean, modern, responsive interfaces for dashboards,
+        SaaS applications, and internal tools. I work frontend-first
+        with enough backend & data experience to bring full features to life.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="{{ url_for('projects') }}" class="btn primary">View Projects</a>
+        <a href="https://github.com/{{ github_username }}" class="btn" target="_blank">GitHub</a>
+        <a href="{{ linkedin_url }}" class="btn" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Featured Projects</h2>
+
+  <div class="project-grid">
+    {% for p in featured %}
+      <div class="card">
+        <h3>{{ p.title }}</h3>
+        <p>{{ p.description }}</p>
+
+        <div class="tags">
+          {% for t in p.tags %}
+            <span>{{ t }}</span>
+          {% endfor %}
+        </div>
+
+        <a href="{{ p.github_url }}" target="_blank" class="card-link">
+          View on GitHub →
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+{% endblock %}

@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block content %}
+
+<section class="section">
+  <h2>All GitHub Projects</h2>
+  <p class="section-sub">
+    Updated automatically from GitHub.
+  </p>
+
+  <div class="project-grid">
+    {% for r in repos %}
+      <div class="card">
+        <h3>{{ r.name }}</h3>
+        <p>{{ r.description }}</p>
+
+        <div class="tags">
+          {% if r.language %}
+            <span>{{ r.language }}</span>
+          {% endif %}
+          {% if r.stars %}
+            <span>★ {{ r.stars }}</span>
+          {% endif %}
+        </div>
+
+        <p class="updated">Updated: {{ r.updated_at }}</p>
+
+        <a href="{{ r.html_url }}" target="_blank" class="card-link">View Repo →</a>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+{% endblock %}
