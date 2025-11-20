@@ -1,32 +1,47 @@
-# Hi, I'm Yengkong 👋  
+👋 Hi, I'm Yengkong
 
-I build data-driven applications—everything from the analytics and ETL pipelines to the dashboards and frontend UIs that deliver insights.
+I build fast, modern, and intuitive frontend applications using React, JavaScript, and clean UI architecture.
+My focus is turning complex requirements into simple, responsive, and scalable user interfaces.
 
-## 🔹 What I Work On
-- **Data Analytics & BI**: SQL, Python, Power BI dashboards, forecasting models, ETL pipelines  
-- **Frontend Development**: React dashboards, API-powered apps, responsive UI design  
-- **Financial & Real-Estate Analytics**: KPI dashboards, modeling, revenue forecasting  
+🔹 What I Do
 
-## 🔹 Featured Projects
+Frontend Engineering — React apps, API-driven features, reusable component systems, modern UI patterns
 
-### 📊 Data Analytics & BI  
-- **Financial ETL Datalake Pipeline**  
-  End-to-end data ingestion, cleaning, and reporting workflow.  
-- **Sales Forecasting & KPI Dashboard**  
-  Time-series forecasting and executive-level KPI reporting.  
-- **Real Estate Financial Analytics Tool**  
-  KPI breakdowns, ROI analysis, and trend visualizations.  
+UI/UX Development — responsive layouts, visual hierarchy, clean design, smooth user flow
 
-### 💻 Frontend Development  
-- **SaaS Dashboard (React)**  
-  Modern UI dashboard with charts, components, and API integration.  
-- **Blinker-Style Frontend API Dashboard**  
-  Responsive UI pulling data from public APIs.  
-- **YouTube-Style Clone**  
-  Fully responsive video browsing interface using public APIs and dynamic content rows.  
+API-Integrated Frontends — real data, loading/error states, dynamic routing
 
-## 🔹 Tools & Technologies
-**SQL • Python • Power BI • Excel • React • JavaScript • HTML/CSS • APIs • Git • PostgreSQL**
+Performance & Quality — accessibility, Lighthouse checks, component optimization
 
-## 🔹 My Focus  
-I turn raw data into insights—and build the interfaces that make those insights accessible.
+🔹 Featured Frontend Projects
+📱 Blinker-Style Vehicle Marketplace (React + API)
+
+Live API search, dynamic routing, responsive UI, and modular components.
+
+📚 E-Commerce Bookstore (React + Redux Toolkit)
+
+Global state management, persistent cart, product filtering, and structured layout.
+
+📊 SaaS Analytics Dashboard (React + Charts)
+
+Reusable chart components, filtering logic, and responsive data visualization UI.
+
+🎨 NFT Marketplace UI (React + Responsive Design)
+
+Modern landing layout, polished visual hierarchy, and scalable component architecture.
+
+🔹 Tools & Technologies
+
+React • JavaScript (ES6+) • HTML5 • CSS3 • Tailwind CSS • Redux Toolkit • REST APIs
+React Router • Figma • Git • GitHub • Chrome DevTools • Lighthouse • Jest • React Testing Library
+
+🔹 Current Focus
+
+Building clean, performant frontend applications with reusable components, strong UI patterns, and real API integration.
+
+🔹 Portfolio & Links
+
+LinkedIn: linkedin.com/in/yengkongsayaovong
+Portfolio: https://ysayaovong.github.io/Portfolio/
+
+GitHub: github.com/YSayaovong
