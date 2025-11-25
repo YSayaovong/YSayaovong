@@ -24,9 +24,6 @@ Global state management, persistent cart, product filtering, and structured layo
 ### 📊 **SaaS Analytics Dashboard (React + Charts)**  
 Reusable chart components, filtering logic, and responsive data visualization UI.
 
-### 🎨 **NFT Marketplace UI (React + Responsive Design)**  
-Modern landing layout, polished visual hierarchy, and scalable component architecture.
-
 ---
 
 ## 🔹 Tools & Technologies  
