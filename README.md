@@ -1,43 +1,68 @@
 # 👋 Hi, I'm Yengkong  
 
-I build fast, modern, and intuitive frontend applications using **React, JavaScript, and clean UI architecture**.  
-My focus is turning complex requirements into simple, responsive, and scalable user interfaces.
+Mechanical Design Engineer transitioning into **Industrial Reliability & Digital Systems Engineering**. I build **physics-based simulation, failure prediction, and production performance models** using Python and C++ to support reliability engineering, predictive maintenance, and data-driven design decisions.
 
 ---
 
 ## 🔹 What I Do  
-- **Frontend Engineering** — React apps, API-driven features, reusable component systems, modern UI patterns  
-- **UI/UX Development** — responsive layouts, visual hierarchy, clean design, smooth user flow  
-- **API-Integrated Frontends** — real data, loading/error states, dynamic routing  
-- **Performance & Quality** — accessibility, Lighthouse checks, component optimization  
+
+- **Reliability Engineering Modeling** — thermal analysis, fatigue life prediction, MTBF forecasting  
+- **Digital Twins & Simulation** — physics-based system modeling for failure prevention  
+- **Industrial Data & Analytics** — production risk, uptime forecasting, performance bottleneck analysis  
+- **Mechanical Systems Engineering** — manufacturing documentation, configuration control, and production validation  
 
 ---
 
-## 🔹 Featured Frontend Projects  
+## 🔹 Featured Reliability Engineering Projects  
 
-### 📱 **Blinker-Style Vehicle Marketplace (React + API)**  
-Live API search, dynamic routing, responsive UI, and modular components.
+### 🔥 **Universal Thermal Digital Twin — Python, Numerical Simulation**  
+Multi-node thermal simulation engine modeling **conduction, convection, internal heat generation, overload behavior, hot-spot detection, and thermal failure margin** with parametric sensitivity analysis on:
+- Load
+- Cooling efficiency
+- Ambient temperature
+- Overload duration  
 
-### 📚 **E-Commerce Bookstore (React + Redux Toolkit)**  
-Global state management, persistent cart, product filtering, and structured layout.
-
-### 📊 **SaaS Analytics Dashboard (React + Charts)**  
-Reusable chart components, filtering logic, and responsive data visualization UI.
+➡️ Repo: https://github.com/YSayaovong/universal-thermal-digital-twin
 
 ---
 
-## 🔹 Tools & Technologies  
-**React • JavaScript (ES6+) • HTML5 • CSS3 • Tailwind CSS • Redux Toolkit • REST APIs  
-React Router • Figma • Git • GitHub • Chrome DevTools • Lighthouse • Jest • React Testing Library**
+### ⚙️ **Fatigue & Reliability Prediction Engine — Python & C++** *(In Development)*  
+Probabilistic mechanical life prediction using:
+- Goodman & Miner’s Rule  
+- Weibull failure distributions  
+- MTBF and failure probability modeling  
+- Monte Carlo damage accumulation  
+
+---
+
+### 🏭 **Multi-Machine Uptime & Bottleneck Simulator — Python** *(Planned)*  
+Factory-scale production simulator for:
+- Downtime forecasting  
+- Bottleneck probability  
+- Throughput modeling  
+- Preventive maintenance planning  
+
+---
+
+## 🔹 Engineering Tools & Technologies  
+
+**Python • C++ • Numerical Simulation • Reliability Modeling • Monte Carlo Methods  
+Data Analysis • Linux • Git • GitHub • Matplotlib • SQL • Mechanical Systems**
 
 ---
 
 ## 🔹 Current Focus  
-Building **clean, performant frontend applications** with reusable components, strong UI patterns, and real API integration.
+
+Building a **reliability engineering portfolio** centered on:
+- Digital twin systems  
+- Predictive maintenance analytics  
+- Mechanical failure modeling  
+- Production performance forecasting  
 
 ---
 
 ## 🔹 Portfolio & Links  
-**LinkedIn:** linkedin.com/in/yengkongsayaovong  
-**Portfolio:** https://ysayaovong.github.io/Portfolio/  
-**GitHub:** github.com/YSayaovong  
+
+**LinkedIn:** https://linkedin.com/in/yengkongsayaovong  
+**Mechanical & Systems Portfolio:** https://ysayaovong.github.io/Portfolio  
+**GitHub:** https://github.com/YSayaovong  
