@@ -1,68 +1,56 @@
-# 👋 Hi, I'm Yengkong  
+# Hey there 👋
 
-Mechanical Design Engineer transitioning into **Industrial Reliability & Digital Systems Engineering**. I build **physics-based simulation, failure prediction, and production performance models** using Python and C++ to support reliability engineering, predictive maintenance, and data-driven design decisions.
+I’m **Yengkong**, a Mechanical Designer turned Data/AI Engineer in training.  
+Right now I’m focused on building **AI Engineering skills** — LLMs, RAG, embeddings, vector databases, and automation projects that apply real-world workflows.
 
----
-
-## 🔹 What I Do  
-
-- **Reliability Engineering Modeling** — thermal analysis, fatigue life prediction, MTBF forecasting  
-- **Digital Twins & Simulation** — physics-based system modeling for failure prevention  
-- **Industrial Data & Analytics** — production risk, uptime forecasting, performance bottleneck analysis  
-- **Mechanical Systems Engineering** — manufacturing documentation, configuration control, and production validation  
+I have a strong foundation in Python, SQL, pipelines, and analytics, and I’m now applying those skills to build **production-minded AI tools and systems**.
 
 ---
 
-## 🔹 Featured Reliability Engineering Projects  
+## 🔥 What I’m Working On
 
-### 🔥 **Universal Thermal Digital Twin — Python, Numerical Simulation**  
-Multi-node thermal simulation engine modeling **conduction, convection, internal heat generation, overload behavior, hot-spot detection, and thermal failure margin** with parametric sensitivity analysis on:
-- Load
-- Cooling efficiency
-- Ambient temperature
-- Overload duration  
-
-➡️ Repo: https://github.com/YSayaovong/universal-thermal-digital-twin
+- AI Engineering Projects (RAG pipelines, embeddings, vector search)
+- LLM-powered automation tools (Python + APIs)
+- Prompt engineering for real use cases
+- ETL + AI-augmented workflows
+- Cloud-based AI deployment (learning AWS/GCP basics)
 
 ---
 
-### ⚙️ **Fatigue & Reliability Prediction Engine — Python & C++** *(In Development)*  
-Probabilistic mechanical life prediction using:
-- Goodman & Miner’s Rule  
-- Weibull failure distributions  
-- MTBF and failure probability modeling  
-- Monte Carlo damage accumulation  
+## 🧰 Tools & Technologies
+
+### **AI / LLM**
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge)
+![VectorDB](https://img.shields.io/badge/Vector_Databases-000000?style=for-the-badge)
+![FAISS](https://img.shields.io/badge/FAISS-2E77BB?style=for-the-badge)
+![Chroma](https://img.shields.io/badge/ChromaDB-4A90E2?style=for-the-badge)
+
+### **Languages**
+![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![SQL](https://img.shields.io/badge/SQL-025E8C?style=for-the-badge)
+
+### **Data / Pipelines**
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apache-airflow&logoColor=white)
+
+### **Analytics**
+![Power BI](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
+
+### **Tools**
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
 ---
 
-### 🏭 **Multi-Machine Uptime & Bottleneck Simulator — Python** *(Planned)*  
-Factory-scale production simulator for:
-- Downtime forecasting  
-- Bottleneck probability  
-- Throughput modeling  
-- Preventive maintenance planning  
+## 📫 How to Reach Me
+
+**LinkedIn:** https://www.linkedin.com/in/yengkongsayaovong/  
+**GitHub:** https://www.github.com/ysayaovong  
+**Email:** YSayaovong@gmail.com  
+**Location:** Milwaukee, WI
 
 ---
-
-## 🔹 Engineering Tools & Technologies  
-
-**Python • C++ • Numerical Simulation • Reliability Modeling • Monte Carlo Methods  
-Data Analysis • Linux • Git • GitHub • Matplotlib • SQL • Mechanical Systems**
-
----
-
-## 🔹 Current Focus  
-
-Building a **reliability engineering portfolio** centered on:
-- Digital twin systems  
-- Predictive maintenance analytics  
-- Mechanical failure modeling  
-- Production performance forecasting  
-
----
-
-## 🔹 Portfolio & Links  
-
-**LinkedIn:** https://linkedin.com/in/yengkongsayaovong  
-**Mechanical & Systems Portfolio:** https://ysayaovong.github.io/Portfolio  
-**GitHub:** https://github.com/YSayaovong  
