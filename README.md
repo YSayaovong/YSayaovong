@@ -24,10 +24,17 @@ I combine my background in data, analytics, and workflow reliability to build **
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge)
 ![FAISS](https://img.shields.io/badge/FAISS-2E77BB?style=for-the-badge)
 ![Chroma](https://img.shields.io/badge/ChromaDB-4A90E2?style=for-the-badge)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
 
-### **Languages**
+### **Python Libraries**
 ![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![SQL](https://img.shields.io/badge/SQL-025E8C?style=for-the-badge)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-013243?style=for-the-badge)
+![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-3C873A?style=for-the-badge)
+![Requests](https://img.shields.io/badge/Requests-000000?style=for-the-badge)
+![pprint](https://img.shields.io/badge/pprint-555555?style=for-the-badge)
 
 ### **Databases**
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
