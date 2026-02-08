@@ -1,6 +1,7 @@
 # Hey there 👋
 
 I’m **Yengkong**, a Mechanical Designer transitioning into Data & AI Engineering.  
+
 Right now I’m focused on building **AI Engineering skills** — LLMs, RAG, embeddings, vector databases, prompt engineering, and Python-based automation.
 
 I combine my background in data, analytics, and workflow reliability to build **practical AI tools and pipelines** that solve real problems.
