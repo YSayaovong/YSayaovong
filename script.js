@@ -1,12 +1,29 @@
-const cards = document.querySelectorAll(".project-card");
+const toggle = document.querySelector(".nav-toggle");
+const links = document.querySelector(".nav-links");
+const year = document.querySelector("#year");
 
-cards.forEach((card) => {
-  card.addEventListener("mouseenter", () => {
-    card.style.transform = "translateY(-6px)";
-    card.style.transition = "0.25s ease";
+if (year) {
+  year.textContent = new Date().getFullYear();
+}
+
+if (toggle && links) {
+  toggle.addEventListener("click", () => {
+    const isOpen = links.classList.toggle("open");
+    toggle.setAttribute("aria-expanded", String(isOpen));
   });
 
-  card.addEventListener("mouseleave", () => {
-    card.style.transform = "translateY(0)";
+  links.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", () => {
+      links.classList.remove("open");
+      toggle.setAttribute("aria-expanded", "false");
+    });
   });
-});
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") {
+      links.classList.remove("open");
+      toggle.setAttribute("aria-expanded", "false");
+      toggle.focus();
+    }
+  });
+}
