@@ -1,130 +1,255 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Yengkong Sayaovong | AI + Manufacturing Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Yengkong Sayaovong — Mechanical Designer building practical, human-reviewed AI workflows for manufacturing and engineering.">
+  <title>Yengkong Sayaovong | Applied AI for Manufacturing & Engineering</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to main content</a>
 
-  <header class="hero">
-    <div class="container">
-      <p class="eyebrow">AI Developer | Mechanical Designer | Manufacturing Automation</p>
-      <h1>Yengkong Sayaovong</h1>
-      <p class="hero-text">
-        I build AI agents, document automation systems, and manufacturing analytics tools
-        that connect engineering knowledge with practical business workflows.
-      </p>
-
-      <div class="hero-buttons">
-        <a href="https://github.com/YSayaovong" target="_blank">GitHub</a>
-        <a href="mailto:YSayaovong@gmail.com">Email Me</a>
-      </div>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="Yengkong Sayaovong home">YS</a>
+      <nav aria-label="Primary navigation">
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">Menu</button>
+        <div class="nav-links" id="nav-links">
+          <a href="#about">About</a>
+          <a href="#work">Work</a>
+          <a href="#approach">Approach</a>
+          <a href="#contact">Connect</a>
+        </div>
+      </nav>
     </div>
   </header>
 
-  <main class="container">
-
-    <section class="section">
-      <h2>Featured Projects</h2>
-      <p class="section-intro">
-        These projects represent my strongest work across AI automation, document processing,
-        manufacturing analytics, and engineering-focused workflow improvement.
-      </p>
-
-      <div class="project-grid">
-
-        <article class="project-card">
-          <h3>AI-Augmented Mechanical Design for Manufacturing</h3>
-          <p>
-            AI-assisted workflow for improving mechanical design review, manufacturability checks,
-            and engineering decision support.
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Mechanical design × applied AI</p>
+          <h1>Practical AI workflows for manufacturing and engineering.</h1>
+          <p class="hero-copy">
+            I’m Yengkong Sayaovong, a mechanical designer with 5+ years of experience supporting
+            high-volume electrical-equipment manufacturing. I build controlled, human-reviewed
+            AI and automation concepts around BOM quality, engineering changes, technical
+            documents, production exceptions, and manufacturing decisions.
           </p>
-          <div class="tags">
-            <span>AI</span><span>Manufacturing</span><span>Mechanical Design</span>
+          <div class="actions">
+            <a class="button primary" href="#work">View selected work</a>
+            <a class="button secondary" href="https://github.com/YSayaovong" target="_blank" rel="noreferrer">GitHub profile</a>
           </div>
-          <a href="https://github.com/YSayaovong/AI-Augmented-Mechanical-Design-for-Manufacturing" target="_blank">View Project</a>
-        </article>
+        </div>
 
-        <article class="project-card">
-          <h3>Regulatory Document Event Processing System</h3>
-          <p>
-            Document intelligence pipeline that extracts events, deadlines, and structured insights
-            from regulatory-style documents.
-          </p>
-          <div class="tags">
-            <span>RAG</span><span>OCR</span><span>LLM</span>
-          </div>
-          <a href="https://github.com/YSayaovong/Regulatory-Document-Event-Processing-System" target="_blank">View Project</a>
-        </article>
-
-        <article class="project-card">
-          <h3>Supply Chain Document ETL Pipeline</h3>
-          <p>
-            ETL workflow for processing supply chain documents, transforming unstructured files
-            into usable business data.
-          </p>
-          <div class="tags">
-            <span>ETL</span><span>Python</span><span>Automation</span>
-          </div>
-          <a href="https://github.com/YSayaovong/Supply-Chain-Document-ETL-Pipeline" target="_blank">View Project</a>
-        </article>
-
-        <article class="project-card">
-          <h3>Pfizer AI PDF Reader</h3>
-          <p>
-            AI-powered PDF reader designed to extract, summarize, and retrieve information from
-            technical and business documents.
-          </p>
-          <div class="tags">
-            <span>PDF AI</span><span>OCR</span><span>Document AI</span>
-          </div>
-          <a href="https://github.com/YSayaovong/Pfizer-AI-PDF-Reader" target="_blank">View Project</a>
-        </article>
-
-        <article class="project-card">
-          <h3>Prolec-GE BOM Analytics</h3>
-          <p>
-            Manufacturing BOM analytics project using simulated data to evaluate engineering,
-            configuration, and production trends.
-          </p>
-          <div class="tags">
-            <span>BOM</span><span>Analytics</span><span>Manufacturing</span>
-          </div>
-          <a href="https://github.com/YSayaovong/Prolec-GE-BOM-Analytics" target="_blank">View Project</a>
-        </article>
-
-        <article class="project-card">
-          <h3>Manufacturing Throughput Analysis</h3>
-          <p>
-            Data analysis project focused on identifying throughput patterns, production bottlenecks,
-            and operational improvement opportunities.
-          </p>
-          <div class="tags">
-            <span>Python</span><span>KPIs</span><span>Operations</span>
-          </div>
-          <a href="https://github.com/YSayaovong/Manufacturing-Throughput-Analysis" target="_blank">View Project</a>
-        </article>
-
+        <aside class="focus-card" aria-label="Current career focus">
+          <p class="card-label">Target direction</p>
+          <h2>AI Solutions & Automation</h2>
+          <p>Manufacturing and engineering workflows where domain knowledge, validation, traceability, and human oversight matter.</p>
+          <ul class="check-list">
+            <li>Engineering workflow automation</li>
+            <li>Document intelligence and RAG</li>
+            <li>BOM and revision exception review</li>
+            <li>Responsible human-in-the-loop AI</li>
+          </ul>
+        </aside>
       </div>
     </section>
 
-    <section class="section about">
-      <h2>About Me</h2>
-      <p>
-        I have 6+ years of mechanical design experience in high-volume transformer manufacturing.
-        My focus is building practical AI and automation systems that improve engineering workflows,
-        reduce manual review effort, and make technical data easier to use.
-      </p>
+    <section class="section" id="about">
+      <div class="container two-column">
+        <div>
+          <p class="section-kicker">About</p>
+          <h2>Engineering experience is the foundation.</h2>
+        </div>
+        <div class="prose">
+          <p>
+            My background includes production-ready mechanical configurations, engineering
+            releases, BOM management, revision control, manufacturing issue resolution,
+            design-quality auditing, training, and cross-functional workflow improvement.
+          </p>
+          <p>
+            I am applying that experience to AI-assisted systems that help people find,
+            compare, validate, and summarize technical information. AI supports the work;
+            qualified people retain final engineering and business authority.
+          </p>
+        </div>
+      </div>
+
+      <div class="container skill-grid" aria-label="Core capabilities">
+        <article class="skill-card">
+          <h3>Engineering</h3>
+          <p>Mechanical design, Creo, production releases, BOMs, revision control, manufacturing support.</p>
+        </article>
+        <article class="skill-card">
+          <h3>Applied AI</h3>
+          <p>RAG concepts, document extraction, grounded summaries, workflow design, human review.</p>
+        </article>
+        <article class="skill-card">
+          <h3>Data & automation</h3>
+          <p>Google Sheets, Excel, Power Query, Python, SQL, Google Colab, validation, KPI reporting.</p>
+        </article>
+        <article class="skill-card">
+          <h3>Governance</h3>
+          <p>Traceability, testing, privacy, assumptions, limitations, exception handling, responsible AI.</p>
+        </article>
+      </div>
     </section>
 
+    <section class="section section-tint" id="work">
+      <div class="container">
+        <p class="section-kicker">Selected work</p>
+        <div class="section-heading">
+          <h2>Projects aligned to applied AI manufacturing roles.</h2>
+          <p>Status labels distinguish demonstrated work from scheduled improvements.</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card flagship">
+            <div class="project-top">
+              <span class="status active">Active flagship upgrade</span>
+              <span class="number">01</span>
+            </div>
+            <h3>Transformer BOM Quality Analytics</h3>
+            <p>
+              Synthetic manufacturing analysis of BOM errors, revision activity, rework impact,
+              resolution performance, and release integrity. Being extended into a controlled
+              AI-assisted exception-review workflow.
+            </p>
+            <ul class="tags" aria-label="Technologies and themes">
+              <li>Google Sheets</li><li>BOM quality</li><li>Validation</li><li>Human review</li>
+            </ul>
+            <a class="project-link" href="https://github.com/YSayaovong/Transformer-BOM-Quality-Analytics" target="_blank" rel="noreferrer">View repository <span aria-hidden="true">↗</span></a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-top">
+              <span class="status concept">Business case</span>
+              <span class="number">02</span>
+            </div>
+            <h3>AI-Augmented Mechanical Design</h3>
+            <p>
+              A manufacturing-focused pilot concept for AI-assisted specification research,
+              routine documentation, engineering-change summaries, and workflow improvement.
+            </p>
+            <ul class="tags"><li>Applied AI</li><li>Mechanical design</li><li>Pilot planning</li></ul>
+            <a class="project-link" href="https://github.com/YSayaovong/AI-Augmented-Mechanical-Design-for-Manufacturing" target="_blank" rel="noreferrer">View repository <span aria-hidden="true">↗</span></a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-top">
+              <span class="status review">Scheduled for validation</span>
+              <span class="number">03</span>
+            </div>
+            <h3>Regulatory Document Event Processing</h3>
+            <p>
+              A Python document-processing project scheduled for review of reproducibility,
+              event traceability, exception handling, testing, and applied-AI value.
+            </p>
+            <ul class="tags"><li>Python</li><li>Documents</li><li>Traceability</li></ul>
+            <a class="project-link" href="https://github.com/YSayaovong/Regulatory-Document-Event-Processing-System" target="_blank" rel="noreferrer">View repository <span aria-hidden="true">↗</span></a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-top">
+              <span class="status review">Scheduled for validation</span>
+              <span class="number">04</span>
+            </div>
+            <h3>Hmong Education Document RAG Assistant</h3>
+            <p>
+              A document question-answering project planned for stronger grounding, citations,
+              retrieval evaluation, privacy controls, and clear human-review boundaries.
+            </p>
+            <ul class="tags"><li>RAG</li><li>Education</li><li>Grounding</li></ul>
+            <a class="project-link" href="https://github.com/YSayaovong/Hmong-Education-Document-RAG-Assistant" target="_blank" rel="noreferrer">View repository <span aria-hidden="true">↗</span></a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-top">
+              <span class="status review">Scheduled for validation</span>
+              <span class="number">05</span>
+            </div>
+            <h3>Manufacturing Scrap Rate Analytics</h3>
+            <p>
+              Manufacturing analysis focused on scrap rates, waste drivers, operational
+              patterns, and supported recommendations for reducing material loss.
+            </p>
+            <ul class="tags"><li>Python</li><li>Manufacturing</li><li>Waste reduction</li></ul>
+            <a class="project-link" href="https://github.com/YSayaovong/Manufacturing-Scrap-Rate-Analytics" target="_blank" rel="noreferrer">View repository <span aria-hidden="true">↗</span></a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-top">
+              <span class="status review">Scheduled for validation</span>
+              <span class="number">06</span>
+            </div>
+            <h3>Manufacturing Throughput Analysis</h3>
+            <p>
+              Production analysis centered on throughput, cycle-time performance, bottlenecks,
+              capacity questions, and manufacturing decision support.
+            </p>
+            <ul class="tags"><li>Python</li><li>Throughput</li><li>Operations</li></ul>
+            <a class="project-link" href="https://github.com/YSayaovong/Manufacturing-Throughput-Analysis" target="_blank" rel="noreferrer">View repository <span aria-hidden="true">↗</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="approach">
+      <div class="container">
+        <p class="section-kicker">Working approach</p>
+        <div class="section-heading">
+          <h2>AI assists. People remain accountable.</h2>
+          <p>Each project is being strengthened through a professional, evidence-based lifecycle.</p>
+        </div>
+
+        <ol class="process-list">
+          <li><span>01</span><div><h3>Frame the decision</h3><p>Define stakeholders, business rules, risks, boundaries, and acceptance criteria.</p></div></li>
+          <li><span>02</span><div><h3>Validate the foundation</h3><p>Inspect source data, document provenance, reconcile KPIs, and test assumptions.</p></div></li>
+          <li><span>03</span><div><h3>Build controlled assistance</h3><p>Use AI for extraction, classification, comparison, drafting, and prioritization—not final approval.</p></div></li>
+          <li><span>04</span><div><h3>Test and communicate</h3><p>Document limitations, evaluate outputs, capture evidence, and deliver a stakeholder-ready demonstration.</p></div></li>
+        </ol>
+
+        <div class="responsibility-grid">
+          <article>
+            <h3>AI may assist with</h3>
+            <p>Drafting, classification, summarization, code scaffolding, test ideas, and debugging explanations.</p>
+          </article>
+          <article>
+            <h3>I remain responsible for</h3>
+            <p>Business rules, source inspection, metric validation, testing, anomaly investigation, limitations, confidentiality, and final approval.</p>
+          </article>
+        </div>
+
+        <p class="disclaimer">
+          Portfolio projects use synthetic, anonymized, user-owned, or publicly available data.
+          They contain no confidential employer, customer, drawing, pricing, product, or proprietary process information.
+        </p>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <p class="section-kicker">Connect</p>
+          <h2>Interested in applied AI for engineering operations?</h2>
+          <p>I’m building toward roles that connect manufacturing experience with practical, responsible AI implementation.</p>
+        </div>
+        <div class="actions">
+          <a class="button light" href="https://www.linkedin.com/in/yengkongsayaovong/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a class="button outline-light" href="https://github.com/YSayaovong" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer>
-    <p>© 2026 Yengkong Sayaovong</p>
+    <div class="container footer-wrap">
+      <p>© <span id="year">2026</span> Yengkong Sayaovong</p>
+      <p>Applied AI for manufacturing and engineering.</p>
+    </div>
   </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>
